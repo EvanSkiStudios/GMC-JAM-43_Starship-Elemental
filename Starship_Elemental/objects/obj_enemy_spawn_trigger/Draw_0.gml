@@ -1,0 +1,1 @@
+//dont_draw_self();

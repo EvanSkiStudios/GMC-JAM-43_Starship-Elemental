@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "player",
-    "path": "folders/Sprites/player.yy",
+    "name": "Ship",
+    "path": "folders/Sprites/player/Ship.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_player_ship",

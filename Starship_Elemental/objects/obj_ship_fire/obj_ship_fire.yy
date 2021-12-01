@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_enemy_wave_spawner",
-    "path": "sprites/spr_enemy_wave_spawner/spr_enemy_wave_spawner.yy",
+    "name": "spr_ship_fire",
+    "path": "sprites/spr_ship_fire/spr_ship_fire.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,19 +21,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_enemy_spawn_trigger","path":"objects/obj_enemy_spawn_trigger/obj_enemy_spawn_trigger.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "enemies",
-    "path": "folders/Objects/enemies.yy",
+    "name": "effects",
+    "path": "folders/Objects/player/effects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_enemy_wave_spawner",
+  "name": "obj_ship_fire",
   "tags": [],
   "resourceType": "GMObject",
 }

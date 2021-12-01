@@ -1,0 +1,1 @@
+layer_create(90,"enemy_wave_sequance");

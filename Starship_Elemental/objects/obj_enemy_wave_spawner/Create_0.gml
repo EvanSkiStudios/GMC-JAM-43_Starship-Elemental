@@ -1,5 +1,7 @@
 //face left
-direction = 270;
+direction = 180;
 
 //how fast it moves to the left until it hits the trigger
-speed = move_speed;
+
+//if hit trigger
+activated = false;
