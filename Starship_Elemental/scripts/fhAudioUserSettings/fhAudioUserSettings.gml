@@ -7,7 +7,7 @@ This #macro determines how many sound categories you have, default is 2, you mus
 This #macro turns debug mode on/off.  Debug mode does extra checks to make sure functions are being called correctly, and emits messages explaining the issue if something comes up.
 This can be set to false once you have your game working properly, which will have the compiler remove the un-needed code.
 */
-#macro FHAUDIO_DEBUGMODE false
+#macro FHAUDIO_DEBUGMODE true
 
 /*
 This #macro turns on/off the Volume auto-saving feature.  Turned on, it will save a file with the volume settings, and load it in next time you run.

@@ -1,0 +1,1 @@
+alarm[0] = (GAMESPEED/2); //play music a half frame after room load

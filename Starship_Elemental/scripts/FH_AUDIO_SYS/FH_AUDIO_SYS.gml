@@ -2,25 +2,17 @@
 #region FH AUDIO
 //set macro for new sound if want multiple from randomness
 #macro SOUNDS global.sounds
-#macro SND_EXPLOSION_SMALL 0
-#macro SND_EXPLOSION_MEDIUM 1
-#macro SND_EXPLOSION_LARGE 2
-#macro SND_ROIDBUSTER_SHOOT 3
-#macro SND_LASER_SHOOT 4
-#macro SND_TESLABOLT_SHOOT 5
-#macro SND_EMP_SHOOT 6
-#macro SND_GAUSS_SHOOT 7
-#macro SND_MATERIAL_MOVE 8
-#macro SND_MATERIAL_ABSORB 9
-#macro SND_COLLISION_THUD_QUICK 10
-#macro SND_SHIP_THRUSTER 11
-#macro SND_THING 12
+enum sounds{
+	placeholder = 0
+}
 
 
 function initAudio()
 {
     fhAudioInitialize();
     var array;
+	
+	/*
     #region explosions
     array = [sndExplosionSmall1, sndExplosionSmall2];
     SOUNDS[SND_EXPLOSION_SMALL] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, array, 0.1, 0.1, FHAUDIO_CHOOSE_RANDOM);
@@ -29,8 +21,6 @@ function initAudio()
     array = [sndExplosionLarge1];
     SOUNDS[SND_EXPLOSION_LARGE] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, array, 0.1, 0.1, FHAUDIO_CHOOSE_RANDOM);
     #endregion
-	
-	fhAudioCategoryPause()
 	
     #region weapons
     SOUNDS[SND_ROIDBUSTER_SHOOT] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, sndRoidbusterShoot, 0.1, 0.1);
@@ -49,6 +39,7 @@ function initAudio()
     #region collisions
     SOUNDS[SND_COLLISION_THUD_QUICK] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, sndThudQuick, 0.1, 0.1);
     #endregion
+	*/
 }
 
 //actuall playsound to use with audio system

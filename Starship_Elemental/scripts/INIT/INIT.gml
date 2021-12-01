@@ -5,9 +5,11 @@
 #macro WINDOW_WIDTH  960
 #macro WINDOW_HEIGHT 540
 
+#macro GAMESPEED game_get_speed(gamespeed_fps)
+
 //############## globals
 global.Player_control_enabled = true;
-
+global.Player_ship_visable = true;
 
 //############## FUNCTIONS
 function ScreenShot()
