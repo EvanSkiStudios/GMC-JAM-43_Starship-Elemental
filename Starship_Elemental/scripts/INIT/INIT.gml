@@ -10,6 +10,9 @@
 //############## globals
 global.Player_control_enabled = true;
 global.Player_ship_visable = true;
+global.Player_ship_take_dam = true;
+
+global.Player_Score = 0;
 
 //############## FUNCTIONS
 function ScreenShot()
@@ -46,4 +49,24 @@ draw_set_halign(fa_left);
 draw_set_lighting(false);
 draw_set_valign(fa_top);
 
+}
+
+function followParent()
+{
+    if(instance_exists(myParent))
+    {
+        x = myParent.x + lengthdir_x(myParentChildDistance, myParentChildAngle + myParent.image_angle);
+        y = myParent.y + lengthdir_y(myParentChildDistance, myParentChildAngle + myParent.image_angle);
+        image_angle = myParent.image_angle;
+    }
+    else
+        instance_destroy();
+}
+
+function setParent(newParent, xOffset, yOffset)
+{
+    myParent = newParent;
+    myParentChildDistance = point_distance(0, 0, xOffset, yOffset);
+    myParentChildAngle = point_direction(0, 0, xOffset, yOffset);    
+    followParent();
 }

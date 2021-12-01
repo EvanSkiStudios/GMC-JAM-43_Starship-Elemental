@@ -1,3 +1,4 @@
+audio_stop_sound(snd_sfx_cutscene_flyin);
 layer_sequence_destroy(level_start_sequance);	
 layer_destroy("level_start_sequance");
 

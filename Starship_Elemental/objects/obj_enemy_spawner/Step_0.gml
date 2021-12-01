@@ -7,12 +7,14 @@ if (spawn_enemies){
 		default: break;
 		
 		case 0:{
-			wave_sequance = layer_sequence_create("enemy_wave_sequance",0,0,seq_enemy_spawn_test);
+			wave_sequance = layer_sequence_create("enemy_wave_sequance",0,0,seq_enemy_bee_three);
 			layer_sequence_play(wave_sequance);
 			enemy_wave_state = 1;
 		}break;
 		
 		case 1:{
+
+			
 			if layer_sequence_is_finished(wave_sequance){
 				if layer_sequence_exists("enemy_wave_sequance",wave_sequance){
 					layer_sequence_destroy(wave_sequance);

@@ -2,15 +2,27 @@
 #region FH AUDIO
 //set macro for new sound if want multiple from randomness
 #macro SOUNDS global.sounds
-enum sounds{
-	placeholder = 0
-}
+#macro SND_SFX_CUTSCENE_FLYIN 0
+#macro SND_SFX_PLAYER_BULLET_SHOOT 1
+#macro SND_SFX_EXPLOSION 2
 
 
 function initAudio()
 {
     fhAudioInitialize();
     var array;
+	
+	#region cutscene
+		SOUNDS[SND_SFX_CUTSCENE_FLYIN] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_cutscene_flyin, 0.1, 0.1);
+	#endregion
+	
+	#region weapon
+		SOUNDS[SND_SFX_PLAYER_BULLET_SHOOT] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_player_bullet_shoot, 0.15, 0.15);
+	#endregion
+	
+	#region explosion
+		SOUNDS[SND_SFX_EXPLOSION] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_explosion, 0.1, 0.1);
+	#endregion
 	
 	/*
     #region explosions

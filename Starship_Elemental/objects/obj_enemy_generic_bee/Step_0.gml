@@ -1,4 +1,5 @@
 if (enemy_hp <= 0){
+	global.Player_Score += 100;
 	instance_destroy();
 }
 

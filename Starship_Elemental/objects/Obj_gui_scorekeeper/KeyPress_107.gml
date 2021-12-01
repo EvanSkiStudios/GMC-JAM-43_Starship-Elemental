@@ -1,0 +1,1 @@
+global.Player_Score += 111;

@@ -116,7 +116,7 @@
     "path": "folders/Sequences/Enemy waves/level 1.yy",
   },
   "resourceVersion": "1.3",
-  "name": "seq_enemy_spawn_test",
+  "name": "seq_enemy_bee_three",
   "tags": [],
   "resourceType": "GMSequence",
 }
