@@ -1,4 +1,7 @@
 //ship stats
+start_x = x;
+start_y = y;
+
 last_hp = global.Player_HP;
 ship_move_speed = 2;
 ship_animation_speed = 0.2;

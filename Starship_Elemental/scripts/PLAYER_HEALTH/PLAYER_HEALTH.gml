@@ -17,7 +17,10 @@ function PLAYER_HEALTH(){
 			}
 			
 			do_hp_flash = true;
-			alarm[1] = (GAMESPEED / (GAMESPEED/2));
+			alarm[1] = (GAMESPEED / (GAMESPEED/2));//reset hp flash
+			
+			alarm[2] = (GAMESPEED * 8); //regen health
+			
 			//create explosion
 			var offset = random_range(-3,3);
 			instance_create_depth(x + offset,y,depth-1,obj_explosion_small);
@@ -79,6 +82,9 @@ function PLAYER_HEALTH(){
 					if !(instance_exists(obj_seq_player_die)){
 						instance_create_depth(x,y,depth-1000,obj_seq_player_die);	
 					}
+					
+					x = start_x;
+					y = start_y;
 	
 					if (instance_exists(obj_ctrl_screenshake)){
 						obj_ctrl_screenshake.shake = true;
