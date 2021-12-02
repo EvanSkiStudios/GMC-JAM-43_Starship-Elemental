@@ -13,6 +13,8 @@ global.Player_ship_visable = true;
 global.Player_ship_take_dam = true;
 global.Player_can_die = true;
 
+global.SEQ_DIE_DO_ONCE = true;
+
 global.Player_Score = 0;
 global.Player_Lives = 3;
 global.Player_HP = 3;

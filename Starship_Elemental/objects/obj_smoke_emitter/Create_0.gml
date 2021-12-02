@@ -1,11 +1,4 @@
 //smoke emitter by Pixellated Hammered Raccoon
-
-
-emitter_state = EMITTER_STATES.idle;
-
-timer = 0;
-fire_extinguish_time = 1 * GAMESPEED;
-
 enum EMITTER_STATES {
 	
 	idle,
@@ -14,6 +7,11 @@ enum EMITTER_STATES {
 	damage_2,
 	damage_3,
 }
+
+emitter_state = EMITTER_STATES.idle;
+
+timer = 0;
+fire_extinguish_time = 1 * GAMESPEED;
 
 
 spawn_smoke = function () {

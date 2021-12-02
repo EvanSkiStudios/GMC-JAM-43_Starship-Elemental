@@ -1,5 +1,5 @@
 ///@desc shoot
-
+if !(global.Player_ship_visable) return;
 
 //offset is the amount of pixels in the sprite realitve to where we want it to spawn, 
 //and the sprite origin

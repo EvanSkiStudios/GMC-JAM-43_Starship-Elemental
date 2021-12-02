@@ -1,4 +1,6 @@
 ///@desc shoot
+if !(global.Player_ship_visable) return;
+
 var bullet = instance_create_depth(
 	x - (sprite_get_width(spr_enemy_generic_bee)/2),
 	y + (sprite_get_height(spr_enemy_generic_bee)/2),
