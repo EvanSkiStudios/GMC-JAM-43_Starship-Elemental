@@ -9,7 +9,7 @@ if (spawn_enemies){
 			if (can_spawn){
 				var wave = instance_create_depth(x,y,depth,obj_enemy_wave_spawner);
 				with(wave){
-					wave_sequance = seq_enemy_stinger_left;
+					wave_sequance = seq_enemy_bee_bomb;
 					speed = 2;
 				}
 				can_spawn = false;

@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"fhAudioEmitterDestroy","path":"scripts/fhAudioEmitterDestroy/fhAudioEmitterDestroy.yy",},"order":1,},
+    {"id":{"name":"seq_enemy_bee_bomb","path":"sequences/seq_enemy_bee_bomb/seq_enemy_bee_bomb.yy",},"order":2,},
     {"id":{"name":"fhAudioSoundSetPitchVariance","path":"scripts/fhAudioSoundSetPitchVariance/fhAudioSoundSetPitchVariance.yy",},"order":3,},
     {"id":{"name":"spr_power_bomb_earth_big","path":"sprites/spr_power_bomb_earth_big/spr_power_bomb_earth_big.yy",},"order":0,},
     {"id":{"name":"__fhAudioMacros","path":"scripts/__fhAudioMacros/__fhAudioMacros.yy",},"order":1,},
@@ -40,6 +41,7 @@
     {"id":{"name":"__fhAudioObjController","path":"objects/__fhAudioObjController/__fhAudioObjController.yy",},"order":3,},
     {"id":{"name":"fhAudioVolumeMasterGet","path":"scripts/fhAudioVolumeMasterGet/fhAudioVolumeMasterGet.yy",},"order":2,},
     {"id":{"name":"obj_gui_continue","path":"objects/obj_gui_continue/obj_gui_continue.yy",},"order":1,},
+    {"id":{"name":"obj_bomber_bullet_spawner","path":"objects/obj_bomber_bullet_spawner/obj_bomber_bullet_spawner.yy",},"order":3,},
     {"id":{"name":"obj_ctrl_resoultion","path":"objects/obj_ctrl_resoultion/obj_ctrl_resoultion.yy",},"order":1,},
     {"id":{"name":"spr_enemy_spawn_trigger","path":"sprites/spr_enemy_spawn_trigger/spr_enemy_spawn_trigger.yy",},"order":0,},
     {"id":{"name":"fhAudioSoundCreate","path":"scripts/fhAudioSoundCreate/fhAudioSoundCreate.yy",},"order":1,},
@@ -122,6 +124,7 @@
     {"id":{"name":"spr_power_bomb_earth_mid","path":"sprites/spr_power_bomb_earth_mid/spr_power_bomb_earth_mid.yy",},"order":1,},
     {"id":{"name":"snd_sfx_player_bullet_shoot","path":"sounds/snd_sfx_player_bullet_shoot/snd_sfx_player_bullet_shoot.yy",},"order":0,},
     {"id":{"name":"snd_Mus_MM_intro","path":"sounds/snd_Mus_MM_intro/snd_Mus_MM_intro.yy",},"order":0,},
+    {"id":{"name":"obj_enemy_bee_bomber","path":"objects/obj_enemy_bee_bomber/obj_enemy_bee_bomber.yy",},"order":4,},
     {"id":{"name":"FH_AUDIO_SYS","path":"scripts/FH_AUDIO_SYS/FH_AUDIO_SYS.yy",},"order":2,},
     {"id":{"name":"fhAudioUserMacros","path":"scripts/fhAudioUserMacros/fhAudioUserMacros.yy",},"order":2,},
     {"id":{"name":"seq_ship_intro_2","path":"sequences/seq_ship_intro_2/seq_ship_intro_2.yy",},"order":1,},

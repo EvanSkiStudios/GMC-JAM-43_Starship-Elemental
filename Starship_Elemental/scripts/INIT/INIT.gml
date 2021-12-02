@@ -5,6 +5,17 @@
 #macro WINDOW_WIDTH  960
 #macro WINDOW_HEIGHT 540
 
+//8 direction macros cause fuck figuring out the direction
+#macro DIR_RIGHT 0
+#macro DIR_RIGHT_UP 45
+#macro DIR_UP 90
+#macro DIR_UP_LEFT 135
+#macro DIR_LEFT 180
+#macro DIR_LEFT_DOWN 225
+#macro DIR_DOWN 270
+#macro DIR_DOWN_LEFT 315
+
+
 #macro GAMESPEED game_get_speed(gamespeed_fps)
 
 //############## globals
