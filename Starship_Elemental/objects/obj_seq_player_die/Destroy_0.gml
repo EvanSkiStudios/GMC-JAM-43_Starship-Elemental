@@ -2,7 +2,7 @@ layer_sequence_destroy(player_die_sequance);
 layer_destroy("player_die_sequance");
 
 
-if (global.Player_Lives != 0){
+if (global.Player_Lives <= 0){
 	instance_create_depth(
 		GAME_RES_WIDTH /2,
 		room_height/2,

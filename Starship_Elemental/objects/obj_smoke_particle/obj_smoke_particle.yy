@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "particle",
-    "path": "folders/Objects/player/effects/particle.yy",
+    "path": "folders/Objects/particle.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_smoke_particle",

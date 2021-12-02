@@ -1,10 +1,11 @@
 bullet_dir = 0;
 
 //spawns heat seekers in all 8 directions
-for(var i; i < 7; ++i){
-	var bullet = instance_create_depth(x,y,depth,obj_bullet_enemy_stinger);
+for(var i = 0; i < 8; ++i){
+	var bullet = instance_create_depth(x,y,depth,obj_stinger_shell);
 	with(bullet){
-		direction = other.bullet_dir;	
+		direction = other.bullet_dir;
+		smart_bomb = true;
 	}
 
 	if !(bullet_dir >= 315){
@@ -12,6 +13,6 @@ for(var i; i < 7; ++i){
 	}else{
 		bullet_dir = 315;	
 	}
-	
-	bullet_array[i] = bullet;
 }
+
+instance_destroy();

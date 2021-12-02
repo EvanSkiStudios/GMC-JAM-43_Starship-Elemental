@@ -1,5 +1,10 @@
 ///@desc shoot
-if !(global.Player_ship_visable) return;
+if !(global.Player_ship_visable){
+	if (bullet_count < 2){
+		alarm[1] = GAMESPEED * 2;
+	}
+	return;
+}
 
 var bullet = instance_create_depth(
 	x - (sprite_get_width(spr_enemy_generic_bee)/2),

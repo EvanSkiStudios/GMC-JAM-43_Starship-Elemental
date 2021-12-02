@@ -1,3 +1,5 @@
+event_inherited();
+
 if !instance_exists(obj_player_ship){
 	instance_destroy();
 }

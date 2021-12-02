@@ -1,0 +1,1 @@
+smart_bomb_ammount_last = global.Player_bombs;
