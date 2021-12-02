@@ -24,7 +24,3 @@ if (seeking){
 
 	image_index = _sprite_angle div frame_div;
 }
-
-if (image_index == 7){
-show_debug_message(direction);
-}
