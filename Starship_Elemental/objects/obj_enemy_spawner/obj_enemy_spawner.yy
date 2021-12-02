@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_enemy_wave_spawner",
+    "path": "sprites/spr_enemy_wave_spawner/spr_enemy_wave_spawner.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

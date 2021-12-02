@@ -18,9 +18,34 @@ if (spawn_enemies){
 		}break;
 		
 		case 1:{
+			if (can_spawn){
+				var wave = instance_create_depth(x,y,depth,obj_enemy_wave_spawner);
+				with(wave){
+					wave_sequance = seq_enemy_stinger_left;
+					speed = 2;
+				}
+				
+				var wave = instance_create_depth(x,y,depth,obj_enemy_wave_spawner);
+				with(wave){
+					wave_sequance = seq_enemy_bee_three;
+					speed = 2;
+				}
+				alarm[0] = GAMESPEED * 2;
+				can_spawn = false;
+			}
+			
 		}break;
 		
 		case 2:{
+			if (can_spawn){
+				var wave = instance_create_depth(x,y,depth,obj_enemy_wave_spawner);
+				with(wave){
+					wave_sequance = seq_enemy_bee_three;
+					speed = 2;
+				}
+				alarm[0] = GAMESPEED * 2;
+				can_spawn = false;
+			}
 		}break;
 	}
 }

@@ -14,7 +14,6 @@ if (global.Player_ship_visable){
 	if (global.Player_ship_take_dam){
 		//player health
 		PLAYER_HEALTH();
-	
 	}
 	
 }

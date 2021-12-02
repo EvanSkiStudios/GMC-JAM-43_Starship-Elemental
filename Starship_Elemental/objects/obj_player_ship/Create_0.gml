@@ -9,3 +9,14 @@ do_hp_flash = false;
 
 //ship state
 player_ship_state = PLAYER_SHIP_STATES.idle;
+
+//effects
+if !instance_exists(obj_ctrl_screenshake){
+	instance_create_depth(x,y,-1000,obj_ctrl_screenshake);	
+}
+if !instance_exists(obj_ship_fire){
+	instance_create_depth(x,y,depth-1,obj_ship_fire);	
+}
+if !instance_exists(obj_smoke_emitter){
+	instance_create_depth(x,y,depth-1,obj_smoke_emitter);
+}

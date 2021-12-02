@@ -1,5 +1,41 @@
-if !instance_exists(obj_player_ship) instance_destroy(id);
-
+switch (emitter_state) {
+	case EMITTER_STATES.idle:
+	
+	break;
+	case EMITTER_STATES.fire_out:
+	
+		timer ++;
+		if (timer >= fire_extinguish_time) {
+			timer = 0;
+			emitter_state = EMITTER_STATES.idle;	
+			return;
+		}
+	
+		for (var i = 0; i < 3; i++) {
+			var rand = irandom_range(0, 3);
+			if (rand == 2) {
+				spawn_smoke();
+			}
+		}
+	break;
+	case EMITTER_STATES.damage_1:
+		for (var i = 0; i < 2; i++) {
+			spawn_smoke();
+		}
+	break;
+	case EMITTER_STATES.damage_2:
+	for (var i = 0; i < 3; i++) {
+			spawn_smoke();
+		}
+	
+	break;
+	case EMITTER_STATES.damage_3:
+	for (var i = 0; i < 4; i++) {
+			spawn_smoke();
+		}
+	
+	break;
+}
 
 //sets offset of sprite depedning on ships sprite
 var wearing_sprite = obj_player_ship.sprite_index;
@@ -61,38 +97,3 @@ switch(wearing_sprite){
 }
 //set pos with offset
 followParent();
-
-
-//image scaling
-var HP = global.Player_HP;
-switch(HP){
-	case 3:{
-		image_xscale = 0.0001;
-		image_yscale = 0.0001;
-	}break;
-	
-	case 2:{
-		image_xscale = 0.25;
-		image_yscale = 0.25;
-	}break;
-	
-	case 1:{
-		image_xscale = 0.5;
-		image_yscale = 0.5;	
-	}break;
-
-	case 0:{
-		image_xscale = 1;
-		image_yscale = 1;
-	}break;
-}
-
-if (HP > 3){
-	image_xscale = 0.0001;
-	image_yscale = 0.0001;	
-}
-
-if (HP < 0){
-	image_xscale = 1;
-	image_yscale = 1;
-}

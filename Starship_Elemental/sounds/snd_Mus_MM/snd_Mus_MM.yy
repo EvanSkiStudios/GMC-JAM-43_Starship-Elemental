@@ -14,8 +14,8 @@
   "soundFile": "snd_Mus_MM.ogg",
   "duration": 28.4444447,
   "parent": {
-    "name": "MUSIC",
-    "path": "folders/Sounds/MUSIC.yy",
+    "name": "menu",
+    "path": "folders/Sounds/MUSIC/menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_Mus_MM",
