@@ -19,6 +19,9 @@ function PLAYER_HEALTH(){
 		
 		case 0:{
 			//do the die
+			if (global.Player_can_die){
+				
+			}
 		}break;
 	}
 }

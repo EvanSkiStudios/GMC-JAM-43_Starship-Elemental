@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "enemies",
-    "path": "folders/Objects/enemies.yy",
+    "name": "spawnners",
+    "path": "folders/Objects/enemies/spawnners.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_enemy_wave_spawner",

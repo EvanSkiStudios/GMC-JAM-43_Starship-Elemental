@@ -8,10 +8,47 @@ var bullet = instance_create_depth(
 
 with(bullet){
 	if instance_exists(obj_player_ship){
-		direction = point_direction(x,y,
-			obj_player_ship.x,
-			obj_player_ship.y,
-		);
+		
+		//randomness
+		var random_offset = irandom_range(-5,5);
+		var offset_chance = irandom(100);
+		
+		//if its less then 50 shoot normally
+		if (offset_chance < 50){
+			direction = point_direction(x,y,
+				obj_player_ship.x,
+				obj_player_ship.y,
+			);
+		}else{
+			//other wise choose what offset to effect
+			var xy_offset = choose(1,2,3);
+			
+			switch(xy_offset){
+				
+				default:
+				case 1:{
+					direction = point_direction(x,y,
+						obj_player_ship.x + random_offset,
+						obj_player_ship.y,
+					);
+				}break;
+				
+				case 2:{
+					direction = point_direction(x,y,
+						obj_player_ship.x,
+						obj_player_ship.y  + random_offset,
+					);
+				}break;
+				
+				case 3:{
+					direction = point_direction(x,y,
+						obj_player_ship.x  + random_offset,
+						obj_player_ship.y  + random_offset,
+					);
+				}break;
+			
+			}
+		}
 		
 		speed = other.enemy_attack_speed;
 	}else{
@@ -19,4 +56,8 @@ with(bullet){
 	}
 }
 
-alarm[1] = GAMESPEED * 2;
+bullet_count += 1;
+
+if (bullet_count < 2){
+	alarm[1] = GAMESPEED * 2;
+}
