@@ -25,7 +25,7 @@ function PLAYER_MOVE(){
 	
 		case -1:{
 			var pot_move_h = x + (-1 * ship_move_speed);
-			if !(pot_move_h <= (0)){
+			if !(pot_move_h < 0 + (sprite_width / 2)){
 				x = pot_move_h;
 			}
 		}break;

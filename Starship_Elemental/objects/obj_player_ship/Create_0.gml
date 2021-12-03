@@ -8,6 +8,7 @@ ship_animation_speed = 0.2;
 
 //flags
 can_shoot = true;
+can_shoot_smartbomb = true;
 do_hp_flash = false;
 
 //ship state
