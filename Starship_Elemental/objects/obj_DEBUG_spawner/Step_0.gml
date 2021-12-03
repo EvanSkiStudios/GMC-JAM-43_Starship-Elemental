@@ -9,8 +9,17 @@ if (spawn_enemies){
 	switch(enemy_wave_state){
 		default: break;
 		case 0:{
+			/*
+			if (can_spawn) && (count != 4){
+				Spawn_wave(seq_enemy_bee_loopandback);
+				count += 1;
+				alarm[0] = GAMESPEED;
+				can_spawn = false;
+			}
+			*/
+			
 			if (can_spawn){
-				Spawn_wave(seq_enemy_bee_bomb);
+				Spawn_wave(seq_enemy_bee_lefttoup);
 				can_spawn = false;
 			}
 		}break;

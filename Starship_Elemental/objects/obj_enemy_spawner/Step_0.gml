@@ -7,11 +7,7 @@ if (spawn_enemies){
 		default: break;
 		case 0:{
 			if (can_spawn){
-				var wave = instance_create_depth(x,y,depth,obj_enemy_wave_spawner);
-				with(wave){
-					wave_sequance = seq_enemy_bee_three;
-					speed = 2;
-				}
+				Spawn_wave(seq_enemy_bee_three);
 				alarm[0] = GAMESPEED * 2;
 				can_spawn = false;
 			}
@@ -19,17 +15,9 @@ if (spawn_enemies){
 		
 		case 1:{
 			if (can_spawn){
-				var wave = instance_create_depth(x,y,depth,obj_enemy_wave_spawner);
-				with(wave){
-					wave_sequance = seq_enemy_stinger_left;
-					speed = 2;
-				}
+				Spawn_wave(seq_enemy_stinger_left);
 				
-				var wave = instance_create_depth(x,y,depth,obj_enemy_wave_spawner);
-				with(wave){
-					wave_sequance = seq_enemy_bee_three;
-					speed = 2;
-				}
+				Spawn_wave(seq_enemy_bee_loopandback);
 				alarm[0] = GAMESPEED * 2;
 				can_spawn = false;
 			}
@@ -38,11 +26,19 @@ if (spawn_enemies){
 		
 		case 2:{
 			if (can_spawn){
-				var wave = instance_create_depth(x,y,depth,obj_enemy_wave_spawner);
-				with(wave){
-					wave_sequance = seq_enemy_bee_three;
-					speed = 2;
-				}
+				Spawn_wave(seq_enemy_bee_three);
+				alarm[0] = GAMESPEED * 2;
+				can_spawn = false;
+			}
+		}break;
+		
+		case 3:{
+			if (can_spawn){
+				Spawn_wave(seq_enemy_stinger_right);
+				
+				Spawn_wave(seq_enemy_bee_three);
+				
+				Spawn_wave(seq_enemy_bee_bomb);
 				alarm[0] = GAMESPEED * 2;
 				can_spawn = false;
 			}

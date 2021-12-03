@@ -38,7 +38,24 @@ function PLAYER_ATTACK(){
 		if (can_shoot_smartbomb) && (smartbomb_attack){
 			var active_smartbomb = global.Player_Smartbomb_array[0];
 			if (active_smartbomb != smartbomb_types.none){
-				show_message("WOAH WOW! DID YOU SEE THAT EFFECT?!?!");
+				switch(active_smartbomb){
+					
+					case smartbomb_types.earth:{
+						instance_create_depth(0,0,depth,obj_smartbomb_effect_earth);
+					}break;
+					
+					case smartbomb_types.fire:{
+					}break;
+					
+					case smartbomb_types.ice:{
+					}break;
+					
+					case smartbomb_types.wind:{
+					}break;
+					
+					default: show_debug_message("WHAT THE FRICK SMARTBOMB IS THIS?!"); break;
+					
+				}
 				
 				
 				//finish

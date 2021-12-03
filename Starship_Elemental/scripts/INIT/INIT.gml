@@ -10,13 +10,13 @@
 //8 direction macros cause fuck figuring out the direction
 #region directions
 #macro DIR_RIGHT 0
-#macro DIR_RIGHT_UP 45
+#macro DIR_NORTH_EAST 45
 #macro DIR_UP 90
-#macro DIR_UP_LEFT 135
+#macro DIR_NORTH_WEST 135
 #macro DIR_LEFT 180
-#macro DIR_LEFT_DOWN 225
+#macro DIR_SOUTH_WEST 225
 #macro DIR_DOWN 270
-#macro DIR_DOWN_LEFT 315
+#macro DIR_SOUTH_EAST 315
 #endregion
 
 #macro GAMESPEED game_get_speed(gamespeed_fps)

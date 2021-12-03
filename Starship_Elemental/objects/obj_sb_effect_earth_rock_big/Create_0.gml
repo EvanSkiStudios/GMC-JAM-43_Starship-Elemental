@@ -1,0 +1,1 @@
+direction = DIR_SOUTH_EAST;

@@ -37,7 +37,6 @@ function initAudio()
 	#endregion
 	
 	#region hit effect
-		SOUNDS[SND_SFX_HIT] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_hit, 0.15, 0.15);
 	#endregion
 	
 	#region explosion

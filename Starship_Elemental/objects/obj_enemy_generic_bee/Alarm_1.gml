@@ -1,7 +1,9 @@
 ///@desc shoot
+var shoot_time_rng = irandom_range(-10,10);
+
 if !(global.Player_ship_visable){
 	if (bullet_count < 2){
-		alarm[1] = GAMESPEED * 2;
+		alarm[1] = (GAMESPEED * 2) + shoot_time_rng;
 	}
 	return;
 }
@@ -66,5 +68,5 @@ with(bullet){
 bullet_count += 1;
 
 if (bullet_count < 2){
-	alarm[1] = GAMESPEED * 2;
+	alarm[1] = (GAMESPEED * 2) + shoot_time_rng;
 }
