@@ -23,7 +23,7 @@ function PLAYER_HEALTH(){
 			
 			//create explosion
 			var offset = random_range(-3,3);
-			instance_create_depth(x + offset,y,depth-1,obj_explosion_small);
+			instance_create_depth(x + offset,y,depth-1,obj_explosion_small_player);
 		}
 		last_hp = HP;
 	}

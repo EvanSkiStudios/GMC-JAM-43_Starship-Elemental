@@ -8,6 +8,7 @@
 #macro C_RAINBOW make_color_hsv(current_time*0.1 mod 255,120,250);
 
 //8 direction macros cause fuck figuring out the direction
+#region directions
 #macro DIR_RIGHT 0
 #macro DIR_RIGHT_UP 45
 #macro DIR_UP 90
@@ -16,7 +17,7 @@
 #macro DIR_LEFT_DOWN 225
 #macro DIR_DOWN 270
 #macro DIR_DOWN_LEFT 315
-
+#endregion
 
 #macro GAMESPEED game_get_speed(gamespeed_fps)
 

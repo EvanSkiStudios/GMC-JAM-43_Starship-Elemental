@@ -11,5 +11,6 @@ for (var i = 0; i < bomb_array_length; ++i){
 	}
 }
 
+playSound(SND_SFX_SMARTBOMB_PICKUP,false);
 global.Player_bombs += 1;
 instance_destroy(other);

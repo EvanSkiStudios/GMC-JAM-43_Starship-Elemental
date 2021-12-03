@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.25,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_sfx_continue_drone.wav",
-  "duration": 1.1,
+  "soundFile": "snd_sfx_player_hit.wav",
+  "duration": 0.362698,
   "parent": {
-    "name": "gui",
-    "path": "folders/Sounds/SFX/gui.yy",
+    "name": "explosion",
+    "path": "folders/Sounds/SFX/explosion.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_sfx_continue_drone",
+  "name": "snd_sfx_player_hit",
   "tags": [],
   "resourceType": "GMSound",
 }

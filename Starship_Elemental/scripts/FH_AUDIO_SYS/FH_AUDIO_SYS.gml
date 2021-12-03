@@ -1,11 +1,17 @@
 //SETS UP FH KEN AUDIO SYS
 #region FH AUDIO
 //set macro for new sound if want multiple from randomness
+
+//CHANGE TO ENUM!!!!!!!!!
+
 #macro SOUNDS global.sounds
 #macro SND_SFX_CUTSCENE_FLYIN 0
 #macro SND_SFX_PLAYER_BULLET_SHOOT 1
 #macro SND_SFX_EXPLOSION 2
 #macro SND_SFX_CONTINUE_DRONE 3
+#macro SND_SFX_PLAYER_HIT 4
+#macro SND_SFX_SMARTBOMB_PICKUP 5
+#macro SND_SFX_SMARTBOMB_CHANGE 6
 
 
 function initAudio()
@@ -21,12 +27,22 @@ function initAudio()
 		SOUNDS[SND_SFX_CONTINUE_DRONE] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_continue_drone, 0.0, 0.0);
 	#endregion
 	
+	#region smart bomb
+		SOUNDS[SND_SFX_SMARTBOMB_PICKUP] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_smartbomb_pickup, 0.0, 0.0);
+		SOUNDS[SND_SFX_SMARTBOMB_CHANGE] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_smartbomb_change, 0.025, 0.1);
+	#endregion
+	
 	#region weapon
 		SOUNDS[SND_SFX_PLAYER_BULLET_SHOOT] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_player_bullet_shoot, 0.15, 0.15);
 	#endregion
 	
+	#region hit effect
+		SOUNDS[SND_SFX_HIT] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_hit, 0.15, 0.15);
+	#endregion
+	
 	#region explosion
-		SOUNDS[SND_SFX_EXPLOSION] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_explosion, 0.1, 0.1);
+		SOUNDS[SND_SFX_PLAYER_HIT] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_player_hit, 0.1, 0.1);
+		SOUNDS[SND_SFX_EXPLOSION] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_explosion, 0.025, 0.1);
 	#endregion
 	
 	/*

@@ -4,7 +4,7 @@ switch(room){
 	};
 	
 	case rm_stage_01:{
-		//fha_music_crossfade(snd_mus_level_1,100,true);	
+		fha_music_crossfade(snd_mus_level_1,100,true);	
 	};
 	
 }

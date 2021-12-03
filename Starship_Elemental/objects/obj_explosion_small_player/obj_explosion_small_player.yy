@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_gui_continue",
-    "path": "sprites/spr_gui_continue/spr_gui_continue.yy",
+    "name": "spr_explosion_small",
+    "path": "sprites/spr_explosion_small/spr_explosion_small.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,18 +22,18 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI",
-    "path": "folders/Objects/GUI.yy",
+    "name": "explosions",
+    "path": "folders/Objects/explosions.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_gui_continue",
+  "name": "obj_explosion_small_player",
   "tags": [],
   "resourceType": "GMObject",
 }

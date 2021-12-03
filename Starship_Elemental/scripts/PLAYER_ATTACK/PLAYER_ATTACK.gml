@@ -33,7 +33,7 @@ function PLAYER_ATTACK(){
 	 #endregion
 	 
 	 #region Smartbomb
-		var smartbomb_attack = keyboard_check(vk_control);
+		var smartbomb_attack = keyboard_check_released(vk_control);
 	 
 		if (can_shoot_smartbomb) && (smartbomb_attack){
 			var active_smartbomb = global.Player_Smartbomb_array[0];

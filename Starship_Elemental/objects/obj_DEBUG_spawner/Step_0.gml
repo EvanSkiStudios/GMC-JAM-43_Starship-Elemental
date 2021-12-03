@@ -1,5 +1,8 @@
+//if we cant spawn enemies and the start sequance does not exist then lets start spawning
 if !(spawn_enemies) && !instance_exists(obj_seq_level_start){
 	spawn_enemies = true;	
+}else{
+	spawn_enemies = false;	
 }
 
 if (spawn_enemies){
@@ -7,11 +10,7 @@ if (spawn_enemies){
 		default: break;
 		case 0:{
 			if (can_spawn){
-				var wave = instance_create_depth(x,y,depth,obj_enemy_wave_spawner);
-				with(wave){
-					wave_sequance = seq_enemy_bee_bomb;
-					speed = 2;
-				}
+				Spawn_wave(seq_enemy_bee_bomb);
 				can_spawn = false;
 			}
 		}break;

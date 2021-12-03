@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_player_ship",
-    "path": "sprites/spr_player_ship/spr_player_ship.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
