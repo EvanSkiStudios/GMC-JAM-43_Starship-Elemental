@@ -23,8 +23,3 @@ if !instance_exists(obj_ship_fire){
 if !instance_exists(obj_smoke_emitter){
 	instance_create_depth(x,y,depth-1,obj_smoke_emitter);
 }
-
-//smartbomb
-if !instance_exists(obj_ctrl_smartbomb){
-	instance_create_depth(0,0,depth,obj_ctrl_smartbomb);
-}

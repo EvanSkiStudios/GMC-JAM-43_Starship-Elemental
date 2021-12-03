@@ -1,6 +1,8 @@
 draw_set_color(c_white);
-draw_set_font(fnt_highscore);
+draw_set_font(FONT_GALATICA);
 
-draw_text(x,y,"THIS IS A DEBUG STRING!!");
+var string_text = "STAGE    1";
+
+draw_text(x,y,string_text);
 
 draw_set_default();

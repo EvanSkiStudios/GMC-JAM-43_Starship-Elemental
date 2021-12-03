@@ -1,7 +1,7 @@
 draw_set_font(fnt_highscore);
 
 //rainbow
-var color = make_color_hsv(current_time*0.1 mod 255,120,250);
+var color = C_RAINBOW;
 
 //so we have the 0's with the score because game maker thinks 00000 == 0 which its right but damn it show my 0s
 var real_score = string(global.Player_Score);

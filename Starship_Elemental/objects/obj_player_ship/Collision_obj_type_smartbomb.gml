@@ -1,17 +1,15 @@
 if !(global.Player_can_pickup_bombs) return;
 
-global.Player_bombs += 1;
+var bomb_array_length = array_length(global.Player_Smartbomb_array);
 
-//add smart bomb to array
-for (var i = 0; i < (global.smartbomb_max); ++i){
-	var bomb_current = global.Player_bomb_array[i];
-	
-	if (bomb_current == smartbomb_types.none){
-		global.Player_bomb_array[i] = other.smartbomb_type;	
-		
-		//exit for loop
-		i = global.smartbomb_max+1;
+//add bomb we picked up to array
+for (var i = 0; i < bomb_array_length; ++i){
+	var current_bomb_slot = global.Player_Smartbomb_array[i];	
+	if (current_bomb_slot == smartbomb_types.none){
+		global.Player_Smartbomb_array[i] = other.smartbomb_type;
+		i = bomb_array_length + 1;
 	}
 }
 
+global.Player_bombs += 1;
 instance_destroy(other);

@@ -5,6 +5,7 @@
 #macro SND_SFX_CUTSCENE_FLYIN 0
 #macro SND_SFX_PLAYER_BULLET_SHOOT 1
 #macro SND_SFX_EXPLOSION 2
+#macro SND_SFX_CONTINUE_DRONE 3
 
 
 function initAudio()
@@ -14,6 +15,10 @@ function initAudio()
 	
 	#region cutscene
 		SOUNDS[SND_SFX_CUTSCENE_FLYIN] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_cutscene_flyin, 0.1, 0.1);
+	#endregion
+	
+	#region gui
+		SOUNDS[SND_SFX_CONTINUE_DRONE] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_continue_drone, 0.0, 0.0);
 	#endregion
 	
 	#region weapon

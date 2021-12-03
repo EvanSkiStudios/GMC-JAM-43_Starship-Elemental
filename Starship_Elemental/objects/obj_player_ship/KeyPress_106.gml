@@ -1,0 +1,1 @@
+global.Player_Lives = 0;

@@ -1,1 +1,1 @@
-image_speed = 0.75 / GAMESPEED;
+image_speed = 0.90 / GAMESPEED;

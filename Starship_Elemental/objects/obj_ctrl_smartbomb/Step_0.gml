@@ -1,13 +1,9 @@
-var player_bomb_ammount = global.Player_bombs;
-
-if (player_bomb_ammount != smart_bomb_ammount_last){
-
-	for (var i = 0; i < (global.smartbomb_max); ++i){
-		var bomb_current = global.Player_bomb_array[i];
-		
-		
-		
+if !(global.Player_ship_visable){
+	if (global.Player_bombs != global.Player_smartbomb_max){
+		if !(global.Player_can_pickup_bombs){
+			global.Player_can_pickup_bombs = true;	
+		}	
+	}else{
+		global.Player_can_pickup_bombs = false;	
 	}
-
-	smart_bomb_ammount_last = player_bomb_ammount;
 }

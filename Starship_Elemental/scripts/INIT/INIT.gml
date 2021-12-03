@@ -5,6 +5,8 @@
 #macro WINDOW_WIDTH  960
 #macro WINDOW_HEIGHT 540
 
+#macro C_RAINBOW make_color_hsv(current_time*0.1 mod 255,120,250);
+
 //8 direction macros cause fuck figuring out the direction
 #macro DIR_RIGHT 0
 #macro DIR_RIGHT_UP 45
@@ -18,14 +20,6 @@
 
 #macro GAMESPEED game_get_speed(gamespeed_fps)
 
-
-enum smartbomb_types{
-	none = 0,
-	earth,
-	fire,
-	ice,
-	wind
-}
 
 //############## globals
 global.Player_control_enabled = true;
@@ -42,13 +36,25 @@ global.Player_Score = 0;
 global.Player_Lives = 3;
 global.Player_HP = 3;
 
-global.Player_bombs = 0;
-global.smartbomb_max = 10;
 
-//fill array with no bombs
-for (var i = 0; i < (global.smartbomb_max); ++i){
-	global.Player_bomb_array[i] = smartbomb_types.none;
+//SMART BOMBS
+enum smartbomb_types{
+	none = 0,
+	earth,
+	fire,
+	ice,
+	wind
 }
+
+global.Player_bombs = 0;
+global.Player_smartbomb_max = 9;
+
+global.Player_Smartbomb_array = array_create(global.Player_smartbomb_max,smartbomb_types.none);
+
+//FONTS
+var map_string = (" ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789?!.,");
+global.font_galatica = font_add_sprite_ext(spr_font_galatica, map_string, true, 3);
+#macro FONT_GALATICA global.font_galatica
 
 //############## FUNCTIONS
 function ScreenShot()
