@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_type_sb_effect_rock",
+    "path": "objects/obj_type_sb_effect_rock/obj_type_sb_effect_rock.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -21,13 +24,14 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "effect_objects",
-    "path": "folders/Objects/smartbombs/effect/effect_objects.yy",
+    "name": "earth",
+    "path": "folders/Objects/smartbombs/effect/effect_objects/earth.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_sb_effect_earth_rock_big",

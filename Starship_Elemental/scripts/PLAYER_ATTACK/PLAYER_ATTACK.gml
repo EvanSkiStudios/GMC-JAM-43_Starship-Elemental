@@ -45,9 +45,23 @@ function PLAYER_ATTACK(){
 					}break;
 					
 					case smartbomb_types.fire:{
+						var x_offset =( ( sprite_get_width(obj_player_ship.sprite_index) / 2) + ( sprite_get_width(spr_smartbomb_effect_fire) / 2) );
+						
+						instance_create_depth(
+						obj_player_ship.x + ( x_offset ),
+						obj_player_ship.y,
+						-11000,
+						obj_smartbomb_effect_fire);
 					}break;
 					
 					case smartbomb_types.ice:{
+						var x_offset =( ( sprite_get_width(obj_player_ship.sprite_index) / 2) + ( sprite_get_width(spr_smartbomb_effect_fire) / 2) );
+						
+						instance_create_depth(
+						obj_player_ship.x + ( x_offset ),
+						obj_player_ship.y,
+						-11000,
+						obj_smartbomb_effect_ice);
 					}break;
 					
 					case smartbomb_types.wind:{

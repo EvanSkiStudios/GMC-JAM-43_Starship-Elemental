@@ -1,3 +1,8 @@
+if !(global.Player_ship_visable) return;
+
 global.Player_HP -= 1;
 
-instance_destroy(other);
+with(other){
+	instance_create_depth(x,y,depth,obj_explosion_small);
+	instance_destroy(id);
+}

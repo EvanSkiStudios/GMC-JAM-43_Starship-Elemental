@@ -14,6 +14,8 @@ if !(always_shoot){
 	alarm[1] = (GAMESPEED * 2) + shoot_time_rng;	
 }
 
+killed_score = 50;
+
 enemy_hp = 4;
 hp_last = enemy_hp;
 

@@ -1,3 +1,5 @@
+if !(global.Player_ship_visable) return;
+
 global.Player_HP -= 1;
 
 with(other){

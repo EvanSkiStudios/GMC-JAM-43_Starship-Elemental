@@ -1,0 +1,1 @@
+layer_sequence_play(smartbomb_fire_sequance_layer);

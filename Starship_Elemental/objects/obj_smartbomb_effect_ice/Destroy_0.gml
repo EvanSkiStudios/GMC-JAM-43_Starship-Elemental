@@ -1,0 +1,1 @@
+layer_sequence_destroy(smartbomb_ice_sequance_layer);	

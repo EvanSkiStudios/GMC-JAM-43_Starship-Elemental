@@ -1,0 +1,1 @@
+layer_sequence_destroy(smartbomb_fire_sequance_layer);	

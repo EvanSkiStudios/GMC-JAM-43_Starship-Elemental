@@ -12,12 +12,15 @@
 #macro SND_SFX_PLAYER_HIT 4
 #macro SND_SFX_SMARTBOMB_PICKUP 5
 #macro SND_SFX_SMARTBOMB_CHANGE 6
+#macro SND_SFX_SMARTBOMB_EARTH_RUMBLE 7
 
 
 function initAudio()
 {
     fhAudioInitialize();
     var array;
+	
+	SOUNDS[SND_SFX_SMARTBOMB_EARTH_RUMBLE] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_smartbomb_earth_rumble, 0.0, 0.0);
 	
 	#region cutscene
 		SOUNDS[SND_SFX_CUTSCENE_FLYIN] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_cutscene_flyin, 0.1, 0.1);
