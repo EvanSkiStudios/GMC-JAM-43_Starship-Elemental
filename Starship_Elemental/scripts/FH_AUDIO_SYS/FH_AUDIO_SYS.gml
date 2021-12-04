@@ -26,12 +26,12 @@ function initAudio()
     var array;
 	
 	#region martbombs
+	SOUNDS[SND_SFX_SMARTBOMB_FIRE] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, 	snd_sfx_smartbomb_fire, 0.0, 0.0);
 	SOUNDS[SND_SFX_SMARTBOMB_EARTH_RUMBLE] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_smartbomb_earth_rumble, 0.0, 0.0);
 	SOUNDS[SND_SFX_SMARTBOMB_ICE] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_ice_crackle, 0.15, 0.15);
 	SOUNDS[SND_SFX_SMARTBOMB_ICE_WIND] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_smartbomb_ice_wind, 0.0, 0.0);
 	SOUNDS[SND_SFX_SMARTBOMB_LIGHTNING_ZAP] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_smartbomb_lightning_zap, 0.15, 0.15);
 	SOUNDS[SND_SFX_SMARTBOMB_LIGHTNING] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_smartbomb_lightning, 0.0, 0.0);
-	SOUNDS[SND_SFX_SMARTBOMB_FIRE] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, 	snd_sfx_smartbomb_fire, 0.0, 0.0);
 	#endregion
 	
 	#region cutscene

@@ -1,0 +1,1 @@
+layer_sequence_play(room_start_sequance_layer);

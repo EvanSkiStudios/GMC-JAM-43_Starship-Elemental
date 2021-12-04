@@ -5,7 +5,6 @@ if (state == 0){
 	
 	if (timer >= duration){
 		room_goto(targetroom);
-		
 		state = 1;
 	}
 }else{

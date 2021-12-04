@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "bullets",
-    "path": "folders/Objects/bullets.yy",
+    "name": "smartbombs",
+    "path": "folders/Objects/smartbombs.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_enemy_stinger_player_killed",

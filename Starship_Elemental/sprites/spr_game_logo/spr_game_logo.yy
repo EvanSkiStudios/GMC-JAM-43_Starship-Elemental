@@ -1,0 +1,175 @@
+{
+  "bboxMode": 0,
+  "collisionKind": 1,
+  "type": 0,
+  "origin": 4,
+  "preMultiplyAlpha": false,
+  "edgeFiltering": false,
+  "collisionTolerance": 0,
+  "swfPrecision": 2.525,
+  "bbox_left": 0,
+  "bbox_right": 332,
+  "bbox_top": 0,
+  "bbox_bottom": 98,
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
+  "width": 333,
+  "height": 99,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
+  "swatchColours": null,
+  "gridX": 0,
+  "gridY": 0,
+  "frames": [
+    {"compositeImage":{"FrameId":{"name":"16a0099a-8f5c-49a7-937d-b515fb445c4c","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"16a0099a-8f5c-49a7-937d-b515fb445c4c","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":{"name":"8d4af307-134f-4a12-a8a7-035d51114617","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"16a0099a-8f5c-49a7-937d-b515fb445c4c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8860ced2-5066-4320-805f-c6b718d1fd84","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8860ced2-5066-4320-805f-c6b718d1fd84","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":{"name":"8d4af307-134f-4a12-a8a7-035d51114617","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"8860ced2-5066-4320-805f-c6b718d1fd84","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9916531b-ac11-44f2-95bf-fe1f5d6e5463","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9916531b-ac11-44f2-95bf-fe1f5d6e5463","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":{"name":"8d4af307-134f-4a12-a8a7-035d51114617","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"9916531b-ac11-44f2-95bf-fe1f5d6e5463","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c1c5325f-b4df-48a8-a7e7-9627da594b69","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c1c5325f-b4df-48a8-a7e7-9627da594b69","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":{"name":"8d4af307-134f-4a12-a8a7-035d51114617","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"c1c5325f-b4df-48a8-a7e7-9627da594b69","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3c7f3c3d-6c0b-4213-bbf5-37e643f410c5","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3c7f3c3d-6c0b-4213-bbf5-37e643f410c5","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":{"name":"8d4af307-134f-4a12-a8a7-035d51114617","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"3c7f3c3d-6c0b-4213-bbf5-37e643f410c5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"91c1ec7b-5780-4ac3-bcb0-589a8f6f8a37","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"91c1ec7b-5780-4ac3-bcb0-589a8f6f8a37","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":{"name":"8d4af307-134f-4a12-a8a7-035d51114617","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"91c1ec7b-5780-4ac3-bcb0-589a8f6f8a37","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e79ae5f9-7c8d-40f7-9015-4f9feae1e681","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e79ae5f9-7c8d-40f7-9015-4f9feae1e681","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":{"name":"8d4af307-134f-4a12-a8a7-035d51114617","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"e79ae5f9-7c8d-40f7-9015-4f9feae1e681","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"abf9837d-80ef-4828-aaf4-c1a869953763","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"abf9837d-80ef-4828-aaf4-c1a869953763","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":{"name":"8d4af307-134f-4a12-a8a7-035d51114617","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"abf9837d-80ef-4828-aaf4-c1a869953763","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0f975ec6-0aa3-466b-a2f5-ef6f27aa3e74","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0f975ec6-0aa3-466b-a2f5-ef6f27aa3e74","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":{"name":"8d4af307-134f-4a12-a8a7-035d51114617","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"0f975ec6-0aa3-466b-a2f5-ef6f27aa3e74","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8ee6d8ba-d8bf-49fe-839c-5f3142e21e31","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8ee6d8ba-d8bf-49fe-839c-5f3142e21e31","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":{"name":"8d4af307-134f-4a12-a8a7-035d51114617","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"8ee6d8ba-d8bf-49fe-839c-5f3142e21e31","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9a56a083-2d39-4f59-a9fb-4ae24e8e335b","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9a56a083-2d39-4f59-a9fb-4ae24e8e335b","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":{"name":"8d4af307-134f-4a12-a8a7-035d51114617","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"9a56a083-2d39-4f59-a9fb-4ae24e8e335b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e0b532ac-80f6-430c-a559-41a3817d3eea","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e0b532ac-80f6-430c-a559-41a3817d3eea","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":{"name":"8d4af307-134f-4a12-a8a7-035d51114617","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"e0b532ac-80f6-430c-a559-41a3817d3eea","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"83827786-5565-4ed6-aea3-f4bfac0b5dbe","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"83827786-5565-4ed6-aea3-f4bfac0b5dbe","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":{"name":"8d4af307-134f-4a12-a8a7-035d51114617","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"83827786-5565-4ed6-aea3-f4bfac0b5dbe","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8a5583e8-bf57-4370-8ad8-136355982de4","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8a5583e8-bf57-4370-8ad8-136355982de4","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":{"name":"8d4af307-134f-4a12-a8a7-035d51114617","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"8a5583e8-bf57-4370-8ad8-136355982de4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3fa160ee-60d3-402f-8d3f-b2f368bdc7de","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3fa160ee-60d3-402f-8d3f-b2f368bdc7de","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":{"name":"8d4af307-134f-4a12-a8a7-035d51114617","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"3fa160ee-60d3-402f-8d3f-b2f368bdc7de","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7abee81e-4b9d-4439-a152-a20beffb9452","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7abee81e-4b9d-4439-a152-a20beffb9452","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":{"name":"8d4af307-134f-4a12-a8a7-035d51114617","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"7abee81e-4b9d-4439-a152-a20beffb9452","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"238790b7-1d79-4656-9558-ff3c15f443ed","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"238790b7-1d79-4656-9558-ff3c15f443ed","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":{"name":"8d4af307-134f-4a12-a8a7-035d51114617","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"238790b7-1d79-4656-9558-ff3c15f443ed","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"96c89563-4738-4c91-9a17-da6fc875ac37","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"96c89563-4738-4c91-9a17-da6fc875ac37","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":{"name":"8d4af307-134f-4a12-a8a7-035d51114617","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"96c89563-4738-4c91-9a17-da6fc875ac37","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3c9e43bd-1e2b-428c-9b60-a6adefcd7d0d","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3c9e43bd-1e2b-428c-9b60-a6adefcd7d0d","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":{"name":"8d4af307-134f-4a12-a8a7-035d51114617","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"3c9e43bd-1e2b-428c-9b60-a6adefcd7d0d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ef231e59-0a36-4127-b1a9-b6729fe3eab7","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ef231e59-0a36-4127-b1a9-b6729fe3eab7","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":{"name":"8d4af307-134f-4a12-a8a7-035d51114617","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"ef231e59-0a36-4127-b1a9-b6729fe3eab7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"104adea7-1096-4d28-aca7-dbc8064ab639","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"104adea7-1096-4d28-aca7-dbc8064ab639","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":{"name":"8d4af307-134f-4a12-a8a7-035d51114617","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"104adea7-1096-4d28-aca7-dbc8064ab639","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a8eaa6b7-faa7-42c3-977d-f12be8df50d3","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a8eaa6b7-faa7-42c3-977d-f12be8df50d3","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":{"name":"8d4af307-134f-4a12-a8a7-035d51114617","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"a8eaa6b7-faa7-42c3-977d-f12be8df50d3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d6ef6571-f0fc-479e-a65b-dc1d7d875559","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d6ef6571-f0fc-479e-a65b-dc1d7d875559","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":{"name":"8d4af307-134f-4a12-a8a7-035d51114617","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"d6ef6571-f0fc-479e-a65b-dc1d7d875559","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"86efe818-c0db-459c-93b8-2db3df5fdb13","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"86efe818-c0db-459c-93b8-2db3df5fdb13","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":{"name":"8d4af307-134f-4a12-a8a7-035d51114617","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"86efe818-c0db-459c-93b8-2db3df5fdb13","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"23c11b73-c2ea-4c91-888d-71964f7df1cd","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"23c11b73-c2ea-4c91-888d-71964f7df1cd","path":"sprites/spr_game_logo/spr_game_logo.yy",},"LayerId":{"name":"8d4af307-134f-4a12-a8a7-035d51114617","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","name":"23c11b73-c2ea-4c91-888d-71964f7df1cd","tags":[],"resourceType":"GMSpriteFrame",},
+  ],
+  "sequence": {
+    "spriteId": {"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},
+    "timeUnits": 1,
+    "playback": 1,
+    "playbackSpeed": 15.0,
+    "playbackSpeedType": 0,
+    "autoRecord": true,
+    "volume": 1.0,
+    "length": 25.0,
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
+    "tracks": [
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"5065df24-55fa-461f-b448-fb5c26520c55","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"16a0099a-8f5c-49a7-937d-b515fb445c4c","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a4d60815-2c0f-476d-90b9-3887a8ad1fd6","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8860ced2-5066-4320-805f-c6b718d1fd84","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8012cf82-b101-4c6a-97e0-c3b6307ef030","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9916531b-ac11-44f2-95bf-fe1f5d6e5463","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4162f872-802d-4faf-8508-f367f7aa8731","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c1c5325f-b4df-48a8-a7e7-9627da594b69","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f550b2dd-32c5-4e05-a845-01f7ebbf9b4f","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3c7f3c3d-6c0b-4213-bbf5-37e643f410c5","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"189285ab-81fd-40ac-bd3c-61bc7a270550","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"91c1ec7b-5780-4ac3-bcb0-589a8f6f8a37","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5e8eccd7-e7b4-4c16-817f-d66d8f87831e","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e79ae5f9-7c8d-40f7-9015-4f9feae1e681","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d5d48b55-e49f-4b22-8b73-2410561c8b4f","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"abf9837d-80ef-4828-aaf4-c1a869953763","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"63006f9e-9067-4fb7-8dad-7b5115aa2a98","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0f975ec6-0aa3-466b-a2f5-ef6f27aa3e74","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a41798ae-a572-425e-9955-769bb94f5de6","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8ee6d8ba-d8bf-49fe-839c-5f3142e21e31","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"55de81e2-c6bf-48d9-ad54-66e69fed4dca","Key":10.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9a56a083-2d39-4f59-a9fb-4ae24e8e335b","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5836e822-a3bb-4a4f-aa97-26a736e19679","Key":11.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e0b532ac-80f6-430c-a559-41a3817d3eea","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"30931f14-2935-4479-982b-96a05314ac54","Key":12.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"83827786-5565-4ed6-aea3-f4bfac0b5dbe","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a346bf5b-a681-4fd5-8a14-1275d7178ca9","Key":13.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8a5583e8-bf57-4370-8ad8-136355982de4","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e9345380-ffa7-430c-9cba-6272d92a3bff","Key":14.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3fa160ee-60d3-402f-8d3f-b2f368bdc7de","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0ab8cc2f-3f32-46be-828c-973fdd87ea39","Key":15.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7abee81e-4b9d-4439-a152-a20beffb9452","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1ecea61f-3d4d-4b9b-b845-b395fc41bc48","Key":16.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"238790b7-1d79-4656-9558-ff3c15f443ed","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"89d7f99b-0edb-443c-b49b-ee232866b8af","Key":17.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"96c89563-4738-4c91-9a17-da6fc875ac37","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"13f301ca-7af5-4b21-9acb-022aff8e4f31","Key":18.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3c9e43bd-1e2b-428c-9b60-a6adefcd7d0d","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"02274d7f-cdf6-4c03-9fd2-52307d9f0c28","Key":19.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ef231e59-0a36-4127-b1a9-b6729fe3eab7","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3331edf0-dfc0-46a3-84ce-e193c6191ed8","Key":20.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"104adea7-1096-4d28-aca7-dbc8064ab639","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"05fbf01f-26a7-4bba-b73b-6360f840ae70","Key":21.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a8eaa6b7-faa7-42c3-977d-f12be8df50d3","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"cafb10a2-5b43-4a9d-9e99-f8e897eaaf88","Key":22.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d6ef6571-f0fc-479e-a65b-dc1d7d875559","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"63867b28-0de4-4385-bf07-55dad7ab6b55","Key":23.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"86efe818-c0db-459c-93b8-2db3df5fdb13","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7c1adb8c-7f0b-4b4d-846d-e2d4f7bdd8b7","Key":24.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"23c11b73-c2ea-4c91-888d-71964f7df1cd","path":"sprites/spr_game_logo/spr_game_logo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+    ],
+    "visibleRange": null,
+    "lockOrigin": false,
+    "showBackdrop": true,
+    "showBackdropImage": false,
+    "backdropImagePath": "",
+    "backdropImageOpacity": 0.5,
+    "backdropWidth": 1366,
+    "backdropHeight": 768,
+    "backdropXOffset": 0.0,
+    "backdropYOffset": 0.0,
+    "xorigin": 166,
+    "yorigin": 49,
+    "eventToFunction": {},
+    "eventStubScript": null,
+    "parent": {"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},
+    "resourceVersion": "1.3",
+    "name": "spr_game_logo",
+    "tags": [],
+    "resourceType": "GMSequence",
+  },
+  "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8d4af307-134f-4a12-a8a7-035d51114617","tags":[],"resourceType":"GMImageLayer",},
+  ],
+  "nineSlice": null,
+  "parent": {
+    "name": "TitleScreen",
+    "path": "folders/Rooms/TitleScreen.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "spr_game_logo",
+  "tags": [],
+  "resourceType": "GMSprite",
+}

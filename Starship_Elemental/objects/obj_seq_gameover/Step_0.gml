@@ -12,7 +12,7 @@ if layer_sequence_is_finished(gameover_sequance_layer){
 	) 
 	layer_sequence_pause(gameover_sequance_layer);
 	if (do_fade != true){
-		alarm[1] = GAMESPEED / 2;
+		alarm[1] = 1;
 		do_fade = true;
 	}
 }

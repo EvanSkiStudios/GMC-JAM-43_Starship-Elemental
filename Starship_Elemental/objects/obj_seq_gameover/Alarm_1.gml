@@ -1,1 +1,1 @@
-fadetoroom(rm_mainmenu, 60, c_black);
+fadetoroom(rm_mainmenu, 0, c_white);
