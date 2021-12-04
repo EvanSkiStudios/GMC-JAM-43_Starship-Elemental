@@ -19,17 +19,18 @@
 #macro DIR_SOUTH_EAST 315
 #endregion
 
-#macro GAMEPAD_START (INPUT.input_pressed(0, input_action.start))
-
 #macro GAMESPEED game_get_speed(gamespeed_fps)
+
+#macro GAMEPAD_START (INPUT.input_pressed(0, input_action.start))
 
 
 //############## globals
 global.Player_control_enabled = true;
 global.Player_ship_visable = true;
-global.Player_ship_take_dam = false;
+global.Player_ship_take_dam = true;
 global.Player_can_die = true;
 global.Player_can_pickup_bombs = true;
+global.Gamepad_vibration = true;
 
 global.SEQ_DIE_DO_ONCE = true;
 
@@ -60,6 +61,44 @@ global.font_galatica = font_add_sprite_ext(spr_font_galatica, map_string, true, 
 #macro FONT_GALATICA global.font_galatica
 
 //############## FUNCTIONS
+
+function Gamepad_select(){
+	var select = gamepad_button_check_pressed(11, gp_select);
+	var select = gamepad_button_check_pressed(10, gp_select);
+	var select = gamepad_button_check_pressed(9, gp_select);
+	var select = gamepad_button_check_pressed(8, gp_select);
+	var select = gamepad_button_check_pressed(7, gp_select);
+	var select = gamepad_button_check_pressed(6, gp_select);
+	var select = gamepad_button_check_pressed(5, gp_select);
+	var select = gamepad_button_check_pressed(4, gp_select);
+	var select = gamepad_button_check_pressed(3, gp_select);
+	var select = gamepad_button_check_pressed(2, gp_select);
+	var select = gamepad_button_check_pressed(1, gp_select);
+	var select = gamepad_button_check_pressed(0, gp_select);
+	
+	return(select);
+}
+
+function vibrate_gamepad(left,right){
+	if !(global.Gamepad_vibration) return;
+	
+	gamepad_set_vibration(0,left,right);
+	gamepad_set_vibration(1,left,right);
+	gamepad_set_vibration(2,left,right);
+	gamepad_set_vibration(3,left,right);
+	gamepad_set_vibration(4,left,right);
+	gamepad_set_vibration(5,left,right);
+	gamepad_set_vibration(6,left,right);
+	gamepad_set_vibration(7,left,right);
+	gamepad_set_vibration(8,left,right);
+	gamepad_set_vibration(9,left,right);
+	gamepad_set_vibration(10,left,right);
+	gamepad_set_vibration(11,left,right);
+	
+}
+
+
+
 function ScreenShot()
 {
 	static num = 0;

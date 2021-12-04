@@ -16,8 +16,10 @@ function PLAYER_HEALTH(){
 				return(-1);	
 			}
 			
+			vibrate_gamepad(1,1);
 			do_hp_flash = true;
 			alarm[1] = (GAMESPEED / (GAMESPEED/2));//reset hp flash
+			alarm[5] = (GAMESPEED * 1); //reset vibration
 			
 			alarm[2] = (GAMESPEED * 8); //regen health
 			

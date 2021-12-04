@@ -1,0 +1,1 @@
+vibrate_gamepad(0,0);

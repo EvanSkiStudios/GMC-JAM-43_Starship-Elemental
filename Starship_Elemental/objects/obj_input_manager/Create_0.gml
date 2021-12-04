@@ -23,9 +23,9 @@ if (!file_exists(CONTROLLER_FILE_NAME)) {
 
 ///RENAME THESE CONTROLS IN YOUR GAME
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-enum input_action { up, down, left,	right, fire1, fire2, start};                           //
+enum input_action { up, down, left,	right, fire1, fire2, select, start};                           //
 MAX_PLAYERS	= 1;																								 //
-INPUT_ACTION_STRINGS = ["UP", "DOWN", "LEFT", "RIGHT", "FIRE", "SMARTBOMB", "START"];   //
+INPUT_ACTION_STRINGS = ["UP", "DOWN", "LEFT", "RIGHT", "FIRE", "SMARTBOMB", "SELECT", "START"];   //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 INPUT = self;
@@ -196,7 +196,6 @@ init_inputs = function () {
 	PLAYER_GAMEPAD_IDS	= ds_list_create(); 
 
 	ds_list_add(PLAYER_GAMEPAD_IDS, -1);
-
 	//PLAYER 1
 	input_create(0, input_action.up,		ord("W"), vk_up, gp_padu);
 	input_create(0, input_action.down,		ord("S"), vk_down, gp_padd);
@@ -206,6 +205,7 @@ init_inputs = function () {
 	input_create(0, input_action.fire1,		vk_numpad0, vk_space, gp_face3);
 	input_create(0, input_action.fire2,		vk_control, vk_rshift, gp_face1);
 
+	input_create(0, input_action.select,    vk_nokey, vk_nokey, gp_select);
 	input_create(0, input_action.start,		vk_enter, vk_enter, gp_start);
 	
 	enable_analog();
