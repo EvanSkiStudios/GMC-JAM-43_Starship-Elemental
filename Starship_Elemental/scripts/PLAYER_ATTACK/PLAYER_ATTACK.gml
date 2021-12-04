@@ -65,6 +65,11 @@ function PLAYER_ATTACK(){
 					}break;
 					
 					case smartbomb_types.wind:{
+						instance_create_depth(
+						obj_player_ship.x,
+						obj_player_ship.y,
+						-11000,
+						obj_smartbomb_effect_lightning);
 					}break;
 					
 					default: show_debug_message("WHAT THE FRICK SMARTBOMB IS THIS?!"); break;
