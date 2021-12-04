@@ -37,16 +37,17 @@ switch (emitter_state) {
 	break;
 }
 
+var x_pos_offset = 6;
+
 //sets offset of sprite depedning on ships sprite
 var wearing_sprite = obj_player_ship.sprite_index;
 switch(wearing_sprite){
 	
 	case spr_player_ship:{
 		//sets x offset to the ships wing
-		var x_pos_offset = 5;
 		setParent(
 			obj_player_ship, 
-			( ( -abs(sprite_get_width(obj_player_ship.sprite_width)) ) - x_pos_offset),
+			( -abs(x_pos_offset)),
 			0
 		)
 	}break;
@@ -56,17 +57,16 @@ switch(wearing_sprite){
 			var pos_offset = 5;
 			setParent(
 				obj_player_ship, 
-				( ( -abs(sprite_get_width(obj_player_ship.sprite_width)) ) - pos_offset),
+				( -abs(x_pos_offset)),
 				-abs(pos_offset)
 			)
 		}
 		
 		if (image_index <= 1){
-			var x_pos_offset = 5;
 			var pos_offset = 5;
 			setParent(
 				obj_player_ship, 
-				( ( -abs(sprite_get_width(obj_player_ship.sprite_width)) ) - x_pos_offset),
+				( -abs(x_pos_offset)),
 				-abs(pos_offset)
 			)
 		}
@@ -78,17 +78,16 @@ switch(wearing_sprite){
 			var pos_offset = 5;
 			setParent(
 				obj_player_ship, 
-				( ( -abs(sprite_get_width(obj_player_ship.sprite_width)) ) - pos_offset),
+				( -abs(x_pos_offset)),
 				abs(pos_offset)
 			)
 		}
 		
 		if (image_index <= 1){
-			var x_pos_offset = 5;
 			var pos_offset = 5;
 			setParent(
 				obj_player_ship, 
-				( ( -abs(sprite_get_width(obj_player_ship.sprite_width)) ) - x_pos_offset),
+				( -abs(x_pos_offset)),
 				abs(pos_offset)
 			)
 		}

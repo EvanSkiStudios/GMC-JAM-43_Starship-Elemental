@@ -17,8 +17,8 @@
   "width": 480,
   "height": 270,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "DEBUG_NO_EXPORT",
+    "path": "texturegroups/DEBUG_NO_EXPORT",
   },
   "swatchColours": null,
   "gridX": 0,

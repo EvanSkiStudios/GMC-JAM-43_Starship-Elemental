@@ -1,4 +1,4 @@
-if !(global.Player_can_pickup_bombs) return;
+if !(global.Player_can_pickup_bombs) exit;
 
 var bomb_array_length = array_length(global.Player_Smartbomb_array);
 
