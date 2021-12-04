@@ -1,6 +1,12 @@
 function PLAYER_ATTACK(){
 	 #region Normal shooting
-	 var attack = keyboard_check(vk_space);
+	 var attack;
+	 
+	 var fire = (INPUT.input_held(0, input_action.fire1));
+	 var smartbomb = (INPUT.input_held(0, input_action.fire2));
+	 
+	 attack = keyboard_check(USER_BUTTON_SHOOT) || keyboard_check(USER_BUTTON_SHOOT_ALT) || fire;
+	 
  
 	 if (can_shoot && attack){
 		 
@@ -33,7 +39,7 @@ function PLAYER_ATTACK(){
 	 #endregion
 	 
 	 #region Smartbomb
-		var smartbomb_attack = keyboard_check_released(vk_control);
+		var smartbomb_attack = keyboard_check_released(USER_BUTTON_SMARTBOMB) || smartbomb;
 	 
 		if (can_shoot_smartbomb) && (smartbomb_attack){
 			var active_smartbomb = global.Player_Smartbomb_array[0];

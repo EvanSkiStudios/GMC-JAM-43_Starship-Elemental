@@ -19,6 +19,8 @@
 #macro DIR_SOUTH_EAST 315
 #endregion
 
+#macro GAMEPAD_START (INPUT.input_pressed(0, input_action.start))
+
 #macro GAMESPEED game_get_speed(gamespeed_fps)
 
 

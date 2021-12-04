@@ -2,6 +2,11 @@ if !(spawn_enemies) && !instance_exists(obj_seq_level_start){
 	spawn_enemies = true;	
 }
 
+if (instance_exists(obj_gui_continue)){
+	spawn_enemies = false;	
+}
+
+
 if (spawn_enemies){
 	switch(enemy_wave_state){
 		default: break;

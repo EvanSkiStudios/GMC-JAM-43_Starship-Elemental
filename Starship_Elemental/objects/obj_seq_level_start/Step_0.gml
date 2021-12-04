@@ -9,7 +9,7 @@ if layer_sequence_is_finished(level_start_sequance){
 if !keyboard_check_released(ord("R")) &&
 !keyboard_check_released(vk_f7)
 {
-	if keyboard_check_released(vk_anykey){
+	if ( keyboard_check_released(vk_anykey) || GAMEPAD_START){
 
 			instance_destroy(id);	
 	}
