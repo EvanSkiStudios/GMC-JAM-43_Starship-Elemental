@@ -98,6 +98,16 @@ function vibrate_gamepad(left,right){
 }
 
 
+function fadetoroom(gotoroom, dur, _color){
+	var inst = instance_create_depth(0,0,0,obj_gui_fadeout);
+	
+	with (inst){
+		targetroom = gotoroom;
+		duration = dur;
+		color = _color;
+	}
+}
+
 
 function ScreenShot()
 {

@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_mus_continue.ogg",
-  "duration": 10.5263271,
+  "duration": 10.6930609,
   "parent": {
     "name": "GUI",
     "path": "folders/Sounds/MUSIC/GUI.yy",

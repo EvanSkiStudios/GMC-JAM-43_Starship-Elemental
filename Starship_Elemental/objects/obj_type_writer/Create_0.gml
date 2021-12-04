@@ -1,0 +1,1 @@
+Create_text_interaction_NPC(0);

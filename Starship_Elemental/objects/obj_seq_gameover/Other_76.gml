@@ -1,0 +1,1 @@
+obj_dialogbox.next_line = 1;

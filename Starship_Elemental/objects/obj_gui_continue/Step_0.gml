@@ -25,5 +25,8 @@ if (can_press_any_key && !(ended)){
 }
 
 if (ended){
-	
+	if (do_fade != 1){
+		do_fade = 1;
+		alarm[1] = GAMESPEED / 2;
+	}
 }

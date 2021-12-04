@@ -14,8 +14,8 @@
   "soundFile": "snd_sfx_ice_crackle.wav",
   "duration": 0.44263,
   "parent": {
-    "name": "SFX",
-    "path": "folders/Sounds/SFX.yy",
+    "name": "smartbomb",
+    "path": "folders/Sounds/SFX/smartbomb.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_sfx_ice_crackle",

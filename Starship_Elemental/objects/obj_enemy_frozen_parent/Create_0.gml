@@ -1,6 +1,8 @@
 // Inherit the parent event
 event_inherited();
 
+playSound(snd_sfx_ice_crackle);
+
 killed_score = 200;
 
 start_y = y;

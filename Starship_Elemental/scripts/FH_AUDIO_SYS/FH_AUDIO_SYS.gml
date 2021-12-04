@@ -13,6 +13,11 @@
 #macro SND_SFX_SMARTBOMB_PICKUP 5
 #macro SND_SFX_SMARTBOMB_CHANGE 6
 #macro SND_SFX_SMARTBOMB_EARTH_RUMBLE 7
+#macro SND_SFX_SMARTBOMB_ICE_WIND 8
+#macro SND_SFX_SMARTBOMB_ICE 9
+#macro SND_SFX_SMARTBOMB_LIGHTNING 10
+#macro SND_SFX_SMARTBOMB_LIGHTNING_ZAP 11
+#macro SND_SFX_SMARTBOMB_FIRE 12
 
 
 function initAudio()
@@ -20,7 +25,14 @@ function initAudio()
     fhAudioInitialize();
     var array;
 	
+	#region martbombs
 	SOUNDS[SND_SFX_SMARTBOMB_EARTH_RUMBLE] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_smartbomb_earth_rumble, 0.0, 0.0);
+	SOUNDS[SND_SFX_SMARTBOMB_ICE] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_ice_crackle, 0.15, 0.15);
+	SOUNDS[SND_SFX_SMARTBOMB_ICE_WIND] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_smartbomb_ice_wind, 0.0, 0.0);
+	SOUNDS[SND_SFX_SMARTBOMB_LIGHTNING_ZAP] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_smartbomb_lightning_zap, 0.15, 0.15);
+	SOUNDS[SND_SFX_SMARTBOMB_LIGHTNING] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_smartbomb_lightning, 0.0, 0.0);
+	SOUNDS[SND_SFX_SMARTBOMB_FIRE] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, 	snd_sfx_smartbomb_fire, 0.0, 0.0);
+	#endregion
 	
 	#region cutscene
 		SOUNDS[SND_SFX_CUTSCENE_FLYIN] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_cutscene_flyin, 0.1, 0.1);
