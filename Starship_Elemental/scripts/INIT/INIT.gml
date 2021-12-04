@@ -25,7 +25,7 @@
 //############## globals
 global.Player_control_enabled = true;
 global.Player_ship_visable = true;
-global.Player_ship_take_dam = true;
+global.Player_ship_take_dam = false;
 global.Player_can_die = true;
 global.Player_can_pickup_bombs = true;
 

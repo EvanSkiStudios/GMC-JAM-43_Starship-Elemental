@@ -30,6 +30,7 @@ function PLAYER_HEALTH(){
 	
 	switch(HP){
 		case 3:{
+			if !(global.Player_ship_take_dam) return;
 			//wow you are okay!	
 			if instance_exists(obj_smoke_emitter){
 				if (obj_smoke_emitter.emitter_state != 0) && (obj_smoke_emitter.emitter_state != 1){
@@ -39,6 +40,7 @@ function PLAYER_HEALTH(){
 		}break;
 		
 		case 2:{
+			if !(global.Player_ship_take_dam) return;
 			//captian we recived damage!!
 			if instance_exists(obj_smoke_emitter){
 				if (obj_smoke_emitter.emitter_state != 2){
@@ -48,6 +50,7 @@ function PLAYER_HEALTH(){
 		}break;
 		
 		case 1:{
+			if !(global.Player_ship_take_dam) return;
 			//DAMAGE CRITICAL!!
 			if instance_exists(obj_smoke_emitter){
 				if (obj_smoke_emitter.emitter_state != 3){

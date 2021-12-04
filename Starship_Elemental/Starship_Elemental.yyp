@@ -120,6 +120,7 @@
     {"id":{"name":"spr_stage_01_bkg","path":"sprites/spr_stage_01_bkg/spr_stage_01_bkg.yy",},"order":1,},
     {"id":{"name":"obj_enemy_generic_bee","path":"objects/obj_enemy_generic_bee/obj_enemy_generic_bee.yy",},"order":5,},
     {"id":{"name":"obj_DEBUG_TEXT","path":"objects/obj_DEBUG_TEXT/obj_DEBUG_TEXT.yy",},"order":1,},
+    {"id":{"name":"obj_sb_effect_lightning_end","path":"objects/obj_sb_effect_lightning_end/obj_sb_effect_lightning_end.yy",},"order":3,},
     {"id":{"name":"fhAudioEmitterCreate","path":"scripts/fhAudioEmitterCreate/fhAudioEmitterCreate.yy",},"order":0,},
     {"id":{"name":"DEBUG_BACKGROUND_DELETE","path":"sprites/DEBUG_BACKGROUND_DELETE/DEBUG_BACKGROUND_DELETE.yy",},"order":2,},
     {"id":{"name":"__fhAudioUtility","path":"scripts/__fhAudioUtility/__fhAudioUtility.yy",},"order":5,},

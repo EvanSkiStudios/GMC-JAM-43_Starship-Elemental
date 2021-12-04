@@ -1,3 +1,4 @@
+if !(global.Player_ship_visable) instance_destroy();
 if !(instance_exists(obj_player_ship)) instance_destroy();
 
 if (image_index >= (image_number - 1)){

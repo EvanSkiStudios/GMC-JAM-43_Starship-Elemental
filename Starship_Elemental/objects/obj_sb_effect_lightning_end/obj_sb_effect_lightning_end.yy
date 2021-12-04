@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_smartbomb_lightning_end",
+    "path": "sprites/spr_smartbomb_lightning_end/spr_smartbomb_lightning_end.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -20,16 +23,15 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "ctrl",
-    "path": "folders/Objects/smartbombs/ctrl.yy",
+    "name": "lightning",
+    "path": "folders/Objects/smartbombs/effect/effect_objects/lightning.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_ctrl_smartbomb",
+  "name": "obj_sb_effect_lightning_end",
   "tags": [],
   "resourceType": "GMObject",
 }

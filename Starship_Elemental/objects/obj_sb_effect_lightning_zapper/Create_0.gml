@@ -9,6 +9,7 @@ updatetentacle = function(){
 	if (target == noone){
 		if instance_exists(obj_enemy_parent){
 			target = instance_nearest(x,y,obj_enemy_parent);
+			//make this so it doesnt kill enemies outside of room - NICE TO HAVE
 		}else{
 			instance_destroy();	
 		}

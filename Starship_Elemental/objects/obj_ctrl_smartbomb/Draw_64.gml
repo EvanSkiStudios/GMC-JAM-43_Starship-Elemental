@@ -1,6 +1,5 @@
 var bomb_array_length = array_length(global.Player_Smartbomb_array);
 
-
 draw_set_halign(fa_center);
 //draw title
 var color = c_black;
