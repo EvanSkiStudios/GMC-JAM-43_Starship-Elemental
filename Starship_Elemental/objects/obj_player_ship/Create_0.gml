@@ -10,6 +10,7 @@ ship_animation_speed = 0.2;
 can_shoot = true;
 can_shoot_smartbomb = true;
 do_hp_flash = false;
+smartbomb_do_once = true;
 
 //ship state
 player_ship_state = PLAYER_SHIP_STATES.idle;

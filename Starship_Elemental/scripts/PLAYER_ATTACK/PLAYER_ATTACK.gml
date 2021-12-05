@@ -3,13 +3,11 @@ function PLAYER_ATTACK(){
 	 var attack;
 	 
 	 var fire = (INPUT.input_held(0, input_action.fire1));
-	 var smartbomb = (INPUT.input_held(0, input_action.fire2));
 	 
 	 attack = keyboard_check(USER_BUTTON_SHOOT) || keyboard_check(USER_BUTTON_SHOOT_ALT) || fire;
 	 
  
 	 if (can_shoot && attack){
-		 
 		 
 		 var width_offset = obj_player_ship.sprite_width;
 		 var height_offset = obj_player_ship.sprite_height;
@@ -39,47 +37,57 @@ function PLAYER_ATTACK(){
 	 #endregion
 	 
 	 #region Smartbomb
-		var smartbomb_attack = keyboard_check_released(USER_BUTTON_SMARTBOMB) || smartbomb;
+	 
+		if (global.GAMEPADISCONENCTED){
+	 		var smartbomb_attack = (INPUT.input_held(0, input_action.fire2));
+		}else{
+			var smartbomb_attack = keyboard_check_released(USER_BUTTON_SMARTBOMB);
+		}
 	 
 		if (can_shoot_smartbomb) && (smartbomb_attack){
-			var active_smartbomb = global.Player_Smartbomb_array[0];
-			if (active_smartbomb != smartbomb_types.none){
-				switch(active_smartbomb){
+			show_debug_message("FIRED");
+			if (smartbomb_do_once){
+				var active_smartbomb = global.Player_Smartbomb_array[0];
+				if (active_smartbomb != smartbomb_types.none){
+					switch(active_smartbomb){
 					
-					case smartbomb_types.earth:{
-						instance_create_depth(0,0,depth,obj_smartbomb_effect_earth);
-					}break;
+						case smartbomb_types.earth:{
+							instance_create_depth(0,0,depth,obj_smartbomb_effect_earth);
+						}break;
 					
-					case smartbomb_types.fire:{
-						var x_offset =( ( sprite_get_width(obj_player_ship.sprite_index) / 2) + ( sprite_get_width(spr_smartbomb_effect_fire) / 2) );
+						case smartbomb_types.fire:{
+							var x_offset =( ( sprite_get_width(obj_player_ship.sprite_index) / 2) + ( sprite_get_width(spr_smartbomb_effect_fire) / 2) );
 						
-						instance_create_depth(
-						obj_player_ship.x + ( x_offset ),
-						obj_player_ship.y,
-						-11000,
-						obj_smartbomb_effect_fire);
-					}break;
+							instance_create_depth(
+							obj_player_ship.x + ( x_offset ),
+							obj_player_ship.y,
+							-11000,
+							obj_smartbomb_effect_fire);
+						}break;
 					
-					case smartbomb_types.ice:{
-						var x_offset =( ( sprite_get_width(obj_player_ship.sprite_index) / 2) + ( sprite_get_width(spr_smartbomb_effect_fire) / 2) );
+						case smartbomb_types.ice:{
+							var x_offset =( ( sprite_get_width(obj_player_ship.sprite_index) / 2) + ( sprite_get_width(spr_smartbomb_effect_fire) / 2) );
 						
-						instance_create_depth(
-						obj_player_ship.x + ( x_offset ),
-						obj_player_ship.y,
-						-11000,
-						obj_smartbomb_effect_ice);
-					}break;
+							instance_create_depth(
+							obj_player_ship.x + ( x_offset ),
+							obj_player_ship.y,
+							-11000,
+							obj_smartbomb_effect_ice);
+						}break;
 					
-					case smartbomb_types.wind:{
-						instance_create_depth(
-						obj_player_ship.x,
-						obj_player_ship.y,
-						-11000,
-						obj_smartbomb_effect_lightning);
-					}break;
+						case smartbomb_types.wind:{
+							instance_create_depth(
+							obj_player_ship.x,
+							obj_player_ship.y,
+							-11000,
+							obj_smartbomb_effect_lightning);
+						}break;
 					
-					default: show_debug_message("WHAT THE FRICK SMARTBOMB IS THIS?!"); break;
+						default: show_debug_message("WHAT THE FRICK SMARTBOMB IS THIS?!"); break;
 					
+					}
+					
+					smartbomb_do_once = false;
 				}
 				
 				

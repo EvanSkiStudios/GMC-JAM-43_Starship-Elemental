@@ -110,7 +110,7 @@
     {"id":{"name":"spr_power_bomb_earth_small","path":"sprites/spr_power_bomb_earth_small/spr_power_bomb_earth_small.yy",},"order":2,},
     {"id":{"name":"fhAudioSoundFadeout","path":"scripts/fhAudioSoundFadeout/fhAudioSoundFadeout.yy",},"order":0,},
     {"id":{"name":"fnt_highscore","path":"fonts/fnt_highscore/fnt_highscore.yy",},"order":0,},
-    {"id":{"name":"seq_enemy_bomb_left_topsec18","path":"sequences/seq_enemy_bomb_left_topsec18/seq_enemy_bomb_left_topsec18.yy",},"order":2,},
+    {"id":{"name":"seq_enemy_bomb_left_top5sec","path":"sequences/seq_enemy_bomb_left_top5sec/seq_enemy_bomb_left_top5sec.yy",},"order":2,},
     {"id":{"name":"spr_player_ship_fly_up","path":"sprites/spr_player_ship_fly_up/spr_player_ship_fly_up.yy",},"order":1,},
     {"id":{"name":"snd_sfx_smartbomb_lightning","path":"sounds/snd_sfx_smartbomb_lightning/snd_sfx_smartbomb_lightning.yy",},"order":0,},
     {"id":{"name":"spr_earth_explode_anim","path":"sprites/spr_earth_explode_anim/spr_earth_explode_anim.yy",},"order":2,},
