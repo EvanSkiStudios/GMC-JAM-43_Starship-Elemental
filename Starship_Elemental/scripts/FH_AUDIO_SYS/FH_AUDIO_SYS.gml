@@ -18,6 +18,7 @@
 #macro SND_SFX_SMARTBOMB_LIGHTNING 10
 #macro SND_SFX_SMARTBOMB_LIGHTNING_ZAP 11
 #macro SND_SFX_SMARTBOMB_FIRE 12
+#macro SND_SFX_ALARM 13
 
 
 function initAudio()
@@ -35,6 +36,7 @@ function initAudio()
 	#endregion
 	
 	#region cutscene
+		SOUNDS[SND_SFX_ALARM] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_alarm, 0.1, 0.1);
 		SOUNDS[SND_SFX_CUTSCENE_FLYIN] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_cutscene_flyin, 0.1, 0.1);
 	#endregion
 	

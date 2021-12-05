@@ -39,7 +39,7 @@ function PLAYER_ATTACK(){
 	 #region Smartbomb
 	 
 		if (global.GAMEPADISCONENCTED){
-	 		var smartbomb_attack = (INPUT.input_held(0, input_action.fire2));
+	 		var smartbomb_attack = (INPUT.input_pressed(0, input_action.fire2));
 		}else{
 			var smartbomb_attack = keyboard_check_released(USER_BUTTON_SMARTBOMB);
 		}
