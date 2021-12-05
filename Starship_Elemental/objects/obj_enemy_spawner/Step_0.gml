@@ -17,7 +17,7 @@ if (spawn_enemies){
 		switch(enemy_wave_state){
 			default: break;
 			
-			case 0:{
+						case 0:{
 				if (can_spawn){
 					Spawn_wave(seq_enemy_bee_loopandback);
 					alarm[0] = GAMESPEED * 5;
@@ -297,7 +297,7 @@ if (spawn_enemies){
 				if (can_spawn){
 					Spawn_wave(seq_enemy_stinger_left);
 					Spawn_wave(seq_enemy_stinger_right);
-					alarm[0] = GAMESPEED * 6;
+					alarm[0] = GAMESPEED * 8;
 					can_spawn = false;
 				}
 			}break;
@@ -448,264 +448,202 @@ if (spawn_enemies){
 			}break;
 			
 			case 50:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_stinger_right);
-				alarm[0] = GAMESPEED * 2;
-				can_spawn = false;
-			}
+				if (can_spawn){
+					Spawn_wave(seq_enemy_stinger_left);
+				
+					Spawn_wave(seq_enemy_bee_loopandback);
+					alarm[0] = GAMESPEED * 5;
+					can_spawn = false;
+				}
 			}break;
-
+			
 			case 51:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_bee_bomb);	
-				alarm[0] = GAMESPEED * 2;
-				can_spawn = false;
-			}
+				if (can_spawn){
+					Spawn_wave(seq_enemy_stinger_right);
+					alarm[0] = GAMESPEED * 2;
+					can_spawn = false;
+				}
 			}break;
-
+			
 			case 52:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_stinger_left);
-				Spawn_wave(seq_enemy_stinger_right);
-				alarm[0] = GAMESPEED * 4;
-				can_spawn = false;
-			}
+				if (can_spawn){
+					Spawn_wave(seq_enemy_bomb_left_top5sec);	
+					Spawn_wave(seq_enemy_bomb_left_bottom5sec);	
+					alarm[0] = GAMESPEED * 5;
+					can_spawn = false;
+				}
 			}break;
-
+			
 			case 53:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_bee_2_cross_9sec);
-				alarm[0] = GAMESPEED * 3;
-				can_spawn = false;
-			}
+				if (can_spawn){
+					Spawn_wave(seq_enemy_bee_loopandback);
+					Spawn_wave(seq_enemy_bee_2_cross_9sec);
+					alarm[0] = GAMESPEED * 6;
+					can_spawn = false;
+				}
 			}break;
-		
+			
 			case 54:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_stinger_right);
-	
-				Spawn_wave(seq_enemy_bee_2_cross_9sec);
-	
-				Spawn_wave(seq_enemy_bee_bomb);
-				alarm[0] = GAMESPEED * 5;
-				can_spawn = false;
-			}
+				if (can_spawn){
+					Spawn_wave(seq_enemy_stinger_left);
+					alarm[0] = GAMESPEED * 2;
+					can_spawn = false;
+				}
 			}break;
-
+			
 			case 55:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_stinger_right);
-				alarm[0] = GAMESPEED * 2;
-				can_spawn = false;
-			}
+				if (can_spawn){
+					Spawn_wave(seq_enemy_bee_lefttoup);	
+					alarm[0] = GAMESPEED * 3;
+					can_spawn = false;
+				}
 			}break;
-	
+			
 			case 56:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_stinger_left);
-				Spawn_wave(seq_enemy_stinger_right);
-				alarm[0] = GAMESPEED * 6;
-				can_spawn = false;
-			}
+				if (can_spawn){
+					Spawn_wave(seq_enemy_bee_2_cross_9sec);
+					Spawn_wave(seq_enemy_bee_3_sync_8sec);
+					alarm[0] = GAMESPEED * 5;
+					can_spawn = false;
+				}
 			}break;
-
+			
 			case 57:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_stinger_left);
-				Spawn_wave(seq_enemy_stinger_right);
-				alarm[0] = GAMESPEED * 2;
-				can_spawn = false;
-			}
+				if (can_spawn){
+					Spawn_wave(seq_enemy_bee_3_sync_8sec);
+					alarm[0] = GAMESPEED * 3;
+					can_spawn = false;
+				}
 			}break;
 			
 			case 58:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_bee_2_cross_9sec);
-				Spawn_wave(seq_enemy_stinger_right);
-				alarm[0] = GAMESPEED * 4;
-				can_spawn = false;
-			}
-			}break;
-
-			case 59:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_bee_bomb);
-				Spawn_wave(seq_enemy_bee_2_cross_9sec);
-				Spawn_wave(seq_enemy_bee_3_sync_8sec);
-				alarm[0] = GAMESPEED * 5;
-				can_spawn = false;
-			}
-			}break;
-
-			case 60:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_bee_loopandback);
-				alarm[0] = GAMESPEED * 2;
-				can_spawn = false;
-			}
-			}break;
-
-			case 61:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_bee_bomb);	
-				alarm[0] = GAMESPEED * 2;
-				can_spawn = false;
-			}
-			}break;
-
-			case 62:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_stinger_left);
-				alarm[0] = GAMESPEED * 2;
-				can_spawn = false;
-			}
-			}break;
-
-			case 63:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_bee_3_sync_8sec);
-				Spawn_wave(seq_enemy_stinger_right);
-				alarm[0] = GAMESPEED * 3;
-				can_spawn = false;
-			}
-			}break;
-
-			case 64:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_stinger_right);
-				alarm[0] = GAMESPEED * 2;
-				can_spawn = false;
-			}
-			}break;
-
-			case 65:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_stinger_right);
-				Spawn_wave(seq_enemy_bomb_left_top5sec);
-				Spawn_wave(seq_enemy_bee_three);
-
-				Spawn_wave(seq_enemy_bomb_left_bottom5sec);
-				alarm[0] = GAMESPEED * 4;
-				can_spawn = false;
-			}
-			}break;
-
-			case 66:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_stinger_left);
-				alarm[0] = GAMESPEED * 2;
-				can_spawn = false;
-			}
-			}break;
-
-			case 67:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_bee_bomb);	
-				alarm[0] = GAMESPEED * 2;
-				can_spawn = false;
-			}
-			}break;
-
-			case 68:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_bee_lefttoup);	
-				alarm[0] = GAMESPEED * 3;
-				can_spawn = false;
-			}
-			}break;
-
-			case 69:{
-			//NICE
-			if (can_spawn){
-				Spawn_wave(seq_enemy_bee_lefttoup);
-				alarm[0] = GAMESPEED * 2;
-				can_spawn = false;
-			}
-			}break;
-
-
-			case 70:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_bee_three);
-				alarm[0] = GAMESPEED * 2;
-				can_spawn = false;
-			}
-			}break;
-
-			case 71:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_bee_2_cross_9sec);
-				alarm[0] = GAMESPEED * 5;
-				can_spawn = false;
-			}
-			}break;
-
-
-
-			case 72:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_stinger_left);
-	
-				Spawn_wave(seq_enemy_bee_three);
-				alarm[0] = GAMESPEED * 4;
-				can_spawn = false;
-			}
-			}break;
-
-			case 73:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_bee_lefttoup);
-				alarm[0] = GAMESPEED * 5;
-				can_spawn = false;
-			}
-			}break;
-
-
-
-			case 74:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_bee_bomb);
-				alarm[0] = GAMESPEED * 2;
-				can_spawn = false;
-			}
-			}break;
-
-			case 75:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_stinger_left);
-
-				Spawn_wave(seq_enemy_bee_loopandback);
-				alarm[0] = GAMESPEED * 5;
-				can_spawn = false;
-			}
-			}break;
-
-			case 76:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_bee_bomb);	
-				alarm[0] = GAMESPEED * 2;
-				can_spawn = false;
-			}
-			}break;
-
-			case 77:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_stinger_left);
-				Spawn_wave(seq_enemy_stinger_right);
-				alarm[0] = GAMESPEED * 2;
-				can_spawn = false;
-			}
-			}break;
-
-			case 78:{
-			if (can_spawn){
-				Spawn_wave(seq_enemy_stinger_right);
-				alarm[0] = GAMESPEED * 4;
-				can_spawn = false;
-			}
+				if (can_spawn){
+					Spawn_wave(seq_enemy_bee_3_sync_8sec);
+					alarm[0] = GAMESPEED * 3;
+					can_spawn = false;
+				}
 			}break;
 			
-			case 79:{
+			case 59:{
+				if (can_spawn){
+					Spawn_wave(seq_enemy_bee_2_cross_9sec);
+					Spawn_wave(seq_enemy_stinger_right);
+					alarm[0] = GAMESPEED * 4;
+					can_spawn = false;
+				}
+			}break;
+			
+			case 60:{
+				if (can_spawn){
+					Spawn_wave(seq_enemy_bee_2_cross_9sec);
+					Spawn_wave(seq_enemy_bee_3_sync_8sec);
+					alarm[0] = GAMESPEED * 5;
+					can_spawn = false;
+				}
+			}break;
+			
+			case 61:{
+				if (can_spawn){
+					Spawn_wave(seq_enemy_stinger_left);
+					Spawn_wave(seq_enemy_stinger_right);
+					alarm[0] = GAMESPEED * 2;
+					can_spawn = false;
+				}
+			}break;
+			
+			case 62:{
+				if (can_spawn){
+					Spawn_wave(seq_enemy_stinger_right);
+				
+					Spawn_wave(seq_enemy_bee_2_cross_9sec);
+				
+					Spawn_wave(seq_enemy_bee_bomb);
+					alarm[0] = GAMESPEED * 5;
+					can_spawn = false;
+				}
+			}break;
+			
+			case 63:{
+				if (can_spawn){
+					Spawn_wave(seq_enemy_bomb_left_top5sec);	
+					Spawn_wave(seq_enemy_bomb_left_bottom5sec);	
+					alarm[0] = GAMESPEED * 5;
+					can_spawn = false;
+				}
+			}break;
+			
+			case 64:{
+				if (can_spawn){
+					Spawn_wave(seq_enemy_bee_lefttoup);
+					alarm[0] = GAMESPEED * 5;
+					can_spawn = false;
+				}
+			}break;
+			
+			case 65:{
+				if (can_spawn){
+					Spawn_wave(seq_enemy_bee_lefttoup);
+					alarm[0] = GAMESPEED * 5;
+					can_spawn = false;
+				}
+			}break;
+			
+			case 66:{
+				if (can_spawn){
+					Spawn_wave(seq_enemy_bee_3_sync_8sec);
+					alarm[0] = GAMESPEED * 3;
+					can_spawn = false;
+				}
+			}break;
+			
+			case 67:{
+				if (can_spawn){
+					Spawn_wave(seq_enemy_bee_2_cross_9sec);
+					Spawn_wave(seq_enemy_stinger_right);
+					alarm[0] = GAMESPEED * 4;
+					can_spawn = false;
+				}
+			}break;
+			
+			case 68:{
+				if (can_spawn){
+					Spawn_wave(seq_enemy_bee_loopandback);
+					alarm[0] = GAMESPEED * 2;
+					can_spawn = false;
+				}
+			}break;
+			
+			case 69:{
+				//nice
+				if (can_spawn){
+					Spawn_wave(seq_enemy_bee_loopandback);
+					alarm[0] = GAMESPEED * 2;
+					can_spawn = false;
+				}
+			}break;
+			
+			case 70:{
+				if (can_spawn){
+					Spawn_wave(seq_enemy_stinger_right);
+				
+					Spawn_wave(seq_enemy_bee_2_cross_9sec);
+				
+					Spawn_wave(seq_enemy_bee_bomb);
+					alarm[0] = GAMESPEED * 5;
+					can_spawn = false;
+				}
+			}break;
+			
+			case 71:{
+				if (can_spawn){
+					Spawn_wave(seq_enemy_stinger_left);
+					Spawn_wave(seq_enemy_stinger_right);
+					alarm[0] = GAMESPEED * 4;
+					can_spawn = false;
+				}
+			}break;
+			
+			case 72:{
 				//mini break to clear enemies
 				if (can_spawn){
 					fha_music_stop(5000);
@@ -714,7 +652,8 @@ if (spawn_enemies){
 				}
 			}break;
 			
-			case 80:{
+			
+			case 73:{
 				enemy_wave_state = 98;
 			}break;
 		
@@ -735,12 +674,20 @@ if (spawn_enemies){
 						audio_stop_sound(snd_sfx_alarm);
 					}
 					show_message("BOSS SHOWS UP HERE");
+					alarm[0] = GAMESPEED;
 					can_spawn = false;
 				}
 			}break;
 		
 			case 100:{
+				if (can_spawn){
 				//do game win
+				global.Player_control_enabled = false;
+				global.Player_ship_visable = false;
+				global.Player_ship_take_dam = false;
+				instance_create_depth(obj_player_ship.x,obj_player_ship.y,depth,obj_seq_player_leave);
+				can_spawn = false;
+				}
 			}break;
 		}
 		#endregion

@@ -1,0 +1,1 @@
+layer_sequence_play(player_leave_sequance_layer);

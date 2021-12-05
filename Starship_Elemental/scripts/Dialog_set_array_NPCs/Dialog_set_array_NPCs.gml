@@ -59,7 +59,14 @@ function Dialog_set_array_NPCs(){
 		}break;
 		
 		case 6:{
-			text[i][TContent] = "\"Screw this! Im out of Here!\"";
+			text[i][TContent] = "\"Screw this! I'm out of Here!\"";
+			text[i][TColor] = c_white;
+			text[i][TSprite] = spr_pilot_evanski_pfp;
+			text[i][TVoice] = 1;
+		}break;
+		
+		case 7:{
+			text[i][TContent] = "\"Man! I'm Going to need a long break after this!\"";
 			text[i][TColor] = c_white;
 			text[i][TSprite] = spr_pilot_evanski_pfp;
 			text[i][TVoice] = 1;

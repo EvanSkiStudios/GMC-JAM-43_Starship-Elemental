@@ -7,7 +7,7 @@ if (_image_index >= sprite_get_number(spr_credits_logo) -1) {
 }
 
 if (keyboard_check(vk_anykey)) {
-	room_goto_next();	
+	fadetoroom(rm_mainmenu,60,c_white);
 }
 
 if (timer >= max_time) {

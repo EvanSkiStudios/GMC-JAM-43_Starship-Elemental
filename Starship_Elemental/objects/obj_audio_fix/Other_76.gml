@@ -1,1 +1,1 @@
-fha_music_stop(5000);
+fha_music_stop(200);

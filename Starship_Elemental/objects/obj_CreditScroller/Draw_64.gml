@@ -28,5 +28,5 @@ if (scroll) {
 //End of credits reached
 if (scroll_position <= 0 - total_height) {
 	//scroll_position = display_get_gui_height();//start over, or...
-	room_goto_next();
+	fadetoroom(rm_mainmenu,60,c_white);
 }
