@@ -1,7 +1,7 @@
-var keys = invaild_keys();
-
-if !(keys){
-	if keyboard_check(vk_anykey){
+var fire = (INPUT.input_pressed(0, input_action.fire1));
+	var keys = invaild_keys();
+	if !(keys){
+		if ( keyboard_check_pressed(vk_anykey) || GAMEPAD_START || fire){
 		if !(instance_exists(obj_gui_fadeout)){
 			fadetoroom(rm_mainmenu,60,c_white);
 		}

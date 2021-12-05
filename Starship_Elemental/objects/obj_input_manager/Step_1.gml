@@ -21,6 +21,8 @@ var max_gamepad_slot = gamepad_get_device_count();
 
 for ( var gamepad_id = 0; gamepad_id < max_gamepad_slot; gamepad_id++){
 	if gamepad_is_connected(gamepad_id) {
+		
+		
 		/* When the player presses Start, "A", any of the Dpad buttons, or wiggles the joystick,
 		we will assign the gamepad to a player, unless that gamepad is already in use. */
 		

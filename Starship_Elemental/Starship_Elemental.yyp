@@ -58,6 +58,7 @@
     {"id":{"name":"fhAudioSoundPlay","path":"scripts/fhAudioSoundPlay/fhAudioSoundPlay.yy",},"order":2,},
     {"id":{"name":"Dialog_set_array_NPCs","path":"scripts/Dialog_set_array_NPCs/Dialog_set_array_NPCs.yy",},"order":1,},
     {"id":{"name":"fhAudioEmitterSetVolume","path":"scripts/fhAudioEmitterSetVolume/fhAudioEmitterSetVolume.yy",},"order":7,},
+    {"id":{"name":"obj_crtl_call_init","path":"objects/obj_crtl_call_init/obj_crtl_call_init.yy",},"order":4,},
     {"id":{"name":"spr_bomb_fire","path":"sprites/spr_bomb_fire/spr_bomb_fire.yy",},"order":1,},
     {"id":{"name":"obj_type_smartbomb","path":"objects/obj_type_smartbomb/obj_type_smartbomb.yy",},"order":1,},
     {"id":{"name":"spr_raccoon_board_ship","path":"sprites/spr_raccoon_board_ship/spr_raccoon_board_ship.yy",},"order":12,},

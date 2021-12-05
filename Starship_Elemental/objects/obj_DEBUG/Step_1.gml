@@ -1,0 +1,1 @@
+a_gamepad_connected();

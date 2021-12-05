@@ -25,6 +25,8 @@
 
 
 //############## globals
+global.GAMEPADISCONENCTED = false;
+
 global.Player_control_enabled = true;
 global.Player_ship_visable = true;
 global.Player_ship_take_dam = true;
@@ -77,6 +79,25 @@ function Gamepad_select(){
 	var select = gamepad_button_check_pressed(0, gp_select);
 	
 	return(select);
+}
+
+function a_gamepad_connected(){
+	var gamepad = 0;
+	if gamepad_is_connected(0) gamepad += 1;
+	if gamepad_is_connected(1) gamepad += 1;
+	if gamepad_is_connected(2) gamepad += 1;
+	if gamepad_is_connected(3) gamepad += 1;
+	if gamepad_is_connected(4) gamepad += 1;
+	if gamepad_is_connected(5) gamepad += 1;
+	if gamepad_is_connected(6) gamepad += 1;
+	if gamepad_is_connected(7) gamepad += 1;
+	if gamepad_is_connected(8) gamepad += 1;
+	if gamepad_is_connected(9) gamepad += 1;
+	if gamepad_is_connected(10) gamepad += 1;
+	if gamepad_is_connected(11) gamepad += 1;
+	
+	if (gamepad > 0) global.GAMEPADISCONENCTED = true;
+	if (gamepad <= 0) global.GAMEPADISCONENCTED = false;
 }
 
 function vibrate_gamepad(left,right){

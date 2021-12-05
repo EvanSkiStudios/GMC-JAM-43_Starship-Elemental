@@ -37,32 +37,16 @@ function PLAYER_MOVE(){
 	//not tied to state machine as we dont have animations for left and right
 	//if in state machine we'd need more logic or not allow player to move horizontal while moving vertiacl
 	var move_h = ( (keyboard_check(USER_BUTTON_RIGHT)) - (keyboard_check(USER_BUTTON_LEFT)) );
-
-	switch(move_h){
-		default: break;
-	
-		case -1:{
-			var pot_move_h = x + (-1 * ship_move_speed);
-			if !(pot_move_h < 0 + (sprite_width / 2)){
-				x = pot_move_h;
-			}
-		}break;
-	
-		case 1:{
-			var pot_move_h = x + (1 * ship_move_speed);
-			//we use game res width here, as its the width of the view port, 
-			//not the room, so the ship doesnt go out of bounds
-			if !(pot_move_h >= (GAME_RES_WIDTH - sprite_width)){
-				x = pot_move_h;
-			}
-		}break;
-	}
-	
 	var move_h_alt = ( (keyboard_check(USER_BUTTON_RIGHT_ARROWS)) - (keyboard_check(USER_BUTTON_LEFT_ARROWS)) );
 	
-	if (move_h == 0){
+	var do_move = 0;
 	
-	switch(move_h_alt){
+	if (move_h_alt == 0) && (move_h = 1) do_move = 1;
+	if (move_h_alt == 0) && (move_h = -1) do_move = -1;
+	if (move_h == 0) && (move_h_alt = 1) do_move = 1;
+	if (move_h == 0) && (move_h_alt = -1) do_move = -1;
+
+	switch(do_move){
 		default: break;
 	
 		case -1:{
@@ -80,7 +64,5 @@ function PLAYER_MOVE(){
 				x = pot_move_h;
 			}
 		}break;
-	}
-	
 	}
 }

@@ -9,7 +9,7 @@
   "length": 463.0,
   "events": {
     "Keyframes": [
-      {"id":"7a71faa0-2e70-4709-80d3-3eab52468f03","Key":338.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Events":[
+      {"id":"3853fc01-0556-4396-aa5d-a168b13c1aa3","Key":267.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Events":[
               "next line",
             ],"resourceVersion":"1.0","resourceType":"MessageEventKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<MessageEventKeyframe>",},
     ],
@@ -22,6 +22,16 @@
     "resourceType": "KeyframeStore<MomentsEventKeyframe>",
   },
   "tracks": [
+    {"keyframes":{"Keyframes":[
+          {"id":"5db8fd1e-ec33-4e78-9e76-05f8aba5146d","Key":245.0,"Length":180.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Mode":0,"Id":{"name":"snd_sfx_explosion_earth","path":"sounds/snd_sfx_explosion_earth/snd_sfx_explosion_earth.yy",},"resourceVersion":"1.0","resourceType":"AudioKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<AudioKeyframe>",},
+        ],"resourceVersion":"1.0","resourceType":"KeyframeStore<AudioKeyframe>",},"trackColour":4294068370,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[
+        {"keyframes":{"Keyframes":[
+              {"id":"26d03712-9d5d-43dc-bec9-1e5546d3333c","Key":245.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":true,"Channels":{"0":{"EmbeddedAnimCurve":null,"RealValue":0.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},"1":{"EmbeddedAnimCurve":null,"RealValue":0.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<RealKeyframe>",},
+            ],"resourceVersion":"1.0","resourceType":"KeyframeStore<RealKeyframe>",},"trackColour":4294068370,"inheritsTrackColour":true,"builtinName":14,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":true,"resourceVersion":"1.0","name":"position","tags":[],"resourceType":"GMRealTrack","modifiers":[],},
+        {"keyframes":{"Keyframes":[
+              {"id":"7c9c30ed-f636-4cff-9fa8-59cb1fff24a4","Key":245.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":true,"Channels":{"0":{"EmbeddedAnimCurve":null,"RealValue":0.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<RealKeyframe>",},
+            ],"resourceVersion":"1.0","resourceType":"KeyframeStore<RealKeyframe>",},"trackColour":4294068370,"inheritsTrackColour":true,"builtinName":8,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":true,"resourceVersion":"1.0","name":"rotation","tags":[],"resourceType":"GMRealTrack","modifiers":[],},
+      ],"events":[],"isCreationTrack":false,"resourceVersion":"1.1","name":"snd_sfx_explosion_earth","tags":[],"resourceType":"GMAudioTrack","modifiers":[],},
     {"keyframes":{"Keyframes":[
           {"id":"7000867d-58d4-4c90-b68e-73efcdaf0993","Key":409.0,"Length":62.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"spr_game_over_seq_white_fade","path":"sprites/spr_game_over_seq_white_fade/spr_game_over_seq_white_fade.yy",},"resourceVersion":"1.0","resourceType":"AssetSpriteKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<AssetSpriteKeyframe>",},
         ],"resourceVersion":"1.0","resourceType":"KeyframeStore<AssetSpriteKeyframe>",},"trackColour":4282942706,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[
@@ -43,16 +53,6 @@
               {"id":"07c2ba97-24f2-4565-ba99-8e09d4f262c9","Key":409.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"EmbeddedAnimCurve":null,"RealValue":12.328125,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},"1":{"EmbeddedAnimCurve":null,"RealValue":6.640625,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<RealKeyframe>",},
             ],"resourceVersion":"1.0","resourceType":"KeyframeStore<RealKeyframe>",},"trackColour":4282942706,"inheritsTrackColour":true,"builtinName":15,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","name":"scale","tags":[],"resourceType":"GMRealTrack","modifiers":[],},
       ],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","name":"spr_game_over_seq_white_fade","tags":[],"resourceType":"GMGraphicTrack","modifiers":[],},
-    {"keyframes":{"Keyframes":[
-          {"id":"8ed9e4de-01b7-42ea-be29-430cfef392ef","Key":248.0,"Length":180.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Mode":0,"Id":{"name":"snd_sfx_explosion_earth","path":"sounds/snd_sfx_explosion_earth/snd_sfx_explosion_earth.yy",},"resourceVersion":"1.0","resourceType":"AudioKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<AudioKeyframe>",},
-        ],"resourceVersion":"1.0","resourceType":"KeyframeStore<AudioKeyframe>",},"trackColour":4294102088,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[
-        {"keyframes":{"Keyframes":[
-              {"id":"850f4599-c8e4-4531-a790-fb59e93f2042","Key":248.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":true,"Channels":{"0":{"EmbeddedAnimCurve":null,"RealValue":0.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},"1":{"EmbeddedAnimCurve":null,"RealValue":0.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<RealKeyframe>",},
-            ],"resourceVersion":"1.0","resourceType":"KeyframeStore<RealKeyframe>",},"trackColour":4294102088,"inheritsTrackColour":true,"builtinName":14,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":true,"resourceVersion":"1.0","name":"position","tags":[],"resourceType":"GMRealTrack","modifiers":[],},
-        {"keyframes":{"Keyframes":[
-              {"id":"5173b236-f46d-435e-8bd6-67ea421d3543","Key":248.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":true,"Channels":{"0":{"EmbeddedAnimCurve":null,"RealValue":0.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<RealKeyframe>",},
-            ],"resourceVersion":"1.0","resourceType":"KeyframeStore<RealKeyframe>",},"trackColour":4294102088,"inheritsTrackColour":true,"builtinName":8,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":true,"resourceVersion":"1.0","name":"rotation","tags":[],"resourceType":"GMRealTrack","modifiers":[],},
-      ],"events":[],"isCreationTrack":false,"resourceVersion":"1.1","name":"snd_sfx_explosion_earth","tags":[],"resourceType":"GMAudioTrack","modifiers":[],},
     {"keyframes":{"Keyframes":[
           {"id":"c1351fe5-69ac-439d-95d1-bd25dcb563d1","Key":244.0,"Length":217.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"spr_earth_explode_anim","path":"sprites/spr_earth_explode_anim/spr_earth_explode_anim.yy",},"resourceVersion":"1.0","resourceType":"AssetSpriteKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<AssetSpriteKeyframe>",},
         ],"resourceVersion":"1.0","resourceType":"KeyframeStore<AssetSpriteKeyframe>",},"trackColour":4290114120,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[
@@ -106,7 +106,10 @@
             ],"resourceVersion":"1.0","resourceType":"KeyframeStore<RealKeyframe>",},"trackColour":4282970828,"inheritsTrackColour":true,"builtinName":15,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":true,"resourceVersion":"1.0","name":"scale","tags":[],"resourceType":"GMRealTrack","modifiers":[],},
       ],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","name":"spr_earth_explode_static","tags":[],"resourceType":"GMGraphicTrack","modifiers":[],},
   ],
-  "visibleRange": null,
+  "visibleRange": {
+    "x": 0.0,
+    "y": 462.9999,
+  },
   "lockOrigin": false,
   "showBackdrop": true,
   "showBackdropImage": false,
@@ -118,7 +121,15 @@
   "backdropYOffset": 0.0,
   "xorigin": 0,
   "yorigin": 0,
-  "eventToFunction": {},
+  "eventToFunction": {
+    "0": "",
+    "1": "",
+    "2": "",
+    "3": "",
+    "4": "",
+    "5": "",
+    "6": "",
+  },
   "eventStubScript": null,
   "parent": {
     "name": "GameOverSequence",
