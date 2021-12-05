@@ -237,6 +237,7 @@
     {"id":{"name":"snd_Mus_MM_intro","path":"sounds/snd_Mus_MM_intro/snd_Mus_MM_intro.yy",},"order":0,},
     {"id":{"name":"obj_sb_effect_fire","path":"objects/obj_sb_effect_fire/obj_sb_effect_fire.yy",},"order":2,},
     {"id":{"name":"obj_sb_effect_lightning","path":"objects/obj_sb_effect_lightning/obj_sb_effect_lightning.yy",},"order":1,},
+    {"id":{"name":"rm_space","path":"rooms/rm_space/rm_space.yy",},"order":10,},
     {"id":{"name":"spr_raccoon_gameover","path":"sprites/spr_raccoon_gameover/spr_raccoon_gameover.yy",},"order":5,},
     {"id":{"name":"obj_enemy_bee_bomber","path":"objects/obj_enemy_bee_bomber/obj_enemy_bee_bomber.yy",},"order":7,},
     {"id":{"name":"FH_AUDIO_SYS","path":"scripts/FH_AUDIO_SYS/FH_AUDIO_SYS.yy",},"order":1,},
@@ -319,6 +320,7 @@
     {"roomId":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
     {"roomId":{"name":"rm_debug","path":"rooms/rm_debug/rm_debug.yy",},},
     {"roomId":{"name":"ROOM_TEMPLATE","path":"rooms/ROOM_TEMPLATE/ROOM_TEMPLATE.yy",},},
+    {"roomId":{"name":"rm_space","path":"rooms/rm_space/rm_space.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
