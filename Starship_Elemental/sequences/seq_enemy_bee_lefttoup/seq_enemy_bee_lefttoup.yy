@@ -30,34 +30,26 @@
               {"id":"952111e0-11c7-47d9-aa8b-c29cd83af2ae","Key":90.0,"Length":300.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"EmbeddedAnimCurve":{"function":2,"channels":[
                         {"colour":4290799884,"visible":true,"points":[
                             {"th0":0.0,"th1":0.0484290831,"tv0":0.0,"tv1":143.0148,"x":0.0,"y":-28.0,},
-                            {"th0":-0.0773127154,"th1":0.027207911,"tv0":-13.6282148,"tv1":4.796051,"x":0.392359942,"y":259.423279,},
-                            {"th0":-0.0799855,"th1":0.0188139677,"tv0":-12.895752,"tv1":3.08273315,"x":0.5348549,"y":324.623352,},
-                            {"th0":-0.0243082047,"th1":0.12422961,"tv0":1.44085693,"tv1":-7.363556,"x":0.5993209,"y":324.828522,},
+                            {"th0":-0.0243082047,"th1":0.12422961,"tv0":1.44085693,"tv1":-7.363556,"x":0.5993209,"y":386.232025,},
                             {"th0":-0.0649807453,"th1":0.0,"tv0":-11.43515,"tv1":0.0,"x":1.0,"y":321.204773,},
                           ],"resourceVersion":"1.0","name":"x","tags":[],"resourceType":"GMAnimCurveChannel",},
                         {"colour":4281083598,"visible":true,"points":[
                             {"th0":0.0,"th1":0.0800000057,"tv0":0.0,"tv1":0.0,"x":0.0,"y":254.0,},
-                            {"th0":-0.0800000057,"th1":0.0119777918,"tv0":0.0,"tv1":0.0,"x":0.4,"y":135.0,},
-                            {"th0":-0.07003519,"th1":0.02023077,"tv0":56.4480934,"tv1":-16.3736362,"x":0.5348549,"y":-49.4698029,},
-                            {"th0":-0.0225493312,"th1":0.1553508,"tv0":7.733917,"tv1":-53.2788239,"x":0.5993209,"y":-49.12267,},
+                            {"th0":-0.0225493312,"th1":0.1553508,"tv0":7.733917,"tv1":-53.2788239,"x":0.5993209,"y":-14.9121437,},
                             {"th0":-0.04899776,"th1":0.0,"tv0":0.0,"tv1":0.0,"x":1.0,"y":-49.0,},
                           ],"resourceVersion":"1.0","name":"y","tags":[],"resourceType":"GMAnimCurveChannel",},
                       ],"parent":{"name":"position","path":"sequences/seq_enemy_bee_lefttoup/seq_enemy_bee_lefttoup.yy",},"resourceVersion":"1.2","name":"Position","tags":[],"resourceType":"GMAnimCurve",},"RealValue":0.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},"1":{"EmbeddedAnimCurve":{"function":2,"channels":[
                         {"colour":4290799884,"visible":true,"points":[
                             {"th0":0.0,"th1":0.0484290831,"tv0":0.0,"tv1":143.0148,"x":0.0,"y":-28.0,},
-                            {"th0":-0.0773127154,"th1":0.027207911,"tv0":-13.6282148,"tv1":4.796051,"x":0.392359942,"y":259.423279,},
-                            {"th0":-0.0799855,"th1":0.0188139677,"tv0":-12.895752,"tv1":3.08273315,"x":0.5348549,"y":324.623352,},
-                            {"th0":-0.0243082047,"th1":0.12422961,"tv0":1.44085693,"tv1":-7.363556,"x":0.5993209,"y":324.828522,},
+                            {"th0":-0.0243082047,"th1":0.12422961,"tv0":1.44085693,"tv1":-7.363556,"x":0.5993209,"y":386.232025,},
                             {"th0":-0.0649807453,"th1":0.0,"tv0":-11.43515,"tv1":0.0,"x":1.0,"y":321.204773,},
                           ],"resourceVersion":"1.0","name":"x","tags":[],"resourceType":"GMAnimCurveChannel",},
                         {"colour":4281083598,"visible":true,"points":[
                             {"th0":0.0,"th1":0.0800000057,"tv0":0.0,"tv1":0.0,"x":0.0,"y":254.0,},
-                            {"th0":-0.0800000057,"th1":0.0119777918,"tv0":0.0,"tv1":0.0,"x":0.4,"y":135.0,},
-                            {"th0":-0.07003519,"th1":0.02023077,"tv0":56.4480934,"tv1":-16.3736362,"x":0.5348549,"y":-49.4698029,},
-                            {"th0":-0.0225493312,"th1":0.1553508,"tv0":7.733917,"tv1":-53.2788239,"x":0.5993209,"y":-49.12267,},
+                            {"th0":-0.0225493312,"th1":0.1553508,"tv0":7.733917,"tv1":-53.2788239,"x":0.5993209,"y":-14.9121437,},
                             {"th0":-0.04899776,"th1":0.0,"tv0":0.0,"tv1":0.0,"x":1.0,"y":-49.0,},
                           ],"resourceVersion":"1.0","name":"y","tags":[],"resourceType":"GMAnimCurveChannel",},
-                      ],"parent":{"name":"position","path":"sequences/seq_enemy_bee_lefttoup/seq_enemy_bee_lefttoup.yy",},"resourceVersion":"1.2","name":"Position","tags":[],"resourceType":"GMAnimCurve",},"RealValue":0.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<RealKeyframe>",},
+                      ],"parent":{"name":"position","path":"sequences/seq_enemy_bee_lefttoup/seq_enemy_bee_lefttoup.yy",},"resourceVersion":"1.2","name":"","tags":[],"resourceType":"GMAnimCurve",},"RealValue":0.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<RealKeyframe>",},
             ],"resourceVersion":"1.0","resourceType":"KeyframeStore<RealKeyframe>",},"trackColour":4282949106,"inheritsTrackColour":true,"builtinName":14,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","name":"position","tags":[],"resourceType":"GMRealTrack","modifiers":[],},
         {"keyframes":{"Keyframes":[
               {"id":"a71ef021-e807-4b23-b938-904a6d367682","Key":90.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"EmbeddedAnimCurve":null,"RealValue":0.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<RealKeyframe>",},
@@ -82,27 +74,23 @@
               {"id":"647d4ad5-b70a-49f6-978f-468a91fc56f4","Key":60.0,"Length":300.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"EmbeddedAnimCurve":{"function":2,"channels":[
                         {"colour":4290799884,"visible":true,"points":[
                             {"th0":0.0,"th1":0.0484290831,"tv0":0.0,"tv1":143.0148,"x":0.0,"y":-28.0,},
-                            {"th0":-0.0773127154,"th1":0.033626765,"tv0":-13.6282148,"tv1":5.92752075,"x":0.392359942,"y":259.423279,},
-                            {"th0":-0.127344444,"th1":0.12422961,"tv0":7.548183,"tv1":-7.363556,"x":0.5993209,"y":325.004333,},
+                            {"th0":-0.127344444,"th1":0.12422961,"tv0":7.548183,"tv1":-7.363556,"x":0.5993209,"y":385.53064,},
                             {"th0":-0.0649807453,"th1":0.0,"tv0":-11.43515,"tv1":0.0,"x":1.0,"y":321.204773,},
                           ],"resourceVersion":"1.0","name":"x","tags":[],"resourceType":"GMAnimCurveChannel",},
                         {"colour":4281083598,"visible":true,"points":[
                             {"th0":0.0,"th1":0.0800000057,"tv0":0.0,"tv1":0.0,"x":0.0,"y":254.0,},
-                            {"th0":-0.0800000057,"th1":0.0154418647,"tv0":0.0,"tv1":0.0,"x":0.4,"y":135.0,},
-                            {"th0":-0.100518584,"th1":0.1553508,"tv0":34.4755859,"tv1":-53.2788239,"x":0.5993209,"y":-48.66315,},
+                            {"th0":-0.100518584,"th1":0.1553508,"tv0":34.4755859,"tv1":-53.2788239,"x":0.5993209,"y":-16.2070045,},
                             {"th0":-0.04899776,"th1":0.0,"tv0":0.0,"tv1":0.0,"x":1.0,"y":-49.0,},
                           ],"resourceVersion":"1.0","name":"y","tags":[],"resourceType":"GMAnimCurveChannel",},
                       ],"parent":{"name":"position","path":"sequences/seq_enemy_bee_lefttoup/seq_enemy_bee_lefttoup.yy",},"resourceVersion":"1.2","name":"Position","tags":[],"resourceType":"GMAnimCurve",},"RealValue":0.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},"1":{"EmbeddedAnimCurve":{"function":2,"channels":[
                         {"colour":4290799884,"visible":true,"points":[
                             {"th0":0.0,"th1":0.0484290831,"tv0":0.0,"tv1":143.0148,"x":0.0,"y":-28.0,},
-                            {"th0":-0.0773127154,"th1":0.033626765,"tv0":-13.6282148,"tv1":5.92752075,"x":0.392359942,"y":259.423279,},
-                            {"th0":-0.127344444,"th1":0.12422961,"tv0":7.548183,"tv1":-7.363556,"x":0.5993209,"y":325.004333,},
+                            {"th0":-0.127344444,"th1":0.12422961,"tv0":7.548183,"tv1":-7.363556,"x":0.5993209,"y":385.53064,},
                             {"th0":-0.0649807453,"th1":0.0,"tv0":-11.43515,"tv1":0.0,"x":1.0,"y":321.204773,},
                           ],"resourceVersion":"1.0","name":"x","tags":[],"resourceType":"GMAnimCurveChannel",},
                         {"colour":4281083598,"visible":true,"points":[
                             {"th0":0.0,"th1":0.0800000057,"tv0":0.0,"tv1":0.0,"x":0.0,"y":254.0,},
-                            {"th0":-0.0800000057,"th1":0.0154418647,"tv0":0.0,"tv1":0.0,"x":0.4,"y":135.0,},
-                            {"th0":-0.100518584,"th1":0.1553508,"tv0":34.4755859,"tv1":-53.2788239,"x":0.5993209,"y":-48.66315,},
+                            {"th0":-0.100518584,"th1":0.1553508,"tv0":34.4755859,"tv1":-53.2788239,"x":0.5993209,"y":-16.2070045,},
                             {"th0":-0.04899776,"th1":0.0,"tv0":0.0,"tv1":0.0,"x":1.0,"y":-49.0,},
                           ],"resourceVersion":"1.0","name":"y","tags":[],"resourceType":"GMAnimCurveChannel",},
                       ],"parent":{"name":"position","path":"sequences/seq_enemy_bee_lefttoup/seq_enemy_bee_lefttoup.yy",},"resourceVersion":"1.2","name":"","tags":[],"resourceType":"GMAnimCurve",},"RealValue":0.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<RealKeyframe>",},
@@ -130,27 +118,23 @@
               {"id":"24925999-73ff-4105-8a8f-b12221fae01c","Key":30.0,"Length":300.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"EmbeddedAnimCurve":{"function":2,"channels":[
                         {"colour":4290799884,"visible":true,"points":[
                             {"th0":0.0,"th1":0.0484290831,"tv0":0.0,"tv1":143.0148,"x":0.0,"y":-28.0,},
-                            {"th0":-0.0773127154,"th1":0.033626765,"tv0":-13.6282148,"tv1":5.92752075,"x":0.392359942,"y":259.423279,},
-                            {"th0":-0.127344444,"th1":0.12422961,"tv0":7.548183,"tv1":-7.363556,"x":0.5993209,"y":323.453949,},
+                            {"th0":-0.127344444,"th1":0.12422961,"tv0":7.548183,"tv1":-7.363556,"x":0.5993209,"y":386.611847,},
                             {"th0":-0.0649807453,"th1":0.0,"tv0":-11.43515,"tv1":0.0,"x":1.0,"y":321.204773,},
                           ],"resourceVersion":"1.0","name":"x","tags":[],"resourceType":"GMAnimCurveChannel",},
                         {"colour":4281083598,"visible":true,"points":[
                             {"th0":0.0,"th1":0.0800000057,"tv0":0.0,"tv1":0.0,"x":0.0,"y":254.0,},
-                            {"th0":-0.0800000057,"th1":0.0154418647,"tv0":0.0,"tv1":0.0,"x":0.4,"y":135.0,},
-                            {"th0":-0.100518584,"th1":0.1553508,"tv0":34.4755859,"tv1":-53.2788239,"x":0.5993209,"y":-10.2910538,},
+                            {"th0":-0.100518584,"th1":0.1553508,"tv0":34.4755859,"tv1":-53.2788239,"x":0.5993209,"y":-14.6770248,},
                             {"th0":-0.04899776,"th1":0.0,"tv0":0.0,"tv1":0.0,"x":1.0,"y":-49.0,},
                           ],"resourceVersion":"1.0","name":"y","tags":[],"resourceType":"GMAnimCurveChannel",},
                       ],"parent":{"name":"position","path":"sequences/seq_enemy_bee_lefttoup/seq_enemy_bee_lefttoup.yy",},"resourceVersion":"1.2","name":"Position","tags":[],"resourceType":"GMAnimCurve",},"RealValue":0.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},"1":{"EmbeddedAnimCurve":{"function":2,"channels":[
                         {"colour":4290799884,"visible":true,"points":[
                             {"th0":0.0,"th1":0.0484290831,"tv0":0.0,"tv1":143.0148,"x":0.0,"y":-28.0,},
-                            {"th0":-0.0773127154,"th1":0.033626765,"tv0":-13.6282148,"tv1":5.92752075,"x":0.392359942,"y":259.423279,},
-                            {"th0":-0.127344444,"th1":0.12422961,"tv0":7.548183,"tv1":-7.363556,"x":0.5993209,"y":323.453949,},
+                            {"th0":-0.127344444,"th1":0.12422961,"tv0":7.548183,"tv1":-7.363556,"x":0.5993209,"y":386.611847,},
                             {"th0":-0.0649807453,"th1":0.0,"tv0":-11.43515,"tv1":0.0,"x":1.0,"y":321.204773,},
                           ],"resourceVersion":"1.0","name":"x","tags":[],"resourceType":"GMAnimCurveChannel",},
                         {"colour":4281083598,"visible":true,"points":[
                             {"th0":0.0,"th1":0.0800000057,"tv0":0.0,"tv1":0.0,"x":0.0,"y":254.0,},
-                            {"th0":-0.0800000057,"th1":0.0154418647,"tv0":0.0,"tv1":0.0,"x":0.4,"y":135.0,},
-                            {"th0":-0.100518584,"th1":0.1553508,"tv0":34.4755859,"tv1":-53.2788239,"x":0.5993209,"y":-10.2910538,},
+                            {"th0":-0.100518584,"th1":0.1553508,"tv0":34.4755859,"tv1":-53.2788239,"x":0.5993209,"y":-14.6770248,},
                             {"th0":-0.04899776,"th1":0.0,"tv0":0.0,"tv1":0.0,"x":1.0,"y":-49.0,},
                           ],"resourceVersion":"1.0","name":"y","tags":[],"resourceType":"GMAnimCurveChannel",},
                       ],"parent":{"name":"position","path":"sequences/seq_enemy_bee_lefttoup/seq_enemy_bee_lefttoup.yy",},"resourceVersion":"1.2","name":"","tags":[],"resourceType":"GMAnimCurve",},"RealValue":0.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<RealKeyframe>",},
@@ -178,27 +162,23 @@
               {"id":"1082df5c-697d-49e6-9604-2145c3a261ee","Key":0.0,"Length":300.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"EmbeddedAnimCurve":{"function":2,"channels":[
                         {"colour":4290799884,"visible":true,"points":[
                             {"th0":0.0,"th1":0.0484290831,"tv0":0.0,"tv1":143.0148,"x":0.0,"y":-28.0,},
-                            {"th0":-0.0773127154,"th1":0.033626765,"tv0":-13.6282148,"tv1":5.92752075,"x":0.392359942,"y":259.423279,},
-                            {"th0":-0.127344444,"th1":0.12422961,"tv0":7.548183,"tv1":-7.363556,"x":0.5993209,"y":323.453949,},
+                            {"th0":-0.127344444,"th1":0.12422961,"tv0":7.548183,"tv1":-7.363556,"x":0.5993209,"y":386.611847,},
                             {"th0":-0.0649807453,"th1":0.0,"tv0":-11.43515,"tv1":0.0,"x":1.0,"y":321.204773,},
                           ],"resourceVersion":"1.0","name":"x","tags":[],"resourceType":"GMAnimCurveChannel",},
                         {"colour":4281083598,"visible":true,"points":[
                             {"th0":0.0,"th1":0.0800000057,"tv0":0.0,"tv1":0.0,"x":0.0,"y":254.0,},
-                            {"th0":-0.0800000057,"th1":0.0154418647,"tv0":0.0,"tv1":0.0,"x":0.4,"y":135.0,},
-                            {"th0":-0.100518584,"th1":0.1553508,"tv0":34.4755859,"tv1":-53.2788239,"x":0.5993209,"y":-10.2910538,},
+                            {"th0":-0.100518584,"th1":0.1553508,"tv0":34.4755859,"tv1":-53.2788239,"x":0.5993209,"y":-16.4314041,},
                             {"th0":-0.04899776,"th1":0.0,"tv0":0.0,"tv1":0.0,"x":1.0,"y":-49.0,},
                           ],"resourceVersion":"1.0","name":"y","tags":[],"resourceType":"GMAnimCurveChannel",},
                       ],"parent":{"name":"position","path":"sequences/seq_enemy_bee_lefttoup/seq_enemy_bee_lefttoup.yy",},"resourceVersion":"1.2","name":"Position","tags":[],"resourceType":"GMAnimCurve",},"RealValue":0.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},"1":{"EmbeddedAnimCurve":{"function":2,"channels":[
                         {"colour":4290799884,"visible":true,"points":[
                             {"th0":0.0,"th1":0.0484290831,"tv0":0.0,"tv1":143.0148,"x":0.0,"y":-28.0,},
-                            {"th0":-0.0773127154,"th1":0.033626765,"tv0":-13.6282148,"tv1":5.92752075,"x":0.392359942,"y":259.423279,},
-                            {"th0":-0.127344444,"th1":0.12422961,"tv0":7.548183,"tv1":-7.363556,"x":0.5993209,"y":323.453949,},
+                            {"th0":-0.127344444,"th1":0.12422961,"tv0":7.548183,"tv1":-7.363556,"x":0.5993209,"y":386.611847,},
                             {"th0":-0.0649807453,"th1":0.0,"tv0":-11.43515,"tv1":0.0,"x":1.0,"y":321.204773,},
                           ],"resourceVersion":"1.0","name":"x","tags":[],"resourceType":"GMAnimCurveChannel",},
                         {"colour":4281083598,"visible":true,"points":[
                             {"th0":0.0,"th1":0.0800000057,"tv0":0.0,"tv1":0.0,"x":0.0,"y":254.0,},
-                            {"th0":-0.0800000057,"th1":0.0154418647,"tv0":0.0,"tv1":0.0,"x":0.4,"y":135.0,},
-                            {"th0":-0.100518584,"th1":0.1553508,"tv0":34.4755859,"tv1":-53.2788239,"x":0.5993209,"y":-10.2910538,},
+                            {"th0":-0.100518584,"th1":0.1553508,"tv0":34.4755859,"tv1":-53.2788239,"x":0.5993209,"y":-16.4314041,},
                             {"th0":-0.04899776,"th1":0.0,"tv0":0.0,"tv1":0.0,"x":1.0,"y":-49.0,},
                           ],"resourceVersion":"1.0","name":"y","tags":[],"resourceType":"GMAnimCurveChannel",},
                       ],"parent":{"name":"position","path":"sequences/seq_enemy_bee_lefttoup/seq_enemy_bee_lefttoup.yy",},"resourceVersion":"1.2","name":"","tags":[],"resourceType":"GMAnimCurve",},"RealValue":0.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<RealKeyframe>",},

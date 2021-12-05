@@ -1,1 +1,1 @@
-create_explosion = false;
+create_explosion = true;
