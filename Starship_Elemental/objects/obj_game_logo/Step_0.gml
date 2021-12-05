@@ -30,20 +30,15 @@ switch (logo_state) {
 	var start = (INPUT.input_pressed(0, input_action.start));
 	var fire = (INPUT.input_pressed(0, input_action.fire1));
 	
-	if !keyboard_check_released(vk_f7){
-	if !keyboard_check_released(vk_f11){
-	if !keyboard_check_released(vk_alt){
-	if !keyboard_check_released(vk_enter){
-	if !(keyboard_check_released(ord("1"))){
-		if (keyboard_check_released(vk_anykey) || start || fire){
-			if !(instance_exists(obj_seq_titlescreen_trans)){
-				instance_create_depth(x,y,depth,obj_seq_titlescreen_trans)
+	var keys = invaild_keys();
+	if !(keys){
+		if !(keyboard_check_released(ord("1"))){
+			if (keyboard_check_released(vk_anykey) || start || fire){
+				if !(instance_exists(obj_seq_titlescreen_trans)){
+					instance_create_depth(x,y,depth,obj_seq_titlescreen_trans)
+				}
 			}
 		}
-	}
-	}
-	}
-	}
 	}
 	
 	break;

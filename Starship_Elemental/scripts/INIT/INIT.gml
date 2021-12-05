@@ -97,6 +97,21 @@ function vibrate_gamepad(left,right){
 	
 }
 
+function invaild_keys(){
+	if !keyboard_check_released(vk_f7){
+	if !keyboard_check_released(vk_f11){
+	if !keyboard_check_released(vk_alt){
+	if !keyboard_check_released(vk_enter){
+	if !keyboard_check_released(vk_escape){
+	if !keyboard_check(vk_f7){
+	if !keyboard_check(vk_f11){
+	if !keyboard_check(vk_alt){
+	if !keyboard_check(vk_enter){
+	if !keyboard_check(vk_escape){
+		return(false);
+	}}}}}}}}}}
+	return(true);
+}
 
 function fadetoroom(gotoroom, dur, _color){
 	var inst = instance_create_depth(0,0,0,obj_gui_fadeout);

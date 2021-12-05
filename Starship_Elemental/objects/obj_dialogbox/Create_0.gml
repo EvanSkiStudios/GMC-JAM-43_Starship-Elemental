@@ -84,6 +84,8 @@
 */
 #endregion
 
+depth = -20;
+
 //SETTINGS
 //when to wrap text
 text_width = global.text_wrap; 

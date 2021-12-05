@@ -1,14 +1,13 @@
-if !keyboard_check_released(vk_f7){
-if !keyboard_check_released(vk_f11){
-if !keyboard_check_released(vk_alt){
-if !keyboard_check_released(vk_enter){
-if keyboard_check(vk_anykey){
-	if !(instance_exists(obj_gui_fadeout)){
-		fadetoroom(rm_mainmenu,60,c_white);
+var keys = invaild_keys();
+
+if !(keys){
+	if keyboard_check(vk_anykey){
+		if !(instance_exists(obj_gui_fadeout)){
+			fadetoroom(rm_mainmenu,60,c_white);
+		}
 	}
 }
-}
-}
+
 
 switch(stage){
 	default:

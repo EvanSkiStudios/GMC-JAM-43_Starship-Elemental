@@ -12,12 +12,12 @@ function Dialog_set_array_NPCs(){
 		
 		//DEFUALT DEBUG CONVO
 		case 0:{
-			text[i][TContent] = "I can always save the earth another time!";
+			text[i][TContent] = "\"I can always save the earth another time!\"";
 			text[i][TColor] = c_lime;
 			text[i][TSprite] = spr_pilot_evanski_pfp;
 			text[i][TVoice] = 0;
 			
-			text[++i][TContent] = "Well crap.";
+			text[++i][TContent] = "\"Well crap.\"";
 			text[i][TColor] = c_lime;
 			text[i][TSprite] = spr_pilot_evanski_pfp;
 			text[i][TVoice] = 0;
@@ -60,7 +60,7 @@ function Dialog_set_array_NPCs(){
 		
 		case 6:{
 			text[i][TContent] = "\"Screw this! Im out of Here!\"";
-			text[i][TColor] = c_lime;
+			text[i][TColor] = c_white;
 			text[i][TSprite] = spr_pilot_evanski_pfp;
 			text[i][TVoice] = 1;
 		}break;
