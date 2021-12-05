@@ -86,7 +86,7 @@
 
 //SETTINGS
 //when to wrap text
-text_width = 400; 
+text_width = global.text_wrap; 
 
 //where text draws
 text_x = x;
@@ -116,7 +116,7 @@ next_line = 0;
 #macro TSprite 2
 #macro TVoice 3
 
-
+my_convo = global.game_convo_number;
 
 #region DEFUALT TEXT ARRAY
 	text[0] = "ERROR!!";
@@ -124,7 +124,6 @@ next_line = 0;
 #endregion
 //call text function to set array
 Dialog_set_array_NPCs();
-
 
 /*
 The last thing to do in our Create Event is to call the function we created earlier on the 

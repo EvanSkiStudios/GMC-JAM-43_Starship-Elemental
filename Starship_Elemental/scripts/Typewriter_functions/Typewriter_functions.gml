@@ -20,10 +20,15 @@ function typewriter_audio(voice){
 	
 	var sound_to_play = noone;
 	
-	sound_symbols = snd_sfx_typewriter;
-	sound_vowels = snd_sfx_typewriter;
-	sound_consts = snd_sfx_typewriter;
-	voice_pitch = 1;
+	if (voice_profile == 0){
+		sound_symbols = snd_sfx_typewriter;
+		sound_vowels = snd_sfx_typewriter;
+		sound_consts = snd_sfx_typewriter;
+		voice_pitch = 1;
+	}
+	if (voice_profile == 1){
+		return;
+	}
 	
 	
 	if (string_count(current_char, typewriter_char_symbols) != 0){
@@ -70,6 +75,4 @@ function typewriter_audio(voice){
 			}
 		}
 	}
-
-
 }
