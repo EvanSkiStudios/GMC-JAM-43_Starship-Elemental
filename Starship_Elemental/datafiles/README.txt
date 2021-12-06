@@ -19,58 +19,71 @@
 =======================================================================================================================
 =======================================================================================================================   
 
-©2021 Pixelated Hammered Raccoon
+ ©2021 Pixelated Hammered Raccoon
 
-Evanski
-Pat (Pixel Team) Ferguson
-Ken Burkhart (FireHammer Games)
+(turn off wordwrap and widen the window for ascii art)
 
-For the GMC JAM 43 (ELEMENTS)
+ Evanski
+ Pat (Pixel Team) Ferguson
+ Ken Burkhart (FireHammer Games)
+
+ For the GMC JAM 43 (ELEMENTS)
+
+=================================================================
+================= Assets ========================================
+=================================================================
+ FireHammer Audio system  | created before the jam
+ Pixel-Team input system  | created before the jam
+
+ A few sfx sourced and modifyed from freesound.org
+ https://creativecommons.org/share-your-work/public-domain/cc0/
+
+ Music made in house and entirely during the jam time
 
 
 =================================================================
 ================= STORY =========================================
 =================================================================
-Earth is being invaded by an alien swarm! Their is only one hope!
-Launch the- Wait... is that a raccoon?! 
-Blast your way through waves of enemies!
-Use the smartbombs to ANNIHILATE your enemies!
-Can you save the world?
+ Earth is being invaded by an alien swarm! Their is only one hope!
+ Launch the- Wait... is that a raccoon?! 
+ Blast your way through waves of enemies!
+ Use the smartbombs to ANNIHILATE your enemies!
+ Can you save the world?
 
 
 =================================================================
 ================ CONTROLS =======================================
 =================================================================
-WASD | Arrow keys | Joy stick | d-pad |:  Move ship
+ WASD | Arrow keys | Joy stick | d-pad |:  Move ship
 
-space bar | numpad 0 | x (xbox)/□ (PS) controller button | : Shoot
+ space bar | numpad 0 | x (xbox)/□ (PS) controller button | : Shoot
 
-ctrl | A (xbox)/X (PS) controller button | : smartbomb
+ ctrl | A (xbox)/X (PS) controller button | : smartbomb
 
-controller select : toggle vibration
+ controller select : toggle vibration
 
-controller start : (used as anykey)
+ controller start : (used as anykey)
 
 =================================================================
 ================ SMART-BOMBS ====================================
 =================================================================
-Fire : Shoots a wall of flames in front of the ship
+ Fire : Shoots a wall of flames in front of the ship
 
-Earth : Summons an Asteroid field
+ Earth : Summons an Asteroid field
 
-Ice : Shoots a wall of ice that freezes enemies
+ Ice : Shoots a wall of ice that freezes enemies
 
-Lightning : Creates a shield around the ship and zaps enemies
+ Lightning : Creates a shield around the ship and zaps enemies
 
 
 =================================================================
 ============== PC System Requirements ===========================
 =================================================================
-Our game requires the cutting edge hardware
+ Our game requires the cutting edge hardware
 
-Windows XP, 7, 8, 8.1, 10, 11?, 99x, 10000
-A mouse with a calculator, Intel Premium i5, Intel Premium i2700
-Nvidia esasketch 2800 TI
+ Windows XP, 7, 8, 8.1, 10, 11?, 99x, 10000
+ A mouse with a calculator, Intel Premium i5, Intel Premium i2700
+ Nvidia esasketch 2800 TI
 
                                                                                                     
                                                                                                                                                                                                                                                                  
