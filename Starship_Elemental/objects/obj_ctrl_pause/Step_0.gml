@@ -10,6 +10,11 @@ if !(global.Player_control_enabled){
 	return;	
 }
 
+if instance_exists(obj_smartbomb_effect_earth) return;	
+if instance_exists(obj_smartbomb_effect_fire) return;	
+if instance_exists(obj_smartbomb_effect_lightning) return;	
+if instance_exists(obj_smartbomb_effect_ice) return;	
+
 var start = Gamepad_start();
 
 if keyboard_check_pressed(vk_escape) || (start){
