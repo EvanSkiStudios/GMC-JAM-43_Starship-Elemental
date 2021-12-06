@@ -288,6 +288,7 @@
     {"id":{"name":"seq_victory_sequence","path":"sequences/seq_victory_sequence/seq_victory_sequence.yy",},"order":1,},
     {"id":{"name":"fhAudioSoundResume","path":"scripts/fhAudioSoundResume/fhAudioSoundResume.yy",},"order":6,},
     {"id":{"name":"seq_enemy_bee_2_cross_9sec","path":"sequences/seq_enemy_bee_2_cross_9sec/seq_enemy_bee_2_cross_9sec.yy",},"order":3,},
+    {"id":{"name":"spr_lives_icon","path":"sprites/spr_lives_icon/spr_lives_icon.yy",},"order":6,},
     {"id":{"name":"spr_flight_crewman","path":"sprites/spr_flight_crewman/spr_flight_crewman.yy",},"order":5,},
     {"id":{"name":"obj_audio_fix","path":"objects/obj_audio_fix/obj_audio_fix.yy",},"order":5,},
     {"id":{"name":"PLAYER_MOVE","path":"scripts/PLAYER_MOVE/PLAYER_MOVE.yy",},"order":2,},

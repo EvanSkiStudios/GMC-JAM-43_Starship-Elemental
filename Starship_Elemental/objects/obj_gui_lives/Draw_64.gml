@@ -1,8 +1,8 @@
 for (var i = 0; i < (global.Player_Lives); ++i){
-	var x_pos = (x - 30) + (30 * i);
+	var x_pos = (x - (sprite_get_width(spr_lives_icon) + 5)) + (30 * i);
 	
 	draw_sprite_ext(
-		spr_player_ship,0,
+		spr_lives_icon,0,
 		x_pos,
 		y + 15,
 		0.5,0.5,
