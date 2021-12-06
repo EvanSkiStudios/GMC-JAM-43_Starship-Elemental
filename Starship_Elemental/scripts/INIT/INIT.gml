@@ -25,6 +25,9 @@
 
 
 //############## globals
+global.DEBUG = false;
+
+
 global.GAMEPADISCONENCTED = false;
 
 global.Player_control_enabled = true;
