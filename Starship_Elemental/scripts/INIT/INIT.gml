@@ -5,7 +5,7 @@
 #macro WINDOW_WIDTH  960
 #macro WINDOW_HEIGHT 540
 
-#macro C_RAINBOW make_color_hsv(current_time*0.1 mod 255,120,250);
+#macro C_RAINBOW (make_color_hsv(current_time*0.1 mod 255,120,250))
 
 //8 direction macros cause fuck figuring out the direction
 #region directions
@@ -25,10 +25,12 @@
 
 
 //############## globals
-global.DEBUG = false;
+global.DEBUG = true;
 
+global.GAMEPaused = false;
 
 global.GAMEPADISCONENCTED = false;
+
 
 global.Player_control_enabled = true;
 global.Player_ship_visable = true;
@@ -87,6 +89,24 @@ function Gamepad_select(){
 	
 	return(select);
 }
+
+function Gamepad_start(){
+	var select = gamepad_button_check_pressed(11, gp_start);
+	var select = gamepad_button_check_pressed(10, gp_start);
+	var select = gamepad_button_check_pressed(9, gp_start);
+	var select = gamepad_button_check_pressed(8, gp_start);
+	var select = gamepad_button_check_pressed(7, gp_start);
+	var select = gamepad_button_check_pressed(6, gp_start);
+	var select = gamepad_button_check_pressed(5, gp_start);
+	var select = gamepad_button_check_pressed(4, gp_start);
+	var select = gamepad_button_check_pressed(3, gp_start);
+	var select = gamepad_button_check_pressed(2, gp_start);
+	var select = gamepad_button_check_pressed(1, gp_start);
+	var select = gamepad_button_check_pressed(0, gp_start);
+	
+	return(select);
+}
+
 
 function a_gamepad_connected(){
 	var gamepad = 0;

@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_boss1_die.wav",
-  "duration": 3.295805,
+  "duration": 4.295805,
   "parent": {
     "name": "BossLevel1",
     "path": "folders/Objects/BossLevel1.yy",

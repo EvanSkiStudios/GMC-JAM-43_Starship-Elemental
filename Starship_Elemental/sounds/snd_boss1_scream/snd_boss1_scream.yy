@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_boss1_scream.wav",
-  "duration": 2.621723,
+  "duration": 3.621723,
   "parent": {
     "name": "BossLevel1",
     "path": "folders/Objects/BossLevel1.yy",

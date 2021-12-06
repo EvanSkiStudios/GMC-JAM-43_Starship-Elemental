@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_laser_charge.wav",
-  "duration": 3.267687,
+  "duration": 4.267687,
   "parent": {
     "name": "BossLevel1",
     "path": "folders/Objects/BossLevel1.yy",

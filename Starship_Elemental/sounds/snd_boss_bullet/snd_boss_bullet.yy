@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_boss_bullet.wav",
-  "duration": 0.831542,
+  "duration": 1.831542,
   "parent": {
     "name": "BossLevel1",
     "path": "folders/Objects/BossLevel1.yy",

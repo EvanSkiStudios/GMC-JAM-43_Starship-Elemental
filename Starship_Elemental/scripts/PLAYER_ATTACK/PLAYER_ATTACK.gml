@@ -4,7 +4,9 @@ function PLAYER_ATTACK(){
 	 
 	 var fire = (INPUT.input_held(0, input_action.fire1));
 	 
-	 attack = keyboard_check(USER_BUTTON_SHOOT) || keyboard_check(USER_BUTTON_SHOOT_ALT) || fire;
+	 var fire_two = keyboard_check_pressed(vk_numpad0);
+	 
+	 attack = keyboard_check(USER_BUTTON_SHOOT) || keyboard_check(USER_BUTTON_SHOOT_ALT) || fire || fire_two;
 	 
  
 	 if (can_shoot && attack){

@@ -2,6 +2,14 @@ if !(spawn_enemies) && !instance_exists(obj_seq_level_start){
 	spawn_enemies = true;	
 }
 
+if !(global.GAMEPaused){
+	spawn_enemies = true;	
+}
+
+if (global.GAMEPaused){
+	spawn_enemies = false;	
+}
+
 if (instance_exists(obj_gui_continue)){
 	spawn_enemies = false;	
 }

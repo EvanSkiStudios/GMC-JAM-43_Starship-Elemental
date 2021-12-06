@@ -19,12 +19,15 @@
 #macro SND_SFX_SMARTBOMB_LIGHTNING_ZAP 11
 #macro SND_SFX_SMARTBOMB_FIRE 12
 #macro SND_SFX_ALARM 13
+#macro SND_SFX_PAUSE 14
 
 
 function initAudio()
 {
     fhAudioInitialize();
     var array;
+	
+	SOUNDS[SND_SFX_PAUSE] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, snd_sfx_box_showup, 0.0, 0.0);
 	
 	#region martbombs
 	SOUNDS[SND_SFX_SMARTBOMB_FIRE] = fhAudioSoundCreate(FHAUDIO_CATEGORY_GAME, 	snd_sfx_smartbomb_fire, 0.0, 0.0);

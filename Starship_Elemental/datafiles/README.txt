@@ -1,3 +1,4 @@
+(turn off wordwrap and widen the window for ascii art)
 =======================================================================================================================
 =======================================================================================================================
  ________  _________  ________  ________  ________  ___  ___  ___  ________  
@@ -19,9 +20,7 @@
 =======================================================================================================================
 =======================================================================================================================   
 
- ©2021 Pixelated Hammered Raccoon
-
-(turn off wordwrap and widen the window for ascii art)
+ ©2021 Pixellated Hammered Raccoon
 
  Evanski
  Pat (Pixel Team) Ferguson
@@ -34,6 +33,8 @@
 =================================================================
  FireHammer Audio system  | created before the jam
  Pixel-Team input system  | created before the jam
+ Pixel-Team input system  | created before the jam
+ Pixel-Team End Credits Scroller | created before the jam
 
  A few sfx sourced and modifyed from freesound.org
  https://creativecommons.org/share-your-work/public-domain/cc0/
@@ -54,15 +55,18 @@
 =================================================================
 ================ CONTROLS =======================================
 =================================================================
- WASD | Arrow keys | Joy stick | d-pad |:  Move ship
+ Move ship :  WASD | Arrow keys | Joy stick | d-pad |
 
- space bar | numpad 0 | x (xbox)/□ (PS) controller button | : Shoot
+ Shoot :   space bar | numpad 0 | x (xbox)/□ (PS) controller button |
 
- ctrl | A (xbox)/X (PS) controller button | : smartbomb
+ Smart-Bombs :  ctrl | A (xbox)/X (PS) controller button |
 
- controller select : toggle vibration
+ Toggle Vibrate :  controller select
 
- controller start : (used as anykey)
+ Pause : ESC | Controller Start
+
+
+ (controller start / fire is used as anykey)
 
 =================================================================
 ================ SMART-BOMBS ====================================

@@ -1,6 +1,6 @@
 coin_in = false;
 titlescreen_insert_coin = "INSERT COIN(S)";
-titlescreen_instructions = "HOW TO PLAY\nMOVEMENT: WASD, ARROWS, DPAD, or ANALOG\nFIRE: SPACEBAR, NUMPAD 0, or Gamepad Y\nSMARTBOMB: CTRL or Gamepad B\nTOGGLE VIBRATE: Gamepad SELECT\nREAD THE README FOR MORE INFO!";
+titlescreen_instructions = "HOW TO PLAY\nMOVEMENT: WASD, ARROWS, DPAD, or ANALOG\nFIRE: SPACEBAR, NUMPAD 0, or Gamepad Y\nSMARTBOMB: CTRL or Gamepad B\nPAUSE: ESC or Gamepad START\nTOGGLE VIBRATE: Gamepad SELECT\nREAD THE README FOR MORE INFO!";
 titlescreen_mini_credits = "COPYRIGHT 2021 PIXELLATED HAMMERED RACCOON";
 titlescreen_press_any = "PRESS ANY KEY TO START";
 
