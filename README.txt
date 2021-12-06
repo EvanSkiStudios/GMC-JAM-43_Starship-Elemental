@@ -32,7 +32,7 @@ For the GMC JAM 43 (ELEMENTS)
 ================= STORY =========================================
 =================================================================
 Earth is being invaded by an alien swarm! Their is only one hope!
-Launch the- Wait is that a racoon?! 
+Launch the- Wait... is that a raccoon?! 
 Blast your way through waves of enemies!
 Use the smartbombs to ANNIHILATE your enemies!
 Can you save the world?
@@ -56,11 +56,11 @@ controller start : (used as anykey)
 =================================================================
 Fire : Shoots a wall of flames in front of the ship
 
-Earth : Summons an Asteroid feild
+Earth : Summons an Asteroid field
 
 Ice : Shoots a wall of ice that freezes enemies
 
-Lightning : Creates a sheild around the ship and zaps enemies
+Lightning : Creates a shield around the ship and zaps enemies
 
 
 =================================================================
