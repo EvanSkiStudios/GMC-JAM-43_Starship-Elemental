@@ -6,10 +6,9 @@ For the [GMC JAM 43](https://forum.yoyogames.com/index.php?threads/the-frozen-gm
 ## ELEMENTS
 
 ​Earth is being invaded by an alien swarm! Their is only one hope!
-
-​Launch the- Wait is that a racoon?! 
+Launch the- Wait... is that a raccoon?! 
 Blast your way through waves of enemies!
-Use the smartbombs to ANNIHILATE your enemies!
+Use the smart-bombs to ANNIHILATE your enemies!
 
 Can you save the world?
 
