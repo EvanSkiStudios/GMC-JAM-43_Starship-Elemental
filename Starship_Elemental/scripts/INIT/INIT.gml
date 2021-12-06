@@ -34,6 +34,8 @@ global.Player_can_die = true;
 global.Player_can_pickup_bombs = true;
 global.Gamepad_vibration = true;
 
+global.player_at_boss = false;
+
 global.SEQ_DIE_DO_ONCE = true;
 
 global.smartbomb_stinger_kill_count = 0;
@@ -41,6 +43,8 @@ global.smartbomb_stinger_kill_count = 0;
 global.Player_Score = 0;
 global.Player_Lives = 3;
 global.Player_HP = 3;
+
+window_set_cursor(cr_none);
 
 
 //SMART BOMBS

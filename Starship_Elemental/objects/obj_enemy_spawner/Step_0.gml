@@ -659,6 +659,7 @@ if (spawn_enemies){
 		
 		
 			case 98:{
+				global.player_at_boss = true;
 				//boss warning
 				if (can_spawn){
 					playSound(SND_SFX_ALARM,false);
@@ -673,13 +674,24 @@ if (spawn_enemies){
 					if audio_is_playing(snd_sfx_alarm){
 						audio_stop_sound(snd_sfx_alarm);
 					}
-					show_message("BOSS SHOWS UP HERE");
-					alarm[0] = GAMESPEED;
+					instance_create_depth(0,0,depth,obj_boss_dead_ctrl);
+					instance_create_layer(0,0,"GamePlay",obj_boss1);
+					//alarm[0] = GAMESPEED;
+					can_spawn = false;
+				}
+			}break;
+			
+			case 100:{
+				if (can_spawn){
+					global.Player_ship_take_dam = false;
+					global.Player_can_die = false;
+					fhAudioMusicCrossfade(snd_mus_fanfair,1000,true);
+					alarm[0] = (GAMESPEED * 6);
 					can_spawn = false;
 				}
 			}break;
 		
-			case 100:{
+			case 101:{
 				if (can_spawn){
 				//do game win
 				global.Player_control_enabled = false;
