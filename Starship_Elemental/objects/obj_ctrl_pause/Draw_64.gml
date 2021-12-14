@@ -1,6 +1,18 @@
 if !(global.GAMEPaused) return;
 
-draw_sprite_ext(pause_sprite,0,0,0,0.5,0.5,image_angle,c_white,1);
+if !(global.IS_GX_EXPORT){
+	draw_sprite_ext(pause_sprite,0,0,0,0.5,0.5,image_angle,c_white,1);
+}else{
+	draw_set_alpha(1);
+
+	draw_rectangle_color(
+		0,0,
+		surface_get_width(application_surface),
+		surface_get_height(application_surface),
+		c_black,c_black,c_red,c_red,
+		false
+	);
+}
 
 draw_set_alpha(0.75);
 
@@ -10,7 +22,7 @@ draw_rectangle_color(
 	surface_get_height(application_surface),
 	c_black,c_black,c_black,c_black,
 	false
-)
+);
 
 draw_set_alpha(1);
 

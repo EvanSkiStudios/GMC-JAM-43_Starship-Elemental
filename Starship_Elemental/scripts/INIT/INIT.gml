@@ -25,6 +25,7 @@
 
 
 //############## globals
+
 global.DEBUG = true;
 global.DRAW_DEBUG = false;
 

@@ -22,11 +22,14 @@ if keyboard_check_pressed(vk_escape) || (start){
 		initAudio();
 		global.GAMEPaused = !global.GAMEPaused;	
 		playSound(SND_SFX_PAUSE);
-		if !(file_exists(pause_sprite)){
-			pause_png = (working_directory + "\\ScreenShots\\Screen_pause.png");
-			screen_save(pause_png);
+		
+		if !(global.IS_GX_EXPORT){
+			if !(file_exists(pause_sprite)){
+				pause_png = (working_directory + "\\ScreenShots\\Screen_pause.png");
+				screen_save(pause_png);
 	
-			pause_sprite = sprite_add(pause_png,1,false,false,0,0);
+				pause_sprite = sprite_add(pause_png,1,false,false,0,0);
+			}
 		}
 		alarm[0] = GAMESPEED;
 		can_pause = false;
@@ -47,10 +50,12 @@ if (global.GAMEPaused){
 	instance_activate_object(obj_enemy_wave_spawner);
 	
 }else{
-	if (pause_sprite != -4){
-		if (file_exists(pause_sprite)){
-			sprite_delete(pause_sprite);
-			file_delete(pause_png);
+	if !(global.IS_GX_EXPORT){
+		if (pause_sprite != -4){
+			if (file_exists(pause_sprite)){
+				sprite_delete(pause_sprite);
+				file_delete(pause_png);
+			}
 		}
 	}
 	
