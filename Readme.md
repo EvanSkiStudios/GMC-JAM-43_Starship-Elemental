@@ -1,4 +1,4 @@
-![Starship Elemental](https://i.imgur.com/f1uDfUI.png)
+![Starship Elemental](https://media4.giphy.com/media/9Zi7j8OoHXvniFf7el/giphy.gif?cid=790b761176e485674eed9f0d6cb9e74ef138c0da105d6f74&rid=giphy.gif&ct=s)
   
 A game by Evanski, [Pixel-Team](https://github.com/pferguso6222), [Kenneth Burkhart of Firehammer Games](https://github.com/kburkhart84)
 
