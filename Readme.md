@@ -5,7 +5,7 @@ A game by Evanski, [Pixel-Team](https://github.com/pferguso6222), [Kenneth Burkh
 For the [GMC JAM 43](https://forum.yoyogames.com/index.php?threads/the-frozen-gmc-jam-43.90648/)
 ## ELEMENTS
 
-​Earth is being invaded by an alien swarm! Their is only one hope!
+​Earth is being invaded by an alien swarm! There is only one hope!
 Launch the- Wait... is that a raccoon?! 
 Blast your way through waves of enemies!
 Use the smart-bombs to ANNIHILATE your enemies!

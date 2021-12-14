@@ -25,10 +25,11 @@
 
 
 //############## globals
-global.DEBUG = false;
+global.DEBUG = true;
+global.DRAW_DEBUG = false;
 
 if (global.DEBUG){
-	show_message("DEBUG MODE IS ON!!");	
+	show_debug_message("################# DEBUG MODE IS ON!! #################");	
 }
 
 global.GAMEPaused = false;

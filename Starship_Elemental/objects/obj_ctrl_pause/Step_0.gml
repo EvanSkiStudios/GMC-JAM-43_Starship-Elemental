@@ -37,6 +37,9 @@ if (global.GAMEPaused){
 	
 	instance_deactivate_all(true);
 	
+	//fixes audiobug
+	//fhAudioActivate();
+	
 	//keeps clouds moving
 	instance_activate_object(obj_clouds);
 	
