@@ -26,7 +26,7 @@
 
 //############## globals
 
-global.DEBUG = true;
+global.DEBUG = false;
 global.DRAW_DEBUG = false;
 
 if (global.DEBUG){
