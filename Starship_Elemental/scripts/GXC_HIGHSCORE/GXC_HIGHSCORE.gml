@@ -1,5 +1,4 @@
-#macro GAME_IS_GX_EXPORT false
-#macro GX_EXPORT:GAME_IS_GX_EXPORT true
+#macro GAME_IS_GX_EXPORT (os_type == os_operagx)
 
 global.IS_GX_EXPORT = GAME_IS_GX_EXPORT;
 

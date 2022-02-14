@@ -329,7 +329,6 @@
   ],
   "isDnDProject": false,
   "isEcma": false,
-  "tutorialPath": "",
   "configs": {
     "name": "Default",
     "children": [
@@ -342,8 +341,8 @@
     {"roomId":{"name":"rm_pixellated_hammered_raccoon","path":"rooms/rm_pixellated_hammered_raccoon/rm_pixellated_hammered_raccoon.yy",},},
     {"roomId":{"name":"rm_mainmenu","path":"rooms/rm_mainmenu/rm_mainmenu.yy",},},
     {"roomId":{"name":"rm_stage_01","path":"rooms/rm_stage_01/rm_stage_01.yy",},},
-    {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
     {"roomId":{"name":"rm_victory_sequence","path":"rooms/rm_victory_sequence/rm_victory_sequence.yy",},},
+    {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
     {"roomId":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
     {"roomId":{"name":"rm_debug","path":"rooms/rm_debug/rm_debug.yy",},},
     {"roomId":{"name":"ROOM_TEMPLATE","path":"rooms/ROOM_TEMPLATE/ROOM_TEMPLATE.yy",},},
@@ -457,7 +456,7 @@
     {"CopyToMask":3035461389054378222,"filePath":"datafiles","resourceVersion":"1.0","name":"README.txt","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2.3.7.606",
+    "IDEVersion": "2022.1.1.610",
   },
   "resourceVersion": "1.4",
   "name": "Starship_Elemental",
