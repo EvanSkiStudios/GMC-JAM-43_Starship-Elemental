@@ -36,9 +36,16 @@ if (global.Player_ship_visable){
 			
 		}else{
 		//game is running on mobile
-			PLAYER_MOVE_MOBILE();
 			
-			PLAYER_ATTACK_MOBILE();
+			if !(global.GAMEPADISCONENCTED){
+				PLAYER_MOVE_MOBILE();
+				PLAYER_ATTACK_MOBILE();
+			}
+			if (global.GAMEPADISCONENCTED){
+				PLAYER_MOVE_GAMEPAD();
+				//Attack
+				PLAYER_ATTACK();
+			}
 		}
 	
 	}

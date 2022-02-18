@@ -29,7 +29,7 @@
 //############## globals
 
 global.DEBUG = true;
-global.DRAW_DEBUG = false;
+global.DRAW_DEBUG = true;
 
 if (global.DEBUG){
 	show_debug_message("################# DEBUG MODE IS ON!! #################");	

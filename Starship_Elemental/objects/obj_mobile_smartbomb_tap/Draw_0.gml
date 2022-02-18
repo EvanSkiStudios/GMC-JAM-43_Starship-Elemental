@@ -1,1 +1,1 @@
-if (global.DEBUG && GAME_IS_MOBILE) draw_self();
+if (global.DEBUG && GAME_IS_MOBILE && global.DRAW_DEBUG) draw_self();

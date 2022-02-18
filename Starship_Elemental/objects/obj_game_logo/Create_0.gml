@@ -6,11 +6,22 @@ titlescreen_instructions = "HOW TO PLAY\nMOVEMENT: WASD, ARROWS, DPAD, or ANALOG
 if (GAME_IS_MOBILE){
 	titlescreen_instructions = (
 	"HOW TO PLAY"+"\n"+
-	"MOVEMENT: Tilt your phone in the direction you want to move!"+"\n"+
+	"MOVEMENT: Tilt your phone where you want to move!"+"\n"+
 	"FIRE: Press down anywhere on the screen!"+"\n"+
-	"SMARTBOMB: Tap the smartbombs to fire them off!"+"\n"+
-	"PAUSE: Double Tap anywhere!"+"\n"+
-	"TOGGLE VIBRATE: NOT IN CURRENT BUILD"
+	"SMARTBOMB: Tap the smartbombs in the top right to fire them off!"+"\n"+
+	"PAUSE: Double Tap anywhere!"+"\n"
+	);
+}
+
+if (global.GAMEPADISCONENCTED){
+	titlescreen_instructions =(
+	"HOW TO PLAY"+"\n"+
+	"MOVEMENT: DPAD, or ANALOG"+"\n"+
+	"FIRE: Gamepad Y"+"\n"+
+	"SMARTBOMB: Gamepad B"+"\n"+
+	"PAUSE: Gamepad START"+"\n"+
+	"TOGGLE VIBRATE: Gamepad SELECT"+"\n"+
+	"READ THE README FOR MORE INFO!"
 	);
 }
 
