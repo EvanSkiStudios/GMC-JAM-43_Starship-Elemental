@@ -9,7 +9,8 @@ if (GAME_IS_MOBILE){
 	"MOVEMENT: Tilt your phone where you want to move!"+"\n"+
 	"FIRE: Press down anywhere on the screen!"+"\n"+
 	"SMARTBOMB: Tap the smartbombs in the top right to fire them off!"+"\n"+
-	"PAUSE: Double Tap anywhere!"+"\n"
+	"PAUSE: Double Tap anywhere!"+"\n"+
+	"You can also play with a bluetooth controller!!!"
 	);
 }
 
@@ -17,8 +18,8 @@ if (global.GAMEPADISCONENCTED){
 	titlescreen_instructions =(
 	"HOW TO PLAY"+"\n"+
 	"MOVEMENT: DPAD, or ANALOG"+"\n"+
-	"FIRE: Gamepad Y"+"\n"+
-	"SMARTBOMB: Gamepad B"+"\n"+
+	"FIRE: Gamepad Y/ PS Tri / Joycon X"+"\n"+
+	"SMARTBOMB: Gamepad B / PS O / Joycon A"+"\n"+
 	"PAUSE: Gamepad START"+"\n"+
 	"TOGGLE VIBRATE: Gamepad SELECT"+"\n"+
 	"READ THE README FOR MORE INFO!"
