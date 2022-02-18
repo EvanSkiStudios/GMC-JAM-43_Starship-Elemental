@@ -1,0 +1,1 @@
+global.Mobile_smartbomb_attack = true;

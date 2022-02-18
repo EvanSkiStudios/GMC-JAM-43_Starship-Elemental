@@ -1,17 +1,11 @@
 if !(GAME_IS_MOBILE) exit;
 
-//get starting x tilt
-global.Mobile_x_tilt_start = 1.0;
-var mxts = global.Mobile_x_tilt_start;
+//numbers are based off phone resting at 1.00
 
 //create deadzone for device tilt
-global.Mobile_x_tilt_deadzone_min = (0.75);
-global.Mobile_x_tilt_deadzone_max = (-0.75);
-
-//get starting y tilt
-global.Mobile_y_tilt_start = device_get_tilt_y();
-var myts = global.Mobile_y_tilt_start;
+global.Mobile_Z_tilt_deadzone_up = (0.52);
+global.Mobile_Z_tilt_deadzone_down = (-0.08);
 
 //create deadzone for device tilt
-global.Mobile_y_tilt_deadzone_min = -(myts - 0.25);
-global.Mobile_y_tilt_deadzone_max = (myts + 0.25);
+global.Mobile_Y_tilt_deadzone_right = (0.25);
+global.Mobile_Y_tilt_deadzone_left = -(0.10);

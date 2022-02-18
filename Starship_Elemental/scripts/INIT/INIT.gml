@@ -47,6 +47,7 @@ global.Player_can_die = false;
 global.Player_can_pickup_bombs = true;
 global.Gamepad_vibration = true;
 
+
 global.player_at_boss = false;
 
 global.SEQ_DIE_DO_ONCE = true;

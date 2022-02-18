@@ -11,3 +11,7 @@ fha_music_stop(snd_mus_boss);
 fhAudioMusicCrossfade(snd_mus_continue,1000,false);
 playSound(SND_SFX_CONTINUE_DRONE,false);
 image_frame_last = (floor(image_index));
+
+
+//mobile
+mobile_user_tap = false;

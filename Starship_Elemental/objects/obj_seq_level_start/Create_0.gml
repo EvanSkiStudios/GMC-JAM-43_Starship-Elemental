@@ -15,3 +15,6 @@ if !instance_exists(obj_smoke_emitter){
 }
 
 //fhAudioMusicCrossfade(snd_Mus_MM,1000,true);
+
+//mobile
+mobile_user_tap = false;

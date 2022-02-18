@@ -1,0 +1,1 @@
+if (global.DEBUG && GAME_IS_MOBILE) draw_self();

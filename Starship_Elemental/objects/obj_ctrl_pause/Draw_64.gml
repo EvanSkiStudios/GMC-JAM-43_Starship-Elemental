@@ -1,15 +1,15 @@
 if !(global.GAMEPaused) return;
 
-if !(global.IS_GX_EXPORT){
+if !(global.IS_GX_EXPORT) && !(GAME_IS_MOBILE){
 	draw_sprite_ext(pause_sprite,0,0,0,0.5,0.5,image_angle,c_white,1);
 }else{
 	
-	if (!(surface_exists(global.GXC_Pause_Surface))){
-		global.GXC_Pause_Surface = surface_create(display_get_gui_width(),display_get_gui_height());
-		surface_copy(global.GXC_Pause_Surface,0,0,	view_surface_id[0]);	
+	if (!(surface_exists(global.Pause_Surface))){
+		global.Pause_Surface = surface_create(display_get_gui_width(),display_get_gui_height());
+		surface_copy(global.Pause_Surface,0,0,	view_surface_id[0]);	
 	}
 	
-	draw_surface(global.GXC_Pause_Surface,0,0);
+	draw_surface(global.Pause_Surface,0,0);
 	
 	/*
 	draw_set_alpha(1);
@@ -45,9 +45,14 @@ draw_text(GAME_RES_WIDTH/2,( (room_height/2) - 40),"PAUSED");
 
 draw_set_font(fnt_highscore);
 
+pause_string = "Press ESC or START to unpause!\nHold ESC or START for 3 secs to quit!!";
+if (GAME_IS_MOBILE){
+	pause_string = "Doublt Tap to unpause!";	
+}
+
 var color = C_RAINBOW;
 draw_text_color(GAME_RES_WIDTH/2,( (room_height/2) + 20),
-"Press ESC or START to unpause!\nHold ESC or START for 3 secs to quit!!",
+pause_string,
 c_white,c_white,color,color,1);
 
 if (exiting){

@@ -30,13 +30,17 @@ if (global.Player_ship_visable){
 			if (global.GAMEPADISCONENCTED){
 				PLAYER_MOVE_GAMEPAD();
 			}
-		}else{
-			//game is running on mobile
-			PLAYER_MOVE_MOBILE();
-		}
-	
+			
 		//Attack
 		PLAYER_ATTACK();	
+			
+		}else{
+		//game is running on mobile
+			PLAYER_MOVE_MOBILE();
+			
+			PLAYER_ATTACK_MOBILE();
+		}
+	
 	}
 
 		//player health

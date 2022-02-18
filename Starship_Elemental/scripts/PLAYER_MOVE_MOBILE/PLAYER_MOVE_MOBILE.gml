@@ -3,10 +3,19 @@ function PLAYER_MOVE_MOBILE(){
 	//move up and down
 	
 	//device tilt is between 1 <> -1
-	device_tilt_x = device_get_tilt_x();
+	device_tilt_z = device_get_tilt_z();
+	
+	var ZTD_U = global.Mobile_Z_tilt_deadzone_up;
+	var ZTD_D = global.Mobile_Z_tilt_deadzone_down;
+	
+	fixed_device_tilt_z = 0;
+	if (device_tilt_z > ZTD_U) fixed_device_tilt_z = -1;
+	if (device_tilt_z < ZTD_D) fixed_device_tilt_z = 1;
+	
+	//show_debug_message(device_tilt_z);
 	
 	//default dont move
-	var move_v = sign(device_tilt_x);
+	var move_v = (fixed_device_tilt_z);
 
 	switch(move_v){
 		default: break;
@@ -23,9 +32,19 @@ function PLAYER_MOVE_MOBILE(){
 	//move left and right
 	//not tied to state machine as we dont have animations for left and right
 	//if in state machine we'd need more logic or not allow player to move horizontal while moving vertiacl
-	device_tilt_y = sign(device_get_tilt_y()); 
+	device_tilt_y = device_get_tilt_y();
 	
-	var move_h = (device_tilt_y);
+	var YTD_L = global.Mobile_Y_tilt_deadzone_left;
+	var YTD_R = global.Mobile_Y_tilt_deadzone_right;
+	
+	fixed_device_tilt_y = 0;
+	if (device_tilt_y < YTD_L) fixed_device_tilt_y = -1;
+	if (device_tilt_y > YTD_R) fixed_device_tilt_y = 1;
+	
+	//show_debug_message(device_tilt_y);
+	
+	//default dont move
+	var move_h = (fixed_device_tilt_y);
 
 	switch(move_h){
 		default: break;

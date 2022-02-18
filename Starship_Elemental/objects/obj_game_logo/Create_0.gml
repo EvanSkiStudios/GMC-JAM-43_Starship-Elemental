@@ -1,8 +1,21 @@
 coin_in = false;
 titlescreen_insert_coin = "INSERT COIN(S)";
+
+
 titlescreen_instructions = "HOW TO PLAY\nMOVEMENT: WASD, ARROWS, DPAD, or ANALOG\nFIRE: SPACEBAR, NUMPAD 0, or Gamepad Y\nSMARTBOMB: CTRL or Gamepad B\nPAUSE: ESC or Gamepad START\nTOGGLE VIBRATE: Gamepad SELECT\nREAD THE README FOR MORE INFO!";
+if (GAME_IS_MOBILE){
+	titlescreen_instructions = (
+	"HOW TO PLAY"+"\n"+
+	"MOVEMENT: Tilt your phone in the direction you want to move!"+"\n"+
+	"FIRE: Press down anywhere on the screen!"+"\n"+
+	"SMARTBOMB: Tap the smartbombs to fire them off!"+"\n"+
+	"PAUSE: Double Tap anywhere!"+"\n"+
+	"TOGGLE VIBRATE: NOT IN CURRENT BUILD"
+	);
+}
+
 titlescreen_mini_credits = "COPYRIGHT 2021 PIXELLATED HAMMERED RACCOON";
-titlescreen_press_any = "PRESS ANY KEY TO START";
+titlescreen_press_any = "TAP ANY WHERE TO START";
 
 logo_state = LOGO_STATES.intro;
 timer = 0;
