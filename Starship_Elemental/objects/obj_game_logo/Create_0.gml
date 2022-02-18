@@ -40,3 +40,7 @@ draw_mini_credits = function () {
 		draw_text(display_get_gui_width() * .5, display_get_gui_height() * .95, titlescreen_mini_credits);
 		draw_set_color(c_white);
 }
+
+
+//mobile
+mobile_user_tap = false;

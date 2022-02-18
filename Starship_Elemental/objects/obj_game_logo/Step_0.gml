@@ -33,7 +33,7 @@ switch (logo_state) {
 	var keys = invaild_keys();
 	if !(keys){
 		if !(keyboard_check_released(ord("1"))){
-			if ( (keyboard_check_released(vk_anykey) ) || start || fire){
+			if ( (keyboard_check_released(vk_anykey) ) || start || fire || (mobile_user_tap)){
 				if !(instance_exists(obj_seq_titlescreen_trans)){
 					instance_create_depth(x,y,depth,obj_seq_titlescreen_trans)
 				}

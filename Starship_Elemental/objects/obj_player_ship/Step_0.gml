@@ -20,13 +20,19 @@ if (select){
 if (global.Player_ship_visable){
 	
 	if (global.Player_control_enabled){
-		//Movement
-		if !(global.GAMEPADISCONENCTED){
-			PLAYER_MOVE();
-		}
 		
-		if (global.GAMEPADISCONENCTED){
-			PLAYER_MOVE_GAMEPAD();
+		//Movement
+		if !(GAME_IS_MOBILE){
+			if !(global.GAMEPADISCONENCTED){
+				PLAYER_MOVE();
+			}
+		
+			if (global.GAMEPADISCONENCTED){
+				PLAYER_MOVE_GAMEPAD();
+			}
+		}else{
+			//game is running on mobile
+			PLAYER_MOVE_MOBILE();
 		}
 	
 		//Attack

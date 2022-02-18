@@ -1,4 +1,6 @@
 //############## macros
+#macro GAME_IS_MOBILE (os_type == os_android)
+
 #macro GAME_RES_WIDTH  480 
 #macro GAME_RES_HEIGHT  270
 
@@ -26,7 +28,7 @@
 
 //############## globals
 
-global.DEBUG = false;
+global.DEBUG = true;
 global.DRAW_DEBUG = false;
 
 if (global.DEBUG){
@@ -40,8 +42,8 @@ global.GAMEPADISCONENCTED = false;
 
 global.Player_control_enabled = true;
 global.Player_ship_visable = true;
-global.Player_ship_take_dam = true;
-global.Player_can_die = true;
+global.Player_ship_take_dam = false;
+global.Player_can_die = false;
 global.Player_can_pickup_bombs = true;
 global.Gamepad_vibration = true;
 
