@@ -47,7 +47,7 @@ draw_set_font(fnt_highscore);
 
 pause_string = "Press ESC or START to unpause!\nHold ESC or START for 3 secs to quit!!";
 if (GAME_IS_MOBILE){
-	pause_string = "Doublt Tap to unpause!";	
+	pause_string = "Double Tap to unpause!";	
 }
 
 var color = C_RAINBOW;

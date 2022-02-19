@@ -1,3 +1,5 @@
+if (instance_exists(obj_seq_win_trans)) instance_destroy(id);
+
 switch (emitter_state) {
 	case EMITTER_STATES.idle:
 	

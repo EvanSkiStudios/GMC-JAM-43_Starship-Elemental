@@ -8,7 +8,7 @@ if (GAME_IS_MOBILE){
 	"HOW TO PLAY"+"\n"+
 	"MOVEMENT: Tilt your phone where you want to move!"+"\n"+
 	"FIRE: Press down anywhere on the screen!"+"\n"+
-	"SMARTBOMB: Tap the smartbombs in the top right to fire them off!"+"\n"+
+	"SMARTBOMB: Tap the smartbombs in the top right!"+"\n"+
 	"PAUSE: Double Tap anywhere!"+"\n"+
 	"You can also play with a bluetooth controller!!!"
 	);
@@ -69,3 +69,4 @@ draw_mini_credits = function () {
 
 //mobile
 mobile_user_tap = false;
+mobile_player_tapped = false;

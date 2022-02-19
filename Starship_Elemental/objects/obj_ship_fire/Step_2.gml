@@ -1,3 +1,5 @@
+if (instance_exists(obj_seq_win_trans)) instance_destroy(id);
+
 if !instance_exists(obj_player_ship) instance_destroy(id);
 
 

@@ -1,5 +1,5 @@
 if (!coin_in) {
-	if (keyboard_check_pressed(ord("1"))) {
+	if (keyboard_check_pressed(ord("1"))) || (mobile_player_tapped) {
 		coin_in = true;
 		playSound(SND_SFX_SMARTBOMB_PICKUP);
 		instance_create_depth(x,y,depth,obj_gui_fadeout_short_norm);

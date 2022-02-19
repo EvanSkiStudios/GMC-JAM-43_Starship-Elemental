@@ -17,14 +17,18 @@ if instance_exists(obj_smartbomb_effect_ice) return;
 
 var start = Gamepad_start();
 
-if keyboard_check_pressed(vk_escape) || (start) || (double_tap){
+if (GAME_IS_MOBILE){
+	double_tap = device_mouse_check_button(0, mb_right);
+}else{ double_tap = false;}
+
+if ( keyboard_check_pressed(vk_escape) || (start) || (double_tap) ){
 	if !(GAME_IS_MOBILE){
 	alarm[1] = GAMESPEED * 3;
 	exiting = true; }
 	
 	if (can_pause){
 		initAudio();
-		global.GAMEPaused = !global.GAMEPaused;	
+		global.GAMEPaused = !global.GAMEPaused;			
 		playSound(SND_SFX_PAUSE);
 		
 		if !(global.IS_GX_EXPORT) && !(GAME_IS_MOBILE){
