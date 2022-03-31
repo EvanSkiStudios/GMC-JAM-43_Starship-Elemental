@@ -46,7 +46,7 @@ function PLAYER_ATTACK(){
 			
 				//patch to prevent crash on Opera gx with using smartbombs
 				if (global.IS_GX_EXPORT){
-					var smartbomb_attack = keyboard_check_released(vk_control);
+					var smartbomb_attack = keyboard_check_released(USER_BUTTON_SMARTBOMB_GXC);
 				}else{
 					var smartbomb_attack = keyboard_check_released(USER_BUTTON_SMARTBOMB);
 				}

@@ -86,7 +86,7 @@
     "name": "PixellatedHammeredRaccoon",
     "path": "folders/Rooms/PixellatedHammeredRaccoon.yy",
   },
-  "resourceVersion": "1.3",
+  "resourceVersion": "1.4",
   "name": "seq_phr_presents",
   "tags": [],
   "resourceType": "GMSequence",

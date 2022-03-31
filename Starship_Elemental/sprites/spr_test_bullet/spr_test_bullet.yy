@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_test_bullet","path":"sprites/spr_test_bullet/spr_test_bullet.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_test_bullet",
     "tags": [],
     "resourceType": "GMSequence",

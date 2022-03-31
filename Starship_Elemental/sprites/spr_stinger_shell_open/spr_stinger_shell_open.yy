@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_stinger_shell_open","path":"sprites/spr_stinger_shell_open/spr_stinger_shell_open.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_stinger_shell_open",
     "tags": [],
     "resourceType": "GMSequence",

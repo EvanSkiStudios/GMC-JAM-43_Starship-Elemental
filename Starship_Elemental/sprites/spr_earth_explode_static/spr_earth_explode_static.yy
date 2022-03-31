@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_earth_explode_static","path":"sprites/spr_earth_explode_static/spr_earth_explode_static.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_earth_explode_static",
     "tags": [],
     "resourceType": "GMSequence",

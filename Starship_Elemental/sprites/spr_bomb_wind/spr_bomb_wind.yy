@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_bomb_wind","path":"sprites/spr_bomb_wind/spr_bomb_wind.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_bomb_wind",
     "tags": [],
     "resourceType": "GMSequence",

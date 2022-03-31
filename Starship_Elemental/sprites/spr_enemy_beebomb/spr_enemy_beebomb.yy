@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_enemy_beebomb","path":"sprites/spr_enemy_beebomb/spr_enemy_beebomb.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_enemy_beebomb",
     "tags": [],
     "resourceType": "GMSequence",

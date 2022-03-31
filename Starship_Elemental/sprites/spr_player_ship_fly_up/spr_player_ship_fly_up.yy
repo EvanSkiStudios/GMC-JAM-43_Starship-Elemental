@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_player_ship_fly_up","path":"sprites/spr_player_ship_fly_up/spr_player_ship_fly_up.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_player_ship_fly_up",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_power_bomb_earth_tiny","path":"sprites/spr_power_bomb_earth_tiny/spr_power_bomb_earth_tiny.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_power_bomb_earth_tiny",
     "tags": [],
     "resourceType": "GMSequence",

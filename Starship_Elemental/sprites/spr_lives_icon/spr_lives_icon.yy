@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_lives_icon","path":"sprites/spr_lives_icon/spr_lives_icon.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_lives_icon",
     "tags": [],
     "resourceType": "GMSequence",

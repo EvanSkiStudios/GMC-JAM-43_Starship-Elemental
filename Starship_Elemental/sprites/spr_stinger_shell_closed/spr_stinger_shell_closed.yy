@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_stinger_shell_closed","path":"sprites/spr_stinger_shell_closed/spr_stinger_shell_closed.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_stinger_shell_closed",
     "tags": [],
     "resourceType": "GMSequence",

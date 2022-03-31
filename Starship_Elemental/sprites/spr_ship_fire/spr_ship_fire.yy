@@ -95,7 +95,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_ship_fire","path":"sprites/spr_ship_fire/spr_ship_fire.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_ship_fire",
     "tags": [],
     "resourceType": "GMSequence",

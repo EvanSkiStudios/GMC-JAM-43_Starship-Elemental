@@ -73,7 +73,7 @@
     "name": "level 1",
     "path": "folders/Sequences/Enemy waves/level 1.yy",
   },
-  "resourceVersion": "1.3",
+  "resourceVersion": "1.4",
   "name": "seq_enemy_bee_bomb",
   "tags": [],
   "resourceType": "GMSequence",

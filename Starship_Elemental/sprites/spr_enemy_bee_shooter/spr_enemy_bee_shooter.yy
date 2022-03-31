@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_enemy_bee_shooter","path":"sprites/spr_enemy_bee_shooter/spr_enemy_bee_shooter.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_enemy_bee_shooter",
     "tags": [],
     "resourceType": "GMSequence",

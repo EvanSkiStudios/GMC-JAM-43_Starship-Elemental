@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_smartbomb_lightning_zap_base","path":"sprites/spr_smartbomb_lightning_zap_base/spr_smartbomb_lightning_zap_base.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_smartbomb_lightning_zap_base",
     "tags": [],
     "resourceType": "GMSequence",

@@ -155,7 +155,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_game_logo",
     "tags": [],
     "resourceType": "GMSequence",

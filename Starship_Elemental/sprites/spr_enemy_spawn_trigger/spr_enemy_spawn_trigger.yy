@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_enemy_spawn_trigger","path":"sprites/spr_enemy_spawn_trigger/spr_enemy_spawn_trigger.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_enemy_spawn_trigger",
     "tags": [],
     "resourceType": "GMSequence",

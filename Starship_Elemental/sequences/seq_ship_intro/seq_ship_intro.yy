@@ -125,7 +125,7 @@
     "name": "Player",
     "path": "folders/Sequences/Player.yy",
   },
-  "resourceVersion": "1.3",
+  "resourceVersion": "1.4",
   "name": "seq_ship_intro",
   "tags": [],
   "resourceType": "GMSequence",

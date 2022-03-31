@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_smartbomb_effect_fire","path":"sprites/spr_smartbomb_effect_fire/spr_smartbomb_effect_fire.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_smartbomb_effect_fire",
     "tags": [],
     "resourceType": "GMSequence",

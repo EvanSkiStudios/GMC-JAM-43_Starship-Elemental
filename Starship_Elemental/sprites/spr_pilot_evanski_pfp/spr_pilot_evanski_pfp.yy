@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_pilot_evanski_pfp","path":"sprites/spr_pilot_evanski_pfp/spr_pilot_evanski_pfp.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_pilot_evanski_pfp",
     "tags": [],
     "resourceType": "GMSequence",

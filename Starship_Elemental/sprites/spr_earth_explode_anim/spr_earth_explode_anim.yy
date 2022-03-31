@@ -135,7 +135,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_earth_explode_anim","path":"sprites/spr_earth_explode_anim/spr_earth_explode_anim.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_earth_explode_anim",
     "tags": [],
     "resourceType": "GMSequence",

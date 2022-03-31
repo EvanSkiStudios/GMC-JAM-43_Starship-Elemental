@@ -77,7 +77,7 @@
     "name": "Sequences",
     "path": "folders/Sequences.yy",
   },
-  "resourceVersion": "1.3",
+  "resourceVersion": "1.4",
   "name": "seq_room_restart",
   "tags": [],
   "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_victory_raccoon","path":"sprites/spr_victory_raccoon/spr_victory_raccoon.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_victory_raccoon",
     "tags": [],
     "resourceType": "GMSequence",
