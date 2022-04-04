@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_boss_collider","path":"sprites/spr_boss_collider/spr_boss_collider.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_boss_collider",
     "tags": [],
     "resourceType": "GMSequence",

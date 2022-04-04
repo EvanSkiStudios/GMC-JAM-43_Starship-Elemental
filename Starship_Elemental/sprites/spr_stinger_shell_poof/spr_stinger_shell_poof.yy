@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_stinger_shell_poof","path":"sprites/spr_stinger_shell_poof/spr_stinger_shell_poof.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_stinger_shell_poof",
     "tags": [],
     "resourceType": "GMSequence",

@@ -12,3 +12,4 @@
 #macro USER_BUTTON_SHOOT_ALT vk_numpad0
 
 #macro USER_BUTTON_SMARTBOMB vk_control
+#macro USER_BUTTON_SMARTBOMB_GXC vk_shift

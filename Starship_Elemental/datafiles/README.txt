@@ -33,7 +33,6 @@
 =================================================================
  FireHammer Audio system  | created before the jam
  Pixel-Team input system  | created before the jam
- Pixel-Team input system  | created before the jam
  Pixel-Team End Credits Scroller | created before the jam
 
  A few sfx sourced and modifyed from freesound.org
@@ -45,7 +44,7 @@
 =================================================================
 ================= STORY =========================================
 =================================================================
- Earth is being invaded by an alien swarm! Their is only one hope!
+ Earth is being invaded by an alien swarm! There is only one hope!
  Launch the- Wait... is that a raccoon?! 
  Blast your way through waves of enemies!
  Use the smartbombs to ANNIHILATE your enemies!

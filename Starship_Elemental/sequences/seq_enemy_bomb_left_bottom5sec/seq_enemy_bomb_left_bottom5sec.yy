@@ -73,7 +73,7 @@
     "name": "new",
     "path": "folders/Sequences/Enemy waves/level 1/new.yy",
   },
-  "resourceVersion": "1.3",
+  "resourceVersion": "1.4",
   "name": "seq_enemy_bomb_left_bottom5sec",
   "tags": [],
   "resourceType": "GMSequence",

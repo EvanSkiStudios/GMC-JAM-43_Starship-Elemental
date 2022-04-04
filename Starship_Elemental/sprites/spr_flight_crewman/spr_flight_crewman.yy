@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_flight_crewman","path":"sprites/spr_flight_crewman/spr_flight_crewman.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_flight_crewman",
     "tags": [],
     "resourceType": "GMSequence",

@@ -95,7 +95,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_canopy","path":"sprites/spr_canopy/spr_canopy.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_canopy",
     "tags": [],
     "resourceType": "GMSequence",

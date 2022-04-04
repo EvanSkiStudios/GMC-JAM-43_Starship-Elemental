@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_enemy_bee_frozen","path":"sprites/spr_enemy_bee_frozen/spr_enemy_bee_frozen.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_enemy_bee_frozen",
     "tags": [],
     "resourceType": "GMSequence",

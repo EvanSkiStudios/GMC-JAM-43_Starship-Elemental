@@ -23,7 +23,7 @@ spawn_nebulas = function () {
 
 spawn_star = function () {
 	var star = instance_create_layer(irandom_range(0, screen_width), irandom_range(0, screen_height), "Instances", obj_star);
-	
+	star.depth = 0;
 	star.x_speed = random_range(-min_speed, -max_speed);
 	//star.image_index = irandom_range(1, 5);
 	//star.my_color = choose(c_white, c_white, c_white, c_white, c_white, c_red, c_white, c_blue, c_green);

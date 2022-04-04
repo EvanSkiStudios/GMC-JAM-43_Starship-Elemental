@@ -95,7 +95,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gui_continue","path":"sprites/spr_gui_continue/spr_gui_continue.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_gui_continue",
     "tags": [],
     "resourceType": "GMSequence",

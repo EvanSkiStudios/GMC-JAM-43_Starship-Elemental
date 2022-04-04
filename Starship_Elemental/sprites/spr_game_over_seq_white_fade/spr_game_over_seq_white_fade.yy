@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_game_over_seq_white_fade","path":"sprites/spr_game_over_seq_white_fade/spr_game_over_seq_white_fade.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_game_over_seq_white_fade",
     "tags": [],
     "resourceType": "GMSequence",

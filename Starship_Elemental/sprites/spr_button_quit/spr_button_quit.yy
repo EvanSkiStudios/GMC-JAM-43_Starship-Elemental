@@ -60,7 +60,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_button_quit","path":"sprites/spr_button_quit/spr_button_quit.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_button_quit",
     "tags": [],
     "resourceType": "GMSequence",

@@ -408,7 +408,7 @@
     "name": "IntroductionSequence",
     "path": "folders/Rooms/IntroductionSequence.yy",
   },
-  "resourceVersion": "1.3",
+  "resourceVersion": "1.4",
   "name": "seq_IntroductionSequence",
   "tags": [],
   "resourceType": "GMSequence",

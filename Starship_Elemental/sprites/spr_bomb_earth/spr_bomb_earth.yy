@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_bomb_earth","path":"sprites/spr_bomb_earth/spr_bomb_earth.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_bomb_earth",
     "tags": [],
     "resourceType": "GMSequence",

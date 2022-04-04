@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_star_shine","path":"sprites/spr_star_shine/spr_star_shine.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_star_shine",
     "tags": [],
     "resourceType": "GMSequence",

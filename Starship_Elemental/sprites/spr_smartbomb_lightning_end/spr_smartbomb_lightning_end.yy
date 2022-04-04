@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_smartbomb_lightning_end","path":"sprites/spr_smartbomb_lightning_end/spr_smartbomb_lightning_end.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_smartbomb_lightning_end",
     "tags": [],
     "resourceType": "GMSequence",

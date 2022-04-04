@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_ship_in_hangar","path":"sprites/spr_ship_in_hangar/spr_ship_in_hangar.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_ship_in_hangar",
     "tags": [],
     "resourceType": "GMSequence",

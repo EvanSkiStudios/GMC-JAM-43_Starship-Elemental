@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_jet_wash","path":"sprites/spr_jet_wash/spr_jet_wash.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_jet_wash",
     "tags": [],
     "resourceType": "GMSequence",

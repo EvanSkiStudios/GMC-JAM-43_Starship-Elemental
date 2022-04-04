@@ -1,3 +1,5 @@
+do_once = true;
+
 switch(room){
 	
 	case rm_intro:{

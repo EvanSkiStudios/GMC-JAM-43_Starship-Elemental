@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_enemy_wave_spawner","path":"sprites/spr_enemy_wave_spawner/spr_enemy_wave_spawner.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_enemy_wave_spawner",
     "tags": [],
     "resourceType": "GMSequence",

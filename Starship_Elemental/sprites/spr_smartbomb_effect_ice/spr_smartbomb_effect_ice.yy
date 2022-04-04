@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_smartbomb_effect_ice","path":"sprites/spr_smartbomb_effect_ice/spr_smartbomb_effect_ice.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_smartbomb_effect_ice",
     "tags": [],
     "resourceType": "GMSequence",

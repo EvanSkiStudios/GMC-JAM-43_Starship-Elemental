@@ -7,7 +7,10 @@ switch(room){
 				if (obj_boss1.boss_state != BOSS1_STATES.first_scream){
 				if (obj_boss1.boss_state != BOSS1_STATES.defeated){
 				if !(instance_exists(obj_gui_continue)){
-					fha_music_crossfade(snd_mus_boss,1000,true);	
+					if (do_once){
+						fha_music_crossfade(snd_mus_boss,1000,true);
+						do_once = false;
+					}
 				}}}}}
 			}
 		}

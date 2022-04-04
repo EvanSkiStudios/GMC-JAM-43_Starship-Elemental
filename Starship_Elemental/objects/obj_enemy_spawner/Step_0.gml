@@ -25,7 +25,7 @@ if (spawn_enemies){
 		switch(enemy_wave_state){
 			default: break;
 			
-						case 0:{
+			case 0:{
 				if (can_spawn){
 					Spawn_wave(seq_enemy_bee_loopandback);
 					alarm[0] = GAMESPEED * 5;

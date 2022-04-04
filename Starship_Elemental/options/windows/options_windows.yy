@@ -1,7 +1,7 @@
 {
   "option_windows_display_name": "Starship Elemental",
   "option_windows_executable_name": "${project_name}.exe",
-  "option_windows_version": "1.3.1.0",
+  "option_windows_version": "1.3.2.0",
   "option_windows_company_info": "Pixellated Raccoon Fire",
   "option_windows_product_info": "Starship Elemental",
   "option_windows_copyright_info": "Pixellated Raccoon Fire 2021",

@@ -1,4 +1,6 @@
 //############## macros
+#macro GAME_IS_MOBILE (os_type == os_android)
+
 #macro GAME_RES_WIDTH  480 
 #macro GAME_RES_HEIGHT  270
 
@@ -25,23 +27,28 @@
 
 
 //############## globals
+
 global.DEBUG = false;
+global.DRAW_DEBUG = false;
 
 if (global.DEBUG){
-	show_message("DEBUG MODE IS ON!!");	
+	show_debug_message("################# DEBUG MODE IS ON!! #################");	
 }
 
 global.GAMEPaused = false;
 
 global.GAMEPADISCONENCTED = false;
 
-
 global.Player_control_enabled = true;
 global.Player_ship_visable = true;
+
 global.Player_ship_take_dam = true;
 global.Player_can_die = true;
+
 global.Player_can_pickup_bombs = true;
+
 global.Gamepad_vibration = true;
+
 
 global.player_at_boss = false;
 

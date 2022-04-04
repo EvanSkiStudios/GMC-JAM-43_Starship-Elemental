@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"DEBUG_BACKGROUND_DELETE","path":"sprites/DEBUG_BACKGROUND_DELETE/DEBUG_BACKGROUND_DELETE.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "DEBUG_BACKGROUND_DELETE",
     "tags": [],
     "resourceType": "GMSequence",

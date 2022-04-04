@@ -43,7 +43,13 @@ function PLAYER_ATTACK(){
 		if (global.GAMEPADISCONENCTED){
 	 		var smartbomb_attack = (INPUT.input_pressed(0, input_action.fire2));
 		}else{
-			var smartbomb_attack = keyboard_check_released(USER_BUTTON_SMARTBOMB);
+			
+				//patch to prevent crash on Opera gx with using smartbombs
+				if (global.IS_GX_EXPORT){
+					var smartbomb_attack = keyboard_check_released(USER_BUTTON_SMARTBOMB_GXC);
+				}else{
+					var smartbomb_attack = keyboard_check_released(USER_BUTTON_SMARTBOMB);
+				}
 		}
 	 
 		if (can_shoot_smartbomb) && (smartbomb_attack){

@@ -135,7 +135,7 @@
     "name": "GameOverSequence",
     "path": "folders/Rooms/GameOverSequence.yy",
   },
-  "resourceVersion": "1.3",
+  "resourceVersion": "1.4",
   "name": "seq_game_over_cutscene",
   "tags": [],
   "resourceType": "GMSequence",

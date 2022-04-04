@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_enemy_generic_bee","path":"sprites/spr_enemy_generic_bee/spr_enemy_generic_bee.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_enemy_generic_bee",
     "tags": [],
     "resourceType": "GMSequence",

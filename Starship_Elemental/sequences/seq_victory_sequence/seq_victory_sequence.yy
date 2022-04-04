@@ -110,7 +110,7 @@
     "name": "VictorySequence",
     "path": "folders/Rooms/VictorySequence.yy",
   },
-  "resourceVersion": "1.3",
+  "resourceVersion": "1.4",
   "name": "seq_victory_sequence",
   "tags": [],
   "resourceType": "GMSequence",

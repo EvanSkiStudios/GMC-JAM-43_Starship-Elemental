@@ -323,7 +323,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_font_galatica","path":"sprites/spr_font_galatica/spr_font_galatica.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_font_galatica",
     "tags": [],
     "resourceType": "GMSequence",

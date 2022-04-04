@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_intro_raccoon_panel","path":"sprites/spr_intro_raccoon_panel/spr_intro_raccoon_panel.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_intro_raccoon_panel",
     "tags": [],
     "resourceType": "GMSequence",

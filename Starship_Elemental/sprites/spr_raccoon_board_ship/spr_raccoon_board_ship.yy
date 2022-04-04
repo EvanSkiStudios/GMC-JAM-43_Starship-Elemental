@@ -319,7 +319,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_raccoon_board_ship","path":"sprites/spr_raccoon_board_ship/spr_raccoon_board_ship.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_raccoon_board_ship",
     "tags": [],
     "resourceType": "GMSequence",

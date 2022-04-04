@@ -191,7 +191,7 @@
     "name": "new",
     "path": "folders/Sequences/Enemy waves/level 1/new.yy",
   },
-  "resourceVersion": "1.3",
+  "resourceVersion": "1.4",
   "name": "seq_enemy_bee_2_cross_9sec",
   "tags": [],
   "resourceType": "GMSequence",
