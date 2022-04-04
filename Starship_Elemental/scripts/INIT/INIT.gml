@@ -1,5 +1,6 @@
 //############## macros
 #macro GAME_IS_MOBILE (os_type == os_android)
+#macro GAME_IS_LINUX (os_type == os_linux)
 
 #macro GAME_RES_WIDTH  480 
 #macro GAME_RES_HEIGHT  270

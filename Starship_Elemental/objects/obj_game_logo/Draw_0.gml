@@ -57,6 +57,17 @@ if (global.IS_GX_EXPORT){
 	draw_set_font(-1);
 }
 
+if (GAME_IS_LINUX){
+	draw_set_font(fnt_highscore);
+	
+	draw_text_color(
+	x+(sprite_width/2)-50,y+(sprite_height/2),
+	"Linux Flavor!",
+	C_PATCOLOR,C_PATCOLOR,C_PATCOLOR,C_PATCOLOR, 1);
+	
+	draw_set_font(-1);
+}
+
 if (GAME_IS_MOBILE){
 	draw_set_font(fnt_highscore);
 	
