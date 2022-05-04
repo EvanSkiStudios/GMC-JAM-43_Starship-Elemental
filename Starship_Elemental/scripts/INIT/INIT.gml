@@ -1,6 +1,12 @@
 //############## macros
+#macro GAME_IS_HTML false
 #macro GAME_IS_MOBILE (os_type == os_android)
 #macro GAME_IS_LINUX (os_type == os_linux)
+
+#macro HTML_EXPORT:GAME_IS_MOBILE false
+#macro HTML_EXPORT:GAME_IS_LINUX false
+#macro HTML_EXPORT:GAME_IS_GX_EXPORT false
+#macro HTML_EXPORT:GAME_IS_HTML true
 
 #macro GAME_RES_WIDTH  480 
 #macro GAME_RES_HEIGHT  270

@@ -338,6 +338,7 @@
     "name": "Default",
     "children": [
       {"name":"GX_EXPORT","children":[],},
+      {"name":"HTML_EXPORT","children":[],},
     ],
   },
   "RoomOrderNodes": [
@@ -461,7 +462,7 @@
     {"CopyToMask":3035461389054378222,"filePath":"datafiles","resourceVersion":"1.0","name":"README.txt","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "2022.3.0.624",
+    "IDEVersion": "2022.3.0.625",
   },
   "resourceVersion": "1.5",
   "name": "Starship_Elemental",
