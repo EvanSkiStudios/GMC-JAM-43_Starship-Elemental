@@ -46,12 +46,25 @@ if (global.GAMEPADISCONENCTED){
 	);
 }
 
+draw_set_color(C_PATCOLOR);
+
+splash_text_angle = wave(-15,15,2,0);
+
+draw_text_transformed(
+x + (sprite_width/2) - (string_width(splash_screen_text)/2)+30,
+y + (sprite_height/2),
+splash_screen_text,
+1,1,
+splash_text_angle
+);
+draw_set_color(c_white);
+
+
 if (global.IS_GX_EXPORT){
 	draw_set_font(fnt_highscore);
-	
 	draw_text_color(
-	x+(sprite_width/2)-50,y+(sprite_height/2),
-	"Opera GXC Flavor!",
+	x,y+(sprite_height/2),
+	"GX Games Flavor!",
 	C_PATCOLOR,C_PATCOLOR,C_PATCOLOR,C_PATCOLOR, 1);
 	
 	draw_set_font(-1);

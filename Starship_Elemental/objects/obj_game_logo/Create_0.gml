@@ -1,6 +1,14 @@
 coin_in = false;
 titlescreen_insert_coin = "INSERT COIN(S)";
 
+splash_screen_text = choose(
+"Now with less bugs!",
+"Lasors go BRRR!",
+"Raccoons!",
+"game_restart()",
+"PHR Rocks!!"
+);
+splash_text_angle = 0;
 
 titlescreen_instructions = (
 	"HOW TO PLAY"+"\n"+
